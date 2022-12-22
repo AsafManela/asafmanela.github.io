@@ -8,6 +8,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://asafmanela.github.io/bio/index.html</loc>
+    <lastmod>2022-12-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://asafmanela.github.io/data/index.html</loc>
     <lastmod>2022-12-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -32,13 +38,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://asafmanela.github.io/about/index.html</loc>
+    <loc>https://asafmanela.github.io/papers/km/loophole/wp/</loc>
     <lastmod>2022-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://asafmanela.github.io/papers/km/loophole/wp/</loc>
+    <loc>https://asafmanela.github.io/papers/mm/nvix/wp/</loc>
     <lastmod>2022-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -152,6 +158,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://asafmanela.github.io/papers/jlm/disasters/index/</loc>
+    <lastmod>2022-12-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://asafmanela.github.io/papers/km/loophole/cite/</loc>
     <lastmod>2022-12-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -170,7 +182,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://asafmanela.github.io/papers/kmm/textselection/cite/</loc>
+    <loc>https://asafmanela.github.io/papers/jlm/disasters/cite/</loc>
     <lastmod>2022-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -188,6 +200,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://asafmanela.github.io/papers/kmm/textselection/cite/</loc>
+    <lastmod>2022-12-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://asafmanela.github.io/papers/mm/nvix/index/</loc>
     <lastmod>2022-12-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -200,7 +218,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://asafmanela.github.io/papers/km/regulators/cite/</loc>
+    <loc>https://asafmanela.github.io/papers/gkm/offices/wp/</loc>
     <lastmod>2022-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -218,7 +236,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://asafmanela.github.io/papers/mm/nvix/wp/</loc>
+    <loc>https://asafmanela.github.io/papers/km/regulators/cite/</loc>
     <lastmod>2022-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
