@@ -63,7 +63,7 @@ function paperstatus(c, p)
 end
 
 function papertitle(c, p)
-	write(c, "#### [$(p.title)]($(p.url)) \\style{font-weight:normal}{$(withauthors(p))}\n")
+	write(c, "### [$(p.title)]($(p.url)) \\style{font-weight:normal}{$(withauthors(p))}\n")
 end
 
 function hfun_data()
@@ -71,7 +71,7 @@ function hfun_data()
 	ix = haskey.(papers, "data")
 	c = IOBuffer()
 	for p in papers[ix]
-		write(c, "#### [$(p.title)]($(p.url)) \\style{font-weight:normal}{$(withauthors(p))}\n")
+		papertitle(c, p)
 		paperstatus(c, p)
 		for d in p.data
 			write(c, "* [$(d.text)]($(d.link)) $(d.comment)\n")
