@@ -1,19 +1,11 @@
 @def title = "Asaf Manela"
-@def tags = ["asaf manela", "finance", "economics", "asset pricing", "machine learning", "text analysis", "natural language processing"]
 
 # About
 
-Associate Professor of Finance
+I'm a financial economist working on empirical asset pricing and corporate finance, often using text as data.
 
-Reichman University, Arison School of Business (formerly IDC Herzliya)
+I'm an Associate Professor of Finance at Reichman University, Arison School of Business (formerly IDC Herzliya) and currently on leave from Washington University in St. Louis, Olin Business School.
 
-Washington University in St. Louis, Olin Business School (on leave)
+# Bio
 
-@@social-icons
-{{social_scholar}}
-{{social_scholar2}}
-{{social_email}}
-{{social_twitter}}
-{{social_linkedin}}
-{{social_github}}
-@@
+Asaf Manela is an Associate Professor of Finance at Reichman University and at Washington University in St. Louis. He serves as an Associate Editor of the Journal of Finance. He was one of the world’s best 40 business school professors under the age of 40 (Poets&Quants, 2014). He received his PhD in Finance and an MBA from the University of Chicago. Before pursuing an academic career, he was a software engineer. He holds a BA in Economics and Computer Science from Boston University.

@@ -4826,7 +4826,7 @@ a.reversefootnote:hover {
 }
 
 .author__urls a {
-  display: block;
+  /* display: block; */
   margin-bottom: 5px;
   padding-right: 5px;
   padding-top: 2px;

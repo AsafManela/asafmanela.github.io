@@ -1,0 +1,1942 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extarticle
+\begin_preamble
+\frenchspacing
+\usepackage{amsmath}
+\newcommand{\ø}{\raisebox{.3ex}{\tiny$\; \bullet \;$}}
+\renewcommand{\arraystretch}{1.25}
+\usepackage{fancyheadings}
+\pagestyle{fancy}
+\usepackage{mathpazo}
+\usepackage{tikz}
+%\usetikzlibrary{shapes,arrows,positioning,chains}
+%\usepackage{tgpagella}
+%\usepackage[T1]{fontenc}
+\definecolor{blue}{RGB}{23, 111, 192}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "palatino" "TeX Gyre Pagella"
+\font_sans "NotoSans-TLF" "Noto Sans"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_title "Asaf Manela - CV"
+\pdf_author "Asaf Manela"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue!50!black,filecolor=blue!50!black,urlcolor=blue!50!black"
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 0
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.75in
+\topmargin 1in
+\rightmargin 0.75in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{gobble}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{myheadings}
+\backslash
+markright{
+\backslash
+textit{
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\lang american
+Asaf Manela · Curriculum Vitae · March 2022
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\size large
+\emph on
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="45text%">
+<column alignment="right" valignment="top" width="50text%">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size largest
+\color blue
+Asaf Manela
+\size large
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+\color blue
+\begin_inset CommandInset href
+LatexCommand href
+target "https://apps.olin.wustl.edu/faculty/manela"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+target "amanela@wustl.edu"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "@AsafManela"
+target "https://twitter.com/AsafManela"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 13pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "10.5line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Academic Positions
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+2017– Associate Professor of Finance, Washington University in St.
+ Louis (on leave)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+2021– Associate Professor of Finance, Reichman University (formerly IDC
+ Herzliya)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+2011–2017 Assistant Professor of Finance, Washington University in St.
+ Louis
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+2007–2010 Teaching and Research Assistant, University of Chicago, Booth
+ School of Business
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "10.5line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Editorial Positions
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+2020– Associate Editor, 
+\emph on
+Journal of Finance
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "10.5line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Education
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\noindent
+\align block
+2011
+\noun on
+ 
+\noun default
+University of Chicago, Booth School of Business 
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Ph.D.
+ in Finance, June 2011
+\begin_inset Newline newline
+\end_inset
+
+M.B.A., June 2011
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+2005
+\noun on
+ 
+\noun default
+Boston University
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+B.A.
+ in Economics, January 2005
+\begin_inset Newline newline
+\end_inset
+
+B.A.
+ in Computer Science, January 2005
+\begin_inset Newline newline
+\end_inset
+
+Summa cum Laude
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "10.5line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Research Interests
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\color inherit
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Asset Pricing, Machine Learning, Text Analysis, Information Economics, Financial
+ Intermediation
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "10.5line%"
+height "2pt"
+
+\end_inset
+
+ Teaching
+\color inherit
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2019– Financial Technology, BSBA, MBA, MSA levels, Washington University
+ in St.
+ Louis
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2015–2017 Financial Intermediation, BSBA and MBA levels, Washington University
+ in St.
+ Louis
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2012–2015 Options Futures and Derivative Securities, BSBA and MBA levels,
+ Washington University in St.
+ Louis
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "10.5line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Publications
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\color inherit
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Natural Disaster Effects on Popular Sentiment Toward Finance
+\series default
+ (with Manish Jha and Hongyi Liu)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Journal of Financial and Quantitative Analysis, 2021, Vol 56, Issue 7, pp.
+ 2584–2604
+\end_layout
+
+\begin_layout Standard
+We use a text-based measure of popular sentiment toward finance to study
+ how finance sentiment responds to rare historical disasters and to the
+ ongoing Covid-19 pandemic.
+ Finance sentiment declines after epidemics and earthquakes but rises fol-
+ lowing severe droughts, floods, and landslides.
+ These heterogeneous effects suggest finance sentiment responds differently
+ to the realization of insured versus uninsured risks.
+ Finance sentiment declines at the start of the Covid-19 pandemic, but recovers
+ in countries that experienced high stock markets returns and that responded
+ with large fiscal spending.
+ Finance sentiment seems to depend on the insurance provided by private
+ markets and by public finance.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Text Selection
+\series default
+\emph default
+ (with Bryan Kelly and Alan Moreira)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Journal of Business & Economic Statistics, 2021, Vol 39, Issue 4, pp.
+ 859–879
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Text data is inherently ultra-high dimensional, which makes machine learning
+ techniques indispensable for textual analysis.
+ We develop an economically motivated high dimensional selection model that
+ improves machine learning from text (and from sparse counts data more generally
+).
+ We apply our framework to backcast, nowcast, and forecast financial variables
+ using newspaper text, and find that it substantially improves out-of-sample
+ fit relative to alternative state-of-the-art approaches.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Hub-and-Spoke Regulation and Bank Leverage
+\series default
+\emph default
+ (with Yadav Gopalan and Ankit Kalda)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Review of Finance, 2021, Vol 25, Issue 5, pp.
+ 1499–1545
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Hub-and-spoke regulation, where a central regulator with legal power over
+ firms delegates monitoring to local supervisors, can improve information
+ collection, but can also lead to agency problems and capture.
+ We document that following the closure of a US bank regulator's field offices,
+ the banks they previously supervised distribute cash, increase leverage,
+ and increase their risk of failure, more than similar banks in the same
+ time and place.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Estimating the Value of Information 
+\series default
+\emph default
+(with Ohad Kadan)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\emph on
+Review of Financial Studies, 2019, Vol 32, Issue 3, pp.
+ 951–991
+\begin_inset Newline newline
+\end_inset
+
+Best Paper Award, 2016 FMA Conference on Derivatives and Volatility at CBOE
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+How much would investors pay to receive investment-relevant information?
+ We derive a general expression for the value of information to a price-taking
+ investor in a dynamic environment and provide a framework for its estimation.
+ To illustrate, we estimate values of leading macroeconomic indicators (GDP,
+ employment, etc.) and rank them.
+ Using variations in option prices we find that a consumer-investor with
+ conventional preference parameters would pay 3 to 5 basis points of her
+ wealth for a one-time private peek into these indicators.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Intermediary Asset Pricing: New Evidence from Many Asset Classes 
+\series default
+\emph default
+(with Zhiguo He and Bryan Kelly)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Journal of Financial Economics, 2017, Vol 126, Issue 1, pp.
+ 1–35 (Lead article)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Innovations to the equity capital ratio of primary dealers price not only
+ equity and government bond market portfolios, but also other more sophisticated
+ asset classes such as corporate and sovereign bonds, derivatives, commodities,
+ and currencies.
+ The price of intermediary capital risk is consistently positive and of
+ similar magnitude in many asset classes, suggesting these financial intermediar
+ies are marginal investors in many markets and hence key to understanding
+ asset prices.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+News Implied Volatility and Disaster Concerns
+\series default
+\emph default
+ (with Alan Moreira)
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\emph on
+Journal of Financial Economics, 2017, Vol 123, Issue 1, pp.
+ 137–162
+\end_layout
+
+\begin_layout Standard
+We construct a text-based measure of uncertainty starting in 1890 using
+ front-page articles of the Wall Street Journal.
+ Consistent with a time-varying rare disaster risk model, high news implied
+ volatility (NVIX) predicts periods of above average stock returns, or periods
+ of large economic disasters.
+ News coverage related to wars and government policy explains most of the
+ time variation in risk premia our measure identifies.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+The Shadow Cost of Bank Capital Requirements
+\series default
+\emph default
+ (with Roni Kisin)
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\emph on
+Review of Financial Studies, 2016, Vol 29, Issue 7, pp.
+ 1780–1820
+\begin_inset Newline newline
+\end_inset
+
+Best Paper Award, 2013 Financial Research Association Meetings
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+We estimate the shadow cost of capital requirements using data on a costly
+ loophole that allowed banks to relax these constraints.
+ We show theoretically that a bank's use of the loophole reveals its private
+ compliance cost, which takes into account both the costs of issuing equity
+ and the effectiveness of capital regulation.
+ We find that increasing capital requirements would impose a modest cost—$220
+ million a year for all participating banks combined per 1pp increase, and
+ $14 million on average.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Information Acquisition in Rumor-Based Bank Runs
+\series default
+ 
+\emph default
+(with Zhiguo He)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Journal of Finance, 2016, Vol 71, Issue 3, pp.
+ 1113–1158
+\end_layout
+
+\begin_layout Standard
+We study information acquisition and dynamic withdrawal decisions when a
+ spreading rumor exposes a solvent bank to a run.
+ Uncertainty about the bank's liquidity and potential failure motivates
+ depositors who hear the rumor to acquire additional noisy signals.
+ Depositors with less informative signals may wait before gradually running
+ on the bank, leading to an endogenous aggregate withdrawal speed and bank
+ survival time.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+The Value of Diffusing Information
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Journal of Financial Economics, 2014, Vol 111, Issue 1, pp.
+ 181–199
+\end_layout
+
+\begin_layout Standard
+How does the speed by which information diffuses affect its value to a stock
+ market investor? Faster-diffusing information means quicker and less noisy
+ profits, but also increases competing informed trading, impounding more
+ information into prices and eroding profits.
+ Structural empirical analysis of stock market reaction to drug approvals
+ using media coverage as a proxy for the transmission rate of information
+ finds that the value of information is hump-shaped in its future transmission
+ rate.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "10.5line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Working Papers
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+Does finance benefit society? A language embedding approach
+\series default
+\emph default
+ (with Manish Jha and Hognyi Liu)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+We measure popular sentiment toward finance using a computational linguistics
+ approach applied to millions of books published in eight countries over
+ hundreds of years.
+ We document persistent differences in finance sentiment across countries
+ despite ample time-series variation.
+ Books written in the languages of more capitalist countries discuss finance
+ in a more positive context.
+ Finance sentiment declines one year before rather than after financial
+ crises.
+ Positive shocks to finance sentiment lead to greater GDP and credit growth.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+Liquidity and the Strategic Value of Information
+\series default
+\emph default
+ (with Ohad Kadan)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+We offer a simple, intuitive and empirically useful expression quantifying
+ the value of asset-specific information to a strategic trader.
+ We find that the value of information rises dramatically during crises
+ and on earnings announcement days, and falls at calendar year ends.
+ The most dramatic spikes in the value of information occur at the start
+ of the COVID-19 pandemic and the financial crisis of 2008, when the Fed
+ announces novel liquidity facilities.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+Business News and Business Cycles
+\series default
+\emph default
+ (with Leland Bybee, Bryan Kelly and Dacheng Xiu)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+We propose an approach to measuring the state of the economy via textual
+ analysis of business news.
+ Text-based inputs accurately track a wide range of measures of economic
+ activity and that they have incremental forecasting power for macroeconomic
+ outcomes, above and beyond standard numerical predictors.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+The Partisanship of Financial Regulators
+\series default
+\emph default
+ (with Joseph Engelberg, Matthew Henriksson and Jared Williams) 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+We analyze the partisanship of SEC Commissioners and Fed Board Governors
+ using a text-based approach.
+ The level of partisanship among these regulators is greater than that of
+ Congress, but this is driven by a handful of speakers who repeat polarizing
+ phrases across several speeches.
+ When we quantify how much Republican (Democrat) regulators sound like Republica
+ns (Democrats) in Congress we find no discernible pattern among Fed governors
+ but a recent spike among SEC commissioners.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+Funding and Incentives of Regulators: Evidence from Banking
+\series default
+\emph default
+ (with Roni Kisin)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Regulation is often funded with fees paid by regulated firms, potentially
+ creating incentive problems.
+ We use this feature to study the incentives of regulators and their ability
+ to affect firm behavior.
+ Our identification approach uses multiple kinks in fee schedules of federal
+ bank regulators as a source of exogenous variation.
+ Using a novel dataset on fees and regulatory actions, we find that firms
+ that pay higher fees face more lenient regulation, which leads to a buildup
+ of risk.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+An Empirical Evaluation of the Black-Litterman Approach to Portfolio Choice
+\series default
+\emph default
+ (with Michael Gofman)
+\end_layout
+
+\begin_layout Standard
+We evaluate the Black-Litterman equilibrium model approach to portfolio
+ choice.
+ We extend the approach to any linear multi-factor asset pricing model (e.g.
+ ICAPM) to examine how learning from prices using different equilibrium
+ models affects portfolio performance.
+ We find that even a misspecified asset-pricing model can improve portfolio
+ performance when private signals are not extremely precise.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Conference Presentations
+\color inherit
+ (* indicates coauthor presentation ** scheduled to present)
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2023 AFA Annual Meeting**
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2022 AFA Annual Meeting, Swedish House of Finance annual conference on AI
+ & Machine Learning in Finance, Conference on NLP for Financial and Economic
+ Modeling at Oxford University
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2021 BigNOMICS, EFA*, FMA*, MFA*,
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2020 WFA*, EFA*, SFS Cavalcade*
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2019 WFA in Huntington Beach*
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2018 NBER AP, AFA Annual Meeting in Philadelphia*
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2017 AFA Annual Meeting in Chicago, CITE Conference in Chicago, Chicago
+ Financial Institutions Conference*, FIRS Meetings in Hong Kong*, Jackson
+ Hole Finance Group Conference*
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2016 AFA Annual Meeting in San Francisco*, WFA in Park City, IDC in Herzelia,
+ Duke-UNC Asset Pricing Conference*, FMA Conference on Derivatives and Volatilit
+y at CBOE
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2015 AFA Annual Meeting in Boston*, Notre Dame Conference on Financial Regulatio
+n*, GSU Symposium on Liquidity Risk and Capital Requirements, Gerzensee
+ Summer School, FTG Summer School in Financial Intermediation*, Becker Friedman
+ Institute Media and Communications Conference, NBER AP*, Chicago Booth
+ Asset Pricing Conference
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2014 AFA Annual Meeting in Philadelphia*, NBER Behavioral Finance Meeting
+ in Chicago, FIRS Meetings in Quebec
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2013 IDC in Herzelia, SFS Cavalcade in Miami*, Texas Finance Festival in
+ Austin*, Wharton Conference on Liquidity and Financial Crises, FDIC-JFSR
+ Fall Banking Research Conference*, FRA Meetings in Las Vegas (
+\emph on
+Best Paper Award)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2012 AEA Annual Meeting in Chicago, UNC Finance Group in Jackson Hole, SFS
+ Cavalcade in Virginia/Darden, IDC in Herzelia, SED Annual Meeting in Cyprus,
+ Finance Theory Group workshop*
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2011 WFA in Santa Fe
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2008 Econometric Society Meetings in Brazil, LBS Trans-Atlantic Doctoral
+ Conference in London (
+\emph on
+Best Paper Award)
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Seminar Presentations
+\color inherit
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2022 Yale University, Santa Clara University, Tel-Aviv University
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2021 City UHK, Chinese UHK, Columbia, CUNY, NHH, Richmond Fed, Temple University
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2020 Fed Board, University of Sussex, Virtual Finance Seminar, Washington
+ University in St.
+ Louis 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2019 Indiana University, Rice University, Syracuse University, KC Fed, UC
+ Irvine, Washington University in St.
+ Louis 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2018 Ohio State, University of Michigan, Tel-Aviv University, Hebrew University,
+ IDC Herzliya, Indiana University, Rice University, Washington University
+ in St.
+ Louis 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2017 University of Southern California, INSEAD, Swiss Finance Institute
+ @ EPFL, Dartmouth College, University of Rochester, NY Fed, Texas A&M
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2016 Boston College, University of Illinois Urbana-Champaign, University
+ of Oxford, Washington University in St.
+ Louis 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2015 Harvard Business School, University of California San Diego, University
+ of Washington, University of Houston, Washington University in St.
+ Louis
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2014 University of California Los Angeles, INSEAD, IDC Herzliya, Washington
+ University in St.
+ Louis
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2013 Ohio State University, University of North Carolina, Washington University
+ in St.
+ Louis
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2012 Tel-Aviv University, Washington University in St.
+ Louis
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2011 Arizona State University, Boston College, Chicago Booth, Hebrew University,
+ London Business School, Tel-Aviv University, University of Maryland, Washington
+ University in St.
+ Louis
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Session Chair
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2022 CICF
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2021 AFA
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2018 IDC annual conference in financial economics
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Discussions
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2022 "Political Polarization in Financial News"
+\begin_inset Newline newline
+\end_inset
+
+by Eitan Goldman, Nandini Gupta, and Ryan Israelsen, FIRS
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2021 "Risk Factors that Matter: Textual Analysis of Risk Disclosures for
+ the Cross-Section of Returns"
+\begin_inset Newline newline
+\end_inset
+
+by Alejandro Lopez-Lira, AFA
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2021 "Deep Learning Mutual Fund Disclosure: Risk Sentiment, Risk Taking,
+ and Performance"
+\begin_inset Newline newline
+\end_inset
+
+by Sean Cao, Baozhong Yang and Alan L.
+ Zhang, CICF
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2020 "Leveraged Funds and the Shadow Cost of Leverage Constraints"
+\begin_inset Newline newline
+\end_inset
+
+by Zhongjin Lu and Zhongling Qin, WFA
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+"Social Interaction and Market Reaction to Earnings News"
+\begin_inset Newline newline
+\end_inset
+
+by David Hirshleifer, Lin Peng, and Qiguang Wang , AFA
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+"Failure to Share Natural Disaster Risk"
+\begin_inset Newline newline
+\end_inset
+
+by Tuomas Tomunen, EFA
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2019 "Leverage Regulation and Market Structure: A Structural Model of the
+ UK Mortgage Market" by Matteo Benetton, Utah Winter Finance Conference
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+“Dynamic Interpretation of Emerging Risks in the Financial Sector” by Kathleen
+ Weiss Hanley and Gerard Hoberg, AFA
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+“Firm-Level Political Risk Measurement and Effects” by Tarek A.
+ Hassan, Stephan Hollander, Laurence van Lent and Ahmed Tahoun, AFA
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+“How Risky are the U.S.
+ Corporate Assets?” by Tetiana Davydiuk, Scott Richard, Ivan Shaliastovich,
+ and Amir Yaron, IDC Conference in Financial Economics
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+“Intermediaries and Asset Prices: Evidence from the U.S., U.K., and Japan, 1870-2016
+” by Matt Baron and Tyler Muir, WFA
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+“The Perils of Crying ’Fake News’” by Mancy Luo, Alberto Manconi, and Massimo
+ Massa, Chicago Political Economy of Finance Conference
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2018 "Shadow Funding Costs: Measuring the Cost of Balance Sheet Constraints"
+ by Matthias Fleckenstein and Francis A.
+ Longstaff, Duke/UNC Asset Pricing Conference
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+The Effect of Bank Supervision on Risk Taking: Evidence from a Natural Experimen
+t
+\begin_inset Quotes erd
+\end_inset
+
+ by John Kandrac and Bernd Schlusche, CFIC
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2017 
+\begin_inset Quotes eld
+\end_inset
+
+Affect, media and earthquakes: Determinants of crash beliefs from investor
+ surveys” by William N.
+ Goetzmann, Dasol Kim, and Robert J.
+ Shiller, Western American Finance Association Meetings
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2015 
+\begin_inset Quotes eld
+\end_inset
+
+Competition and Bank Opacity
+\begin_inset Quotes erd
+\end_inset
+
+ by Liangliang Jiang, Ross Levine, and Chen Lin, Western Finance Association
+ Meetings
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Tail Risk Premia and Return Predictability
+\begin_inset Quotes erd
+\end_inset
+
+ by Tim Bollerslev, Viktor Todorov, and Lai Xu, Midwestern Finance Association
+ Meetings
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2014 
+\begin_inset Quotes eld
+\end_inset
+
+Adverse Selection and Intermediation Chains
+\begin_inset Quotes erd
+\end_inset
+
+ by Vincent Glode and Christian C.
+ Opp, Western Finance Association Meetings
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2012 
+\begin_inset Quotes eld
+\end_inset
+
+Understanding Bank Runs: Do Depositors Monitor Banks?
+\begin_inset Quotes erd
+\end_inset
+
+ by Rajkamal Iyer, Manju Puri and Nicolas Ryan, Minnesota Corporate Finance
+ Conference
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Honors and Awards
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2016 Best Paper Award, FMA Conference on Derivatives and Volatility at CBOE
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2014 World’s Best 40 Business School Professors Under the Age of 40, Poets
+ & Quants
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2013 Best Paper Award, Financial Research Association Meetings 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2010 Fischer Black Fellow
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2009 Katherine Dusak Miller Ph.
+ D.
+ Fellowship
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2009 The Arnold Zellner Doctoral Prize
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2008 Best Paper Award in Accounting, Economics and Finance, LBS Doctoral
+ Conference
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2007 CRSP Paper Award, GSB, University of Chicago
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2006–2010 Ph.
+ D.
+ in Finance Studies Fellowship, GSB, University of Chicago
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Program Committee Membership
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+EFA Annual Meeting (2015–2022), FIRS Annual Meeting (2019–2022), MFA Annual
+ Meeting (2019–2022), Utah Winter Finance Conference (2016–2022), WFA Annual
+ Meeting (2018–2022), SFS Cavalcade North America (2020–2022), IDC Herzliya
+ annual conference (2014–2019), CBOE Conference on Derivatives and Volatility
+ (2016–2019),
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Refereeing
+\end_layout
+
+\begin_layout Standard
+American Economic Review, Econometrica, Economic Theory, Economic Inquiry,
+ Journal of Empirical Finance, Journal of Economic Theory, Journal of Finance,
+ Journal of Financial Economics, Management Science, Quantitative Economics,
+ Review of Asset Pricing Studies, Review of Corporate Finance Studies, Review
+ of Economic Studies, Review of Finance, Review of Financial Studies
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+PhD Supervision
+\series bold
+ 
+\series default
+\color inherit
+(initial placement)
+\series bold
+\color blue
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Manish Jha, dissertation committee member, 2021 (Georgia State University)
+\begin_inset Newline newline
+\end_inset
+
+Hongyi Liu, dissertation committee member, 2021 (VISA)
+\begin_inset Newline newline
+\end_inset
+
+Ankit Kalda, dissertation committee member, 2018 (Indiana University)
+\begin_inset Newline newline
+\end_inset
+
+Xiaoxiao Tang, dissertation committee member, 2018 (UT Dallas)
+\begin_inset Newline newline
+\end_inset
+
+Xiaming Zeng, dissertation committee member, 2017 (Barclays)
+\begin_inset Newline newline
+\end_inset
+
+Jinji Hao, dissertation committee member, 2017 (Victoria University of Wellingto
+n)
+\begin_inset Newline newline
+\end_inset
+
+Fang Liu, dissertation committee member, 2015 (Cornell)
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Programming Languages
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Julia
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Non-Academic Experience
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\noindent
+\align block
+2005–2006 Software Engineer – User Interface Expert, Mercury Interactive,
+ Yehud, Israel
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\noindent
+\align block
+2002–2004 Founder, Regassist.com, Boston, MA
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\noindent
+\align block
+2000–2001 Applications Team Developer, TrulyGlobal @ VocalTec, Herzelia,
+ Israel
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\noindent
+\align block
+1997–2000 Israel Defense Force
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Affiliations
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+American Economic Association, American Finance Association, Society for
+ Financial Studies, Western Finance Association, Phi Beta Kappa
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Hobbies
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Scuba-diving, Fixer uppers, Running, Chess 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+Languages
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Fluent in English and Hebrew
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
