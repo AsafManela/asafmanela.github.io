@@ -8,7 +8,10 @@
         <!-- start custom footer snippets -->
         <!-- end custom footer snippets -->
         <div class="page__footer-follow">
-          {{insert social.html}}
+          <ul class="social-icons">
+            <li><strong>Follow:</strong></li>
+            {{ insert social.html }}
+          </ul>
         </div>
         <div class="page__footer-copyright">&copy; {{ fill author }}. Powered by <a href="https://julialang.org">Julia</a>, <a href="https://github.com/tlienart/Franklin.jl">Franklin</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
       </footer>

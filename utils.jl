@@ -62,12 +62,21 @@ function wp(c, p, l)
 	write(c, " | [$(l.text)](/papers/$(p.url)/$(l.type))")
 end
 
+# version used for any paper without a publication
+function wp(c, p)
+	write(c, "[Working Paper](/papers/$(p.url)/)")
+end
+
+function goto(c, p, l)
+	write(c, " | [$(l.text)]($(l.page))")
+end
+
 # paper status blurb
-function paperstatus(c, p; includedlinks=["cite", "slides", "data", "wp"])
+function paperstatus(c, p; includedlinks=["cite", "slides", "data", "wp", "goto"])
 	pub = p.publication
 	write(c, "*")
 	if isempty(pub)
-		write(c, "Working paper")
+		wp(c, p)
 	else
 		write(c, pub)
 	end
