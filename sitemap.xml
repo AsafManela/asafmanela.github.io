@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
+    <loc>https://asafmanela.github.io/menu1/index.html</loc>
+    <lastmod>2022-12-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://asafmanela.github.io/menu3/index.html</loc>
+    <lastmod>2022-12-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://asafmanela.github.io/papers/index.html</loc>
     <lastmod>2022-12-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -20,6 +32,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://asafmanela.github.io/menu2/index.html</loc>
+    <lastmod>2022-12-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://asafmanela.github.io/discussions/index.html</loc>
     <lastmod>2022-12-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -32,7 +50,19 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://asafmanela.github.io/index.html</loc>
+    <loc>https://asafmanela.github.io/franklin/index.html</loc>
+    <lastmod>2022-12-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://asafmanela.github.io/about/index.html</loc>
+    <lastmod>2022-12-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://asafmanela.github.io/index/</loc>
     <lastmod>2022-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
