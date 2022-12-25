@@ -1,175 +1,697 @@
-{"categories":{"asset-pricing": "Asset Pricing", "fin-intr": "Financial Intermediation", "text-analysis": "Text Analysis", "val-info": "Value of Information", "inter-lvrg": "Intermediary Leverage", "fin-drv": "Financial Derivatives", "fin-reg": "Financial Regulation", "machine-lrn": "Machine Learning", "media": "Media", "info-diff": "Information Diffusion"},
-	"papers":[
-		{"title":"Text Selection",
-		"url":"kmm/textselection",
-		"coauthors":[{"name":"Bryan Kelly", "website":"https://www.bryankellyacademic.org/"}, {"name":"Alan Moreira", "website":"https://sites.google.com/view/alanmoreira/"}],
-		"publication":"Journal of Business & Economic Statistics, 2021, Vol 39, Issue 4, pp. 859–879",
-		"links":[{"text":"Citation", "type":"cite"}, {"text":"Slides", "type":"slides"}, {"text":"Code", "type":"goto", "page":"https://github.com/AsafManela/HurdleDMR.jl"}],
-		"awards":[],
-		"abstract":"Text data is inherently ultra-high dimensional, which makes machine learning techniques indispensable for textual analysis. We develop an economically motivated high dimensional selection model that improves machine learning from text (and from sparse counts data more generally). We apply our framework to backcast, nowcast, and forecast financial variables using newspaper text, and find that it substantially improves out-of-sample fit relative to alternative state-of-the-art approaches.",
-		"presentations":"NBER AP, École polytechnique fédérale de Lausanne, Hebrew University, IDC Herzliya, INSEAD, Tel-aviv University, CITE Conference in Chicago, Ohio State, Indiana University, Rice University, Syracuse University, KC Fed",
-		"media":[],
-		"section":"pubs", "tags":["asset-pricing", "fin-drv", "machine-lrn", "media", "fin-intr", "inter-lvrg", "text-analysis"],
-		"data":[
-			{"link":"https://github.com/AsafManela/HurdleDMR.jl", 
-			"text":"HurdleDMR.jl", 
-			"comment":"Code for our HurdleDMR package for Julia. It can be called from many other programming languages like Python and R. The package allows for computationally efficient distributed estimation of the multiple hurdles over parallel processes, generating sufficient reduction projections, and inverse regressions with selected text. It allows for elastic net type convex combinations of L1 (Lasso) and L2 (Ridge) regularization as in glmnet (Friedman et al., 2010), and for concave regularization paths as in gamlr (Taddy, 2017)."
-			}]
-		},
-		{"title":"Natural Disaster Effects on Popular Sentiment Toward Finance",
-			"url":"jlm/disasters",
-			"coauthors":[{"name":"Manish Jha", "website":"https://mjha91.github.io"}, {"name":"Hongyi Liu", "website":"https://economics.wustl.edu/people/hongyi-liu"}],
-			"publication":"Journal of Financial and Quantitative Analysis, 2021, Vol 56, Issue 7, pp. 2584–2604",
-			"links":[{"text":"Citation", "type":"cite"}, {"text":"Video", "type":"goto", "page":"https://mediaspace.msu.edu/media/Asaf+Manela+-+Virtual+Finance+Seminar+-+07+14+2020/1_hh5ffq2n"},
-				{"text":"Blog", "type":"goto", "page":"https://promarket.org/2020/07/28/do-people-think-finance-benefits-society/"}],
-			"awards":[],
-			"abstract":"We use a text-based measure of popular sentiment toward finance to study how finance sentiment responds to rare historical disasters and to the ongoing COVID-19 pandemic. Finance sentiment declines after epidemics and earthquakes but rises following severe droughts, floods, and landslides. These heterogeneous effects suggest finance sentiment responds differently to the realization of insured versus uninsured risks. Finance sentiment declines at the start of the COVID-19 pandemic, but recovers in countries that experienced high stock markets returns and that responded with large fiscal spending. Finance sentiment seems to depend on the insurance provided by private markets and by public finance.",
-			"presentations":"<a href=\"http://virtualfinanceseminar.com\" target=\"_blank\">Virtual Finance Seminar</a>, WashU",
-			"media":[{"title":"Can the Finance Industry Be Trusted This Time?", "url":"https://www.bloomberg.com/opinion/articles/2020-08-10/coronavirus-recovery-can-the-finance-industry-be-trusted-this-time", "by":"Elisa Martinuzzi, Bloomberg, Aug 10, 2020"}],
-			"section":"pubs", "tags":["text-analysis", "machine-lrn", "media", "fin-intr", "fin-reg"]},
-		{"title":"Hub-and-Spoke Regulation and Bank Leverage",
-		"url":"gkm/offices",
-		"coauthors":[{"name":"Yadav Gopalan", "website":"https://kelley.iu.edu/faculty-research/faculty-directory/profile.cshtml?id=YGOPALAN"},
-			{"name":"Ankit Kalda", "website":"https://www.ankitkalda.com"}],
-		"publication":"Review of Finance, 2021, Vol 25, Issue 5, pp. 1499–1545",
-		"links":[{"text":"Citation", "type":"cite"}, {"text":"Working Paper", "type":"wp"}],
-		"awards":[],
-		"abstract":"Hub-and-spoke regulation, where a central regulator with legal power over firms delegates monitoring to local supervisors, can improve information collection, but can also lead to agency problems and capture. We document that following the closure of a US bank regulator's field offices, the banks they previously supervised distribute cash, increase leverage, and increase their risk of failure, more than similar banks in the same time and place.",
-		"presentations":"Chicago Financial Institutions Conference, FIRS Meetings in Hong Kong, WashU, Texas A&M, NY Fed, AFA 2018 Meetings in Philadelphia",
-		"media":[],
-		"section":"pubs", "tags":["fin-intr", "fin-reg", "inter-lvrg"]
-		},
-		{"title":"Estimating the Value of Information",
-		"url":"km/valueofinfo",
-		"coauthors":[{"name":"Ohad Kadan", "website":"http://apps.olin.wustl.edu/faculty/kadan/index/Home.html"}],
-		"publication":"Review of Financial Studies, 2019, Vol 32, Issue 3, pp. 951–991",
-		"links":[{"text":"Citation", "type":"cite"}, {"text":"Slides", "type":"slides"}, {"text":"Working Paper", "type":"wp"}, {"text":"Online Appendix", "type":"goto", "page":"km/valueofinfo/valueofinfo_online_appendix.pdf"}],
-		"awards":["Best Paper Award, 2016 FMA Conference on Derivatives and Volatility at CBOE"],
-		"abstract":"How much would investors pay to receive investment-relevant information? We derive a general expression for the value of information to a price-taking investor in a dynamic environment and provide a framework for its estimation. To illustrate, we estimate values of leading macroeconomic indicators (GDP, employment, etc.) and rank them. Using variations in option prices we find that a consumer-investor with conventional preference parameters would pay 3 to 5 basis points of her wealth for a one-time private peek into these indicators.",
-		"presentations":"2016 FMA Conference on Derivatives and Volatility at CBOE, 2016 IDC Summer Finance Conference, University of Minnesota (Carlson), WashU, USC, Boston College",
-		"media":[],
-		"section":"pubs", "tags":["asset-pricing", "val-info", "fin-drv"]
-		},
-	  	{"title":"Intermediary Asset Pricing: New Evidence from Many Asset Classes",
-		"url":"hkm/intermediarycapitalrisk",
-		"coauthors":[{"name":"Zhiguo He", "website":"https://voices.uchicago.edu/zhiguohe/"}, {"name":"Bryan Kelly", "website":"https://www.bryankellyacademic.org/"}],
-		"publication":"Journal of Financial Economics, 2017, Vol 126, Issue 1, pp. 1–35 (Lead article)",
-		"links":[{"text":"Citation", "type":"cite"}, {"text":"Slides", "type":"slides"}, {"text":"Data", "type":"data"}, {"text":"Working Paper", "type":"wp"}],
-		"awards":[],
-		"abstract":"Innovations to the equity capital ratio of primary dealers price not only equity and government bond market portfolios, but also other more sophisticated asset classes such as corporate and sovereign bonds, derivatives, commodities, and currencies. The price of intermediary capital risk is consistently positive and of similar magnitude in many asset classes, suggesting these financial intermediaries are marginal investors in many markets and hence key to understanding asset prices.",
-		"presentations":"Gerzensee Summer School 2015, CITE 2015, NBER AP, University of Houston, WashU, Duke AP 2016, IDC Herzelia, University of Oxford",
-		"media":[],
-		"section":"pubs", "tags":["asset-pricing", "fin-intr", "fin-drv", "inter-lvrg"],
-		"data":[
-			{"link":"hkm/intermediarycapitalrisk/He_Kelly_Manela_Factors.zip", 
-			"text":"Intermediary capital risk factor, 1970Q1&ndash;2018Q3", 
-			"comment":"Quarterly, monthly, and starting 2000-01-01 daily too. Also includes portfolio returns used in our cross-sectional tests. See readme.txt inside for details and replication code."}
+{
+	"categories": {
+		"asset-pricing": "Asset Pricing",
+		"fin-intr": "Financial Intermediation",
+		"crypto": "Crypto",
+		"text-analysis": "Text Analysis",
+		"val-info": "Value of Information",
+		"inter-lvrg": "Intermediary Leverage",
+		"fin-drv": "Financial Derivatives",
+		"fin-reg": "Financial Regulation",
+		"machine-lrn": "Machine Learning",
+		"media": "Media",
+		"info-diff": "Information Diffusion"
+	},
+	"papers": [
+		{
+			"title": "Text Selection",
+			"url": "kmm/textselection",
+			"coauthors": [
+				{
+					"name": "Bryan Kelly",
+					"website": "https://www.bryankellyacademic.org/"
+				},
+				{
+					"name": "Alan Moreira",
+					"website": "https://sites.google.com/view/alanmoreira/"
+				}
+			],
+			"publication": "Journal of Business & Economic Statistics, 2021, Vol 39, Issue 4, pp. 859–879",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Slides",
+					"type": "slides"
+				},
+				{
+					"text": "Code",
+					"type": "goto",
+					"page": "https://github.com/AsafManela/HurdleDMR.jl"
+				}
+			],
+			"awards": [],
+			"abstract": "Text data is inherently ultra-high dimensional, which makes machine learning techniques indispensable for textual analysis. We develop an economically motivated high dimensional selection model that improves machine learning from text (and from sparse counts data more generally). We apply our framework to backcast, nowcast, and forecast financial variables using newspaper text, and find that it substantially improves out-of-sample fit relative to alternative state-of-the-art approaches.",
+			"presentations": "NBER AP, École polytechnique fédérale de Lausanne, Hebrew University, IDC Herzliya, INSEAD, Tel-aviv University, CITE Conference in Chicago, Ohio State, Indiana University, Rice University, Syracuse University, KC Fed",
+			"media": [],
+			"section": "pubs",
+			"tags": [
+				"asset-pricing",
+				"fin-drv",
+				"machine-lrn",
+				"media",
+				"fin-intr",
+				"inter-lvrg",
+				"text-analysis"
+			],
+			"data": [
+				{
+					"link": "https://github.com/AsafManela/HurdleDMR.jl",
+					"text": "HurdleDMR.jl",
+					"comment": "Code for our HurdleDMR package for Julia. It can be called from many other programming languages like Python and R. The package allows for computationally efficient distributed estimation of the multiple hurdles over parallel processes, generating sufficient reduction projections, and inverse regressions with selected text. It allows for elastic net type convex combinations of L1 (Lasso) and L2 (Ridge) regularization as in glmnet (Friedman et al., 2010), and for concave regularization paths as in gamlr (Taddy, 2017)."
+				}
 			]
 		},
-		{"title":"News Implied Volatility and Disaster Concerns",
-		"url":"mm/nvix",
-		"coauthors":[{"name":"Alan Moreira", "website":"https://sites.google.com/view/alanmoreira/"}],
-		"publication":"Journal of Financial Economics, 2017, Vol 123, Issue 1, pp. 137–162",
-		"links":[{"text":"Citation", "type":"cite"}, {"text":"Slides", "type":"slides"}, {"text":"Data", "type":"data"}, {"text":"Working Paper", "type":"wp"}],
-		"awards":[],
-		"abstract":"We construct a text-based measure of uncertainty starting in 1890 using front-page articles of the Wall Street Journal. Consistent with a time-varying rare disaster risk model, high news implied volatility (NVIX) predicts periods of above average stock returns, or periods of large economic disasters. News coverage related to wars and government policy explains most of the time variation in risk premia our measure identifies.",
-		"presentations":"Ohio State (Fisher), IDC Conference, SFS Cavalcade, Texas Finance Festival, NBER BE, AFA Meetings in Philadelphia, BFI Media and Communications",
-		"media":[{"title":"Research defines investor fear in black and white", "url":"http://www.stltoday.com/business/columns/david-nicklaus/nicklaus-research-defines-investor-fear-in-black-and-white/article_77d60147-f7be-5318-996b-93e0def1b66e.html", "by":"David Nicklaus, St. Louis Post-Dispatch, Feb 23, 2016"}, {"title":"War And Government Policy Fears Drive The Equity Risk Premium", "url":"http://www.valuewalk.com/2016/03/equity-risk-premium-2/", "by":"ValueWalk, Mar 4, 2016"}],
-		"section":"pubs", "tags":["asset-pricing", "fin-drv", "machine-lrn", "media", "text-analysis"],
-		"data":[
-			{"link":"mm/nvix/nvix_and_categories_timeseries_mar2016.xlsx", "text":"NVIX, 1889&ndash;07 to 2016&ndash;03", "comment":"Also includes a decomposition into categories."},
-			{"link":"mm/nvix/wsj_page_one_articles_monthly_and_vxo.zip", "text":"Phrase counts", "comment":" (ngram frequencies) of Wall Street Journal frontpage titles and abstracts. See readme.txt inside for details and replication code."}
+		{
+			"title": "Natural Disaster Effects on Popular Sentiment Toward Finance",
+			"url": "jlm/disasters",
+			"coauthors": [
+				{
+					"name": "Manish Jha",
+					"website": "https://mjha91.github.io"
+				},
+				{
+					"name": "Hongyi Liu",
+					"website": "https://economics.wustl.edu/people/hongyi-liu"
+				}
+			],
+			"publication": "Journal of Financial and Quantitative Analysis, 2021, Vol 56, Issue 7, pp. 2584–2604",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Video",
+					"type": "goto",
+					"page": "https://mediaspace.msu.edu/media/Asaf+Manela+-+Virtual+Finance+Seminar+-+07+14+2020/1_hh5ffq2n"
+				},
+				{
+					"text": "Blog",
+					"type": "goto",
+					"page": "https://promarket.org/2020/07/28/do-people-think-finance-benefits-society/"
+				}
+			],
+			"awards": [],
+			"abstract": "We use a text-based measure of popular sentiment toward finance to study how finance sentiment responds to rare historical disasters and to the ongoing COVID-19 pandemic. Finance sentiment declines after epidemics and earthquakes but rises following severe droughts, floods, and landslides. These heterogeneous effects suggest finance sentiment responds differently to the realization of insured versus uninsured risks. Finance sentiment declines at the start of the COVID-19 pandemic, but recovers in countries that experienced high stock markets returns and that responded with large fiscal spending. Finance sentiment seems to depend on the insurance provided by private markets and by public finance.",
+			"presentations": "<a href=\"http://virtualfinanceseminar.com\" target=\"_blank\">Virtual Finance Seminar</a>, WashU",
+			"media": [
+				{
+					"title": "Can the Finance Industry Be Trusted This Time?",
+					"url": "https://www.bloomberg.com/opinion/articles/2020-08-10/coronavirus-recovery-can-the-finance-industry-be-trusted-this-time",
+					"by": "Elisa Martinuzzi, Bloomberg, Aug 10, 2020"
+				}
+			],
+			"section": "pubs",
+			"tags": [
+				"text-analysis",
+				"machine-lrn",
+				"media",
+				"fin-intr",
+				"fin-reg"
 			]
 		},
-		{"title":"The Shadow Cost of Bank Capital Requirements",
-		"url":"km/loophole",
-		"coauthors":[{"name":"Roni Kisin", "website":"https://sites.google.com/site/ronikisinresearch/"}],
-		"publication":"Review of Financial Studies, 2016, Vol 29, Issue 7, pp. 1780–1820",
-		"links":[{"text":"Citation", "type":"cite"}, {"text":"Slides", "type":"slides"}, {"text":"Working Paper", "type":"wp"}],
-		"awards":["Best Paper Award, 2013 Financial Research Association Meetings"],
-		"abstract":"We estimate the shadow cost of capital requirements using data on a costly loophole that allowed banks to relax these constraints. This loophole—liquidity guarantees to asset-backed commercial paper conduits—was exploited by the largest banks before the crisis of 2008. We show theoretically that a bank's use of the loophole reveals its private compliance cost, which takes into account both the costs of issuing equity and the effectiveness of capital regulation. We find that increasing capital requirements would impose a modest cost—$220 million a year for all participating banks combined per 1pp increase, and $14 million on average.",
-		"presentations":"UCLA (Anderson), UNC (Kenan-Flagler), INSEAD, Wharton Conference on Liquidity and Financial Crises, FDIC-JFSR Fall Banking Research Conference, FRA Meetings in Las Vegas, FIRS Meetings in Quebec, AFA 2015 Meetings in Boston, GSU Symposium on Liquidity Risk and Capital Requirements",
-		"media":[{"title":"Using the Price of Magic to Estimate the Cost of Capital", "url":"http://www.bloombergview.com/articles/2014-02-24/using-the-price-of-magic-to-estimate-the-cost-of-capital", "by":"Matt Levine, BloombergView, Feb 24, 2014"}, {"title":"Why Banks Should Use Less Debt Financing", "url":"http://alexedmans.blogspot.com/2014/11/why-banks-should-use-less-debt-financing.html", "by":"Alex Edmans, Access to Finance, Nov 21, 2014"}, {"title":"The Shadow Cost of Bank Capital Requirements", "url":"https://corpgov.law.harvard.edu/2016/05/17/the-shadow-cost-of-bank-capital-requirements/", "by":"Harvard Law School Forum on Corporate Governance and Financial Regulation, May 17, 2016"}],
-		"section":"pubs", "tags":["fin-intr", "fin-reg", "inter-lvrg"]},
-		{"title":"Information Acquisition in Rumor-Based Bank Runs",
-		"url":"hm/rumors",
-		"coauthors":[{"name":"Zhiguo He", "website":"https://voices.uchicago.edu/zhiguohe/"}],
-		"publication":"Journal of Finance, 2016, Vol 71, Issue 3, pp. 1113–1158",
-		"links":[{"text":"Citation", "type":"cite"}, {"text":"Slides", "type":"slides"}, {"text":"Working Paper", "type":"wp"}],
-		"awards":[],
-		"abstract":"We study information acquisition and dynamic withdrawal decisions when a spreading rumor exposes a solvent bank to a run. Uncertainty about the bank's liquidity and potential failure motivates depositors who hear the rumor to acquire additional noisy signals. Depositors with less informative signals may wait before gradually running on the bank, leading to an endogenous aggregate withdrawal speed and bank survival time.",
-		"presentations":"AEA, Chicago Booth, Jackson Hole Finance Group, NY Fed, Rothschild Caesarea, SED, SFS Cavalcade, Tel Aviv U, Financial Theory Group workshop, WashU",
-		"media":[],
-		"section":"pubs", "tags":["fin-intr", "val-info", "info-diff"]},
-		{"title":"The Value of Diffusing Information*",
-		"url":"gismedia",
-		"coauthors":[],
-		"publication":"Journal of Financial Economics, 2014, Vol 111, Issue 1, pp. 181–199",
-		"links":[{"text":"Citation", "type":"cite"}, {"text":"Working Paper", "type":"wp"}],
-		"awards":[],
-		"abstract":"How does the speed by which information diffuses affect its value to a stock market investor? Faster-diffusing information means quicker and less noisy profits, but also increases competing informed trading, impounding more information into prices and eroding profits. Structural empirical analysis of stock market reaction to drug approvals using media coverage as a proxy for the transmission rate of information finds that the value of information is hump-shaped in its future transmission rate. <br/>* Based on my dissertation titled \"Spreading Information and Media Coverage: Theory and Evidence from Drug Approvals\"",
-		"presentations":"",
-		"media":[],
-		"section":"pubs", "tags":["asset-pricing", "val-info", "media", "info-diff"]},
-		{"title":"Does Finance Benefit Society? A Language Embedding Approach",
-			"url":"jlm/goodfin",
-			"coauthors":[{"name":"Manish Jha", "website":"https://mjha91.github.io"}, {"name":"Hongyi Liu", "website":"https://economics.wustl.edu/people/hongyi-liu"}],
-			"publication":"",
-			"links":[{"text":"Citation", "type":"cite"}, {"text":"Video", "type":"goto", "page":"https://mediaspace.msu.edu/media/Asaf+Manela+-+Virtual+Finance+Seminar+-+07+14+2020/1_hh5ffq2n"},
-				{"text":"Blog", "type":"goto", "page":"https://promarket.org/2020/07/28/do-people-think-finance-benefits-society/"}],
-			"awards":[],
-			"abstract":"We measure popular sentiment toward finance using a computational linguistics approach applied to millions of books published in eight countries over hundreds of years. We document persistent differences in finance sentiment across countries despite ample time-series variation. Finance sentiment declines after epidemics and earthquakes, but rises following droughts, floods, and landslides. These heterogeneous effects of natural disasters suggest finance sentiment responds differently to the realization of insured versus uninsured risks. Using local projections, we find that positive shocks to finance sentiment have positive and persistent effects on economic growth. Our estimates predict a contraction in finance sentiment due to the COVID-19 pandemic that will exacerbate its long-term economic damage.",
-			"presentations":"<a href=\"http://virtualfinanceseminar.com\" target=\"_blank\">Virtual Finance Seminar</a>, WashU",
-			"media":[{"title":"Can the Finance Industry Be Trusted This Time?", "url":"https://www.bloomberg.com/opinion/articles/2020-08-10/coronavirus-recovery-can-the-finance-industry-be-trusted-this-time", "by":"Elisa Martinuzzi, Bloomberg, Aug 10, 2020"}],
-			"section":"wp", "tags":["text-analysis", "machine-lrn", "media", "fin-intr", "fin-reg"]},
-		{"title":"Liquidity and the Strategic Value of Information",
-			"url":"km/infoval",
-			"coauthors":[{"name":"Ohad Kadan", "website":"http://apps.olin.wustl.edu/faculty/kadan/index/Home.html"}],
-			"publication":"",
-			"links":[{"text":"Citation", "type":"cite"}],
-			"awards":[],
-			"abstract":"We offer a simple, intuitive and empirically useful expression quantifying the value of asset-specific information to a strategic trader. The value of information reflects the ratio of return volatility to price impact measured using a version of Kyle’s lambda. We find that the value of information rises dramatically during crises and on earnings announcement days, and falls at calendar year ends. The most dramatic spikes in the value of information occur at the start of the COVID-19 pandemic and the financial crisis of 2008, when the Fed announces novel liquidity facilities. Such policy interventions aimed at improving liquidity may unintentionally increase the private incentives to collect information.",
-			"presentations":"",
-			"media":[],
-			"section":"wp", "tags":["asset-pricing", "val-info"]},
-		{"title":"Business News and Business Cycles",
-		"url":"bkmx/econews",
-		"coauthors":[{"name":"Leland Bybee", "website":"https://ssrn.com/author=3682810"}, {"name":"Bryan Kelly", "website":"https://www.bryankellyacademic.org/"}, {"name":"Dacheng Xiu", "website":"http://dachxiu.chicagobooth.edu"}],
-		"publication":"",
-		"links":[{"text":"Citation", "type":"cite"}],
-		"awards":[],
-		"abstract":"We propose an approach to measuring the state of the economy via textual analysis of business news. Text-based inputs accurately track a wide range of measures of economic activity and that they have incremental forecasting power for macroeconomic outcomes, above and beyond standard numerical predictors.",
-		"presentations":"WFA 2020, EFA 2020, New Technologies in Finance Conference 2019, Volatility Institute Conference 2019",
-		"media":[],
-		"section":"wp", "tags":["asset-pricing", "fin-drv", "machine-lrn", "media", "fin-intr", "text-analysis"]},
-		{"title":"The Partisanship of Financial Regulators",
-		"url":"ehmw/regparty",
-		"coauthors":[{"name":"Joseph Engelberg", "website":"http://rady.ucsd.edu/faculty/directory/engelberg/pub/portfolios/index.htm"}, {"name":"Matthew Henriksson", "website":"https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2610108"}, {"name":"Jared Williams", "website":"https://www.usf.edu/business/contacts/williams-jared.aspx"}],
-		"publication":"",
-		"links":[{"text":"Citation", "type":"cite"}],
-		"awards":[],
-		"abstract":"We analyze the partisanship of SEC Commissioners and Fed Board Governors using a text-based approach. The level of partisanship among these regulators is greater than that of Congress, but this is driven by a handful of speakers who repeat polarizing phrases across several speeches. When we quantify how much Republican (Democrat) regulators sound like Republicans (Democrats) in Congress we find no discernible pattern among Fed governors but a recent spike among SEC commissioners.",
-		"presentations":["Fed Board, UC Irvine"],
-		"media":[],
-		"section":"wp", "tags":["fin-reg", "machine-lrn", "media", "fin-intr", "text-analysis"]},
-		{"title":"Funding and Incentives of Regulators: Evidence from Banking",
-		"url":"km/regulators",
-		"coauthors":[{"name":"Roni Kisin", "website":"https://sites.google.com/site/ronikisinresearch/"}],
-		"publication":"",
-		"links":[{"text":"Citation", "type":"cite"}],
-		"awards":[],
-		"abstract":"Regulation is often funded with fees paid by regulated firms, potentially creating incentive problems. We use this feature to study the incentives of regulators and their ability to affect firm behavior. Our identification approach uses multiple kinks in fee schedules of federal bank regulators as a source of exogenous variation. Using a novel dataset on fees and regulatory actions, we find that firms that pay higher fees face more lenient regulation, which leads to a buildup of risk. ",
-		"presentations":"FDIC, HBS, IDC Herzliya, UCSD, U Washington, Washington U, Notre Dame Conference on Financial Regulation, FTG Summer School in Financial Intermediation, AFA 2016 Meetings in San Francisco",
-		"media":[],
-		"section":"nwp", "tags":["fin-intr", "fin-reg", "inter-lvrg"]},
-		{"title":"An Empirical Evaluation of the Black-Litterman Approach to Portfolio Choice",
-		"url":"gm/blempirical",
-		"coauthors":[{"name":"Michael Gofman", "website":"https://mywebspace.wisc.edu/gofman/web/"}],
-		"publication":"",
-		"links":[{"text":"Citation", "type":"cite"}],
-		"awards":[],
-		"abstract":"We evaluate the Black-Litterman equilibrium model approach to portfolio choice. We extend the approach to any linear multi-factor asset pricing model (e.g. ICAPM) to examine how learning from prices using different equilibrium models affects portfolio performance. We find that even a misspecified asset-pricing model can improve portfolio performance when private signals are not extremely precise.",
-		"presentations":"",
-		"media":[],
-		"section":"nwp", "tags":["asset-pricing", "val-info"]}],
-	"updated":"Last Updated: September 2020"}
+		{
+			"title": "Hub-and-Spoke Regulation and Bank Leverage",
+			"url": "gkm/offices",
+			"coauthors": [
+				{
+					"name": "Yadav Gopalan",
+					"website": "https://kelley.iu.edu/faculty-research/faculty-directory/profile.cshtml?id=YGOPALAN"
+				},
+				{
+					"name": "Ankit Kalda",
+					"website": "https://www.ankitkalda.com"
+				}
+			],
+			"publication": "Review of Finance, 2021, Vol 25, Issue 5, pp. 1499–1545",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
+				}
+			],
+			"awards": [],
+			"abstract": "Hub-and-spoke regulation, where a central regulator with legal power over firms delegates monitoring to local supervisors, can improve information collection, but can also lead to agency problems and capture. We document that following the closure of a US bank regulator's field offices, the banks they previously supervised distribute cash, increase leverage, and increase their risk of failure, more than similar banks in the same time and place.",
+			"presentations": "Chicago Financial Institutions Conference, FIRS Meetings in Hong Kong, WashU, Texas A&M, NY Fed, AFA 2018 Meetings in Philadelphia",
+			"media": [],
+			"section": "pubs",
+			"tags": [
+				"fin-intr",
+				"fin-reg",
+				"inter-lvrg"
+			]
+		},
+		{
+			"title": "Estimating the Value of Information",
+			"url": "km/valueofinfo",
+			"coauthors": [
+				{
+					"name": "Ohad Kadan",
+					"website": "http://apps.olin.wustl.edu/faculty/kadan/index/Home.html"
+				}
+			],
+			"publication": "Review of Financial Studies, 2019, Vol 32, Issue 3, pp. 951–991",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Slides",
+					"type": "slides"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
+				},
+				{
+					"text": "Online Appendix",
+					"type": "goto",
+					"page": "km/valueofinfo/valueofinfo_online_appendix.pdf"
+				}
+			],
+			"awards": [
+				"Best Paper Award, 2016 FMA Conference on Derivatives and Volatility at CBOE"
+			],
+			"abstract": "How much would investors pay to receive investment-relevant information? We derive a general expression for the value of information to a price-taking investor in a dynamic environment and provide a framework for its estimation. To illustrate, we estimate values of leading macroeconomic indicators (GDP, employment, etc.) and rank them. Using variations in option prices we find that a consumer-investor with conventional preference parameters would pay 3 to 5 basis points of her wealth for a one-time private peek into these indicators.",
+			"presentations": "2016 FMA Conference on Derivatives and Volatility at CBOE, 2016 IDC Summer Finance Conference, University of Minnesota (Carlson), WashU, USC, Boston College",
+			"media": [],
+			"section": "pubs",
+			"tags": [
+				"asset-pricing",
+				"val-info",
+				"fin-drv"
+			]
+		},
+		{
+			"title": "Intermediary Asset Pricing: New Evidence from Many Asset Classes",
+			"url": "hkm/intermediarycapitalrisk",
+			"coauthors": [
+				{
+					"name": "Zhiguo He",
+					"website": "https://voices.uchicago.edu/zhiguohe/"
+				},
+				{
+					"name": "Bryan Kelly",
+					"website": "https://www.bryankellyacademic.org/"
+				}
+			],
+			"publication": "Journal of Financial Economics, 2017, Vol 126, Issue 1, pp. 1–35 (Lead article)",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Slides",
+					"type": "slides"
+				},
+				{
+					"text": "Data",
+					"type": "data"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
+				}
+			],
+			"awards": [],
+			"abstract": "Innovations to the equity capital ratio of primary dealers price not only equity and government bond market portfolios, but also other more sophisticated asset classes such as corporate and sovereign bonds, derivatives, commodities, and currencies. The price of intermediary capital risk is consistently positive and of similar magnitude in many asset classes, suggesting these financial intermediaries are marginal investors in many markets and hence key to understanding asset prices.",
+			"presentations": "Gerzensee Summer School 2015, CITE 2015, NBER AP, University of Houston, WashU, Duke AP 2016, IDC Herzelia, University of Oxford",
+			"media": [],
+			"section": "pubs",
+			"tags": [
+				"asset-pricing",
+				"fin-intr",
+				"fin-drv",
+				"inter-lvrg"
+			],
+			"data": [
+				{
+					"link": "hkm/intermediarycapitalrisk/He_Kelly_Manela_Factors.zip",
+					"text": "Intermediary capital risk factor, 1970Q1&ndash;2018Q3",
+					"comment": "Quarterly, monthly, and starting 2000-01-01 daily too. Also includes portfolio returns used in our cross-sectional tests. See readme.txt inside for details and replication code."
+				}
+			]
+		},
+		{
+			"title": "News Implied Volatility and Disaster Concerns",
+			"url": "mm/nvix",
+			"coauthors": [
+				{
+					"name": "Alan Moreira",
+					"website": "https://sites.google.com/view/alanmoreira/"
+				}
+			],
+			"publication": "Journal of Financial Economics, 2017, Vol 123, Issue 1, pp. 137–162",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Slides",
+					"type": "slides"
+				},
+				{
+					"text": "Data",
+					"type": "data"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
+				}
+			],
+			"awards": [],
+			"abstract": "We construct a text-based measure of uncertainty starting in 1890 using front-page articles of the Wall Street Journal. Consistent with a time-varying rare disaster risk model, high news implied volatility (NVIX) predicts periods of above average stock returns, or periods of large economic disasters. News coverage related to wars and government policy explains most of the time variation in risk premia our measure identifies.",
+			"presentations": "Ohio State (Fisher), IDC Conference, SFS Cavalcade, Texas Finance Festival, NBER BE, AFA Meetings in Philadelphia, BFI Media and Communications",
+			"media": [
+				{
+					"title": "Research defines investor fear in black and white",
+					"url": "http://www.stltoday.com/business/columns/david-nicklaus/nicklaus-research-defines-investor-fear-in-black-and-white/article_77d60147-f7be-5318-996b-93e0def1b66e.html",
+					"by": "David Nicklaus, St. Louis Post-Dispatch, Feb 23, 2016"
+				},
+				{
+					"title": "War And Government Policy Fears Drive The Equity Risk Premium",
+					"url": "http://www.valuewalk.com/2016/03/equity-risk-premium-2/",
+					"by": "ValueWalk, Mar 4, 2016"
+				}
+			],
+			"section": "pubs",
+			"tags": [
+				"asset-pricing",
+				"fin-drv",
+				"machine-lrn",
+				"media",
+				"text-analysis"
+			],
+			"data": [
+				{
+					"link": "mm/nvix/nvix_and_categories_timeseries_mar2016.xlsx",
+					"text": "NVIX, 1889&ndash;07 to 2016&ndash;03",
+					"comment": "Also includes a decomposition into categories."
+				},
+				{
+					"link": "mm/nvix/wsj_page_one_articles_monthly_and_vxo.zip",
+					"text": "Phrase counts",
+					"comment": " (ngram frequencies) of Wall Street Journal frontpage titles and abstracts. See readme.txt inside for details and replication code."
+				}
+			]
+		},
+		{
+			"title": "The Shadow Cost of Bank Capital Requirements",
+			"url": "km/loophole",
+			"coauthors": [
+				{
+					"name": "Roni Kisin",
+					"website": "https://sites.google.com/site/ronikisinresearch/"
+				}
+			],
+			"publication": "Review of Financial Studies, 2016, Vol 29, Issue 7, pp. 1780–1820",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Slides",
+					"type": "slides"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
+				}
+			],
+			"awards": [
+				"Best Paper Award, 2013 Financial Research Association Meetings"
+			],
+			"abstract": "We estimate the shadow cost of capital requirements using data on a costly loophole that allowed banks to relax these constraints. This loophole—liquidity guarantees to asset-backed commercial paper conduits—was exploited by the largest banks before the crisis of 2008. We show theoretically that a bank's use of the loophole reveals its private compliance cost, which takes into account both the costs of issuing equity and the effectiveness of capital regulation. We find that increasing capital requirements would impose a modest cost—$220 million a year for all participating banks combined per 1pp increase, and $14 million on average.",
+			"presentations": "UCLA (Anderson), UNC (Kenan-Flagler), INSEAD, Wharton Conference on Liquidity and Financial Crises, FDIC-JFSR Fall Banking Research Conference, FRA Meetings in Las Vegas, FIRS Meetings in Quebec, AFA 2015 Meetings in Boston, GSU Symposium on Liquidity Risk and Capital Requirements",
+			"media": [
+				{
+					"title": "Using the Price of Magic to Estimate the Cost of Capital",
+					"url": "http://www.bloombergview.com/articles/2014-02-24/using-the-price-of-magic-to-estimate-the-cost-of-capital",
+					"by": "Matt Levine, BloombergView, Feb 24, 2014"
+				},
+				{
+					"title": "Why Banks Should Use Less Debt Financing",
+					"url": "http://alexedmans.blogspot.com/2014/11/why-banks-should-use-less-debt-financing.html",
+					"by": "Alex Edmans, Access to Finance, Nov 21, 2014"
+				},
+				{
+					"title": "The Shadow Cost of Bank Capital Requirements",
+					"url": "https://corpgov.law.harvard.edu/2016/05/17/the-shadow-cost-of-bank-capital-requirements/",
+					"by": "Harvard Law School Forum on Corporate Governance and Financial Regulation, May 17, 2016"
+				}
+			],
+			"section": "pubs",
+			"tags": [
+				"fin-intr",
+				"fin-reg",
+				"inter-lvrg"
+			]
+		},
+		{
+			"title": "Information Acquisition in Rumor-Based Bank Runs",
+			"url": "hm/rumors",
+			"coauthors": [
+				{
+					"name": "Zhiguo He",
+					"website": "https://voices.uchicago.edu/zhiguohe/"
+				}
+			],
+			"publication": "Journal of Finance, 2016, Vol 71, Issue 3, pp. 1113–1158",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Slides",
+					"type": "slides"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
+				}
+			],
+			"awards": [],
+			"abstract": "We study information acquisition and dynamic withdrawal decisions when a spreading rumor exposes a solvent bank to a run. Uncertainty about the bank's liquidity and potential failure motivates depositors who hear the rumor to acquire additional noisy signals. Depositors with less informative signals may wait before gradually running on the bank, leading to an endogenous aggregate withdrawal speed and bank survival time.",
+			"presentations": "AEA, Chicago Booth, Jackson Hole Finance Group, NY Fed, Rothschild Caesarea, SED, SFS Cavalcade, Tel Aviv U, Financial Theory Group workshop, WashU",
+			"media": [],
+			"section": "pubs",
+			"tags": [
+				"fin-intr",
+				"val-info",
+				"info-diff"
+			]
+		},
+		{
+			"title": "The Value of Diffusing Information*",
+			"url": "gismedia",
+			"coauthors": [],
+			"publication": "Journal of Financial Economics, 2014, Vol 111, Issue 1, pp. 181–199",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
+				}
+			],
+			"awards": [],
+			"abstract": "How does the speed by which information diffuses affect its value to a stock market investor? Faster-diffusing information means quicker and less noisy profits, but also increases competing informed trading, impounding more information into prices and eroding profits. Structural empirical analysis of stock market reaction to drug approvals using media coverage as a proxy for the transmission rate of information finds that the value of information is hump-shaped in its future transmission rate. <br/>* Based on my dissertation titled \"Spreading Information and Media Coverage: Theory and Evidence from Drug Approvals\"",
+			"presentations": "",
+			"media": [],
+			"section": "pubs",
+			"tags": [
+				"asset-pricing",
+				"val-info",
+				"media",
+				"info-diff"
+			]
+		},
+		{
+			"title": "Fundamentals of Perpetual Futures",
+			"url": "hmrv/perp",
+			"coauthors": [
+				{
+					"name": "Songrun He",
+					"website": "https://www.songrunhe.com/"
+				},
+				{
+					"name": "Omri Ross",
+					"website": "https://di.ku.dk/english/staff/?pure=en/persons/295505"
+				},
+				{
+					"name": "Victor von Wachter",
+					"website": "https://di.ku.dk/english/staff/?pure=en/persons/692923"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "Perpetual futures – swap contracts that never expire – are by far the most popular derivative traded in cryptocurrency markets, with more than $100 billion traded daily. Perpetuals provide investors with leveraged exposure to cryptocurrencies, which does not require rollover or direct cryptocurrency holding. To keep the gap between perpetual futures and spot prices small, long position holders periodically pay short position holders a funding rate proportional to this gap. The funding rate incentivizes trades that tend to narrow the futures-spot gap. But unlike fixed-maturity futures, perpetuals are not guaranteed to converge to the spot price of their underlying asset at any time, and familiar no-arbitrage prices for perpetuals are not available, as the contracts have no expiry date to enforce arbitrage. Here, using a weaker notion of random-maturity arbitrage, we derive no-arbitrage prices for perpetual futures in frictionless markets, and no-arbitrage bounds for markets with trading costs. These no-arbitrage prices provide a useful benchmark for perpetual futures and simultaneously prescribe a strategy to exploit divergence from these fundamental values. Empirically, we find that deviations of crypto perpetual futures from no-arbitrage prices are considerably larger than those documented in traditional currency markets. These deviations comove across cryptocurrencies, and diminish over time as crypto markets develop and become more efficient. A simple trading strategy generates large Sharpe ratios even for investors paying the highest trading costs on Binance, which is currently the largest crypto exchange by volume.",
+			"presentations": "",
+			"media": [],
+			"section": "wp",
+			"feature": {"figure": "fig1-eps-converted-to.png", "caption": "Deviations of perpetual futures from spot prices"},
+			"tags": [
+				"asset-pricing", 
+				"crypto",
+				"fin-drv"
+			]
+		},
+		{
+			"title": "The Value of Data to Fixed Income Investors",
+			"url": "blm/bondinfoval",
+			"coauthors": [
+				{
+					"name": "Jennie Bai",
+					"website": "http://www.jenniebai.com"
+				},
+				{
+					"name": "Jane Li",
+					"website": "https://www.lijianuchicago.com/"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "Using a structural model, we estimate the value of data to fixed income investors and study its main drivers. In the model, data is more valuable for bonds that are volatile and for which price-insensitive liquidity trades are more likely. Empirically, we find that the value of data on corporate bonds increases with yield, time-to-maturity, size, callability, liquidity, and uncertainty during normal times. However, these cross-sectional differences vanish as the value of data falls during financial crises. Using a regression discontinuity based on maturity, we provide causal evidence that investor composition affects the value of data.",
+			"presentations": "",
+			"media": [],
+			"section": "wp",
+			"feature": {"figure": "value_rating_median_overtime_update.png", "caption": "Value of information over time by bond rating"},
+			"tags": [
+				"asset-pricing",
+				"val-info"
+			]
+		},
+		{
+			"title": "Does Finance Benefit Society? A Language Embedding Approach",
+			"url": "jlm/goodfin",
+			"coauthors": [
+				{
+					"name": "Manish Jha",
+					"website": "https://mjha91.github.io"
+				},
+				{
+					"name": "Hongyi Liu",
+					"website": "https://economics.wustl.edu/people/hongyi-liu"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Video",
+					"type": "goto",
+					"page": "https://mediaspace.msu.edu/media/Asaf+Manela+-+Virtual+Finance+Seminar+-+07+14+2020/1_hh5ffq2n"
+				},
+				{
+					"text": "Blog",
+					"type": "goto",
+					"page": "https://promarket.org/2020/07/28/do-people-think-finance-benefits-society/"
+				}
+			],
+			"awards": [],
+			"abstract": "We measure popular sentiment toward finance using a computational linguistics approach applied to millions of books published in eight countries over hundreds of years. We document persistent differences in finance sentiment across countries despite ample time-series variation. Finance sentiment declines after epidemics and earthquakes, but rises following droughts, floods, and landslides. These heterogeneous effects of natural disasters suggest finance sentiment responds differently to the realization of insured versus uninsured risks. Using local projections, we find that positive shocks to finance sentiment have positive and persistent effects on economic growth. Our estimates predict a contraction in finance sentiment due to the COVID-19 pandemic that will exacerbate its long-term economic damage.",
+			"presentations": "<a href=\"http://virtualfinanceseminar.com\" target=\"_blank\">Virtual Finance Seminar</a>, WashU",
+			"media": [
+				{
+					"title": "Can the Finance Industry Be Trusted This Time?",
+					"url": "https://www.bloomberg.com/opinion/articles/2020-08-10/coronavirus-recovery-can-the-finance-industry-be-trusted-this-time",
+					"by": "Elisa Martinuzzi, Bloomberg, Aug 10, 2020"
+				}
+			],
+			"section": "wp",
+			"tags": [
+				"text-analysis",
+				"machine-lrn",
+				"media",
+				"fin-intr",
+				"fin-reg"
+			]
+		},
+		{
+			"title": "Liquidity and the Strategic Value of Information",
+			"url": "km/infoval",
+			"coauthors": [
+				{
+					"name": "Ohad Kadan",
+					"website": "http://apps.olin.wustl.edu/faculty/kadan/index/Home.html"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "We offer a simple, intuitive and empirically useful expression quantifying the value of asset-specific information to a strategic trader. The value of information reflects the ratio of return volatility to price impact measured using a version of Kyle’s lambda. We find that the value of information rises dramatically during crises and on earnings announcement days, and falls at calendar year ends. The most dramatic spikes in the value of information occur at the start of the COVID-19 pandemic and the financial crisis of 2008, when the Fed announces novel liquidity facilities. Such policy interventions aimed at improving liquidity may unintentionally increase the private incentives to collect information.",
+			"presentations": "",
+			"media": [],
+			"section": "wp",
+			"tags": [
+				"asset-pricing",
+				"val-info"
+			]
+		},
+		{
+			"title": "Business News and Business Cycles",
+			"url": "bkmx/econews",
+			"coauthors": [
+				{
+					"name": "Leland Bybee",
+					"website": "https://ssrn.com/author=3682810"
+				},
+				{
+					"name": "Bryan Kelly",
+					"website": "https://www.bryankellyacademic.org/"
+				},
+				{
+					"name": "Dacheng Xiu",
+					"website": "http://dachxiu.chicagobooth.edu"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "We propose an approach to measuring the state of the economy via textual analysis of business news. Text-based inputs accurately track a wide range of measures of economic activity and that they have incremental forecasting power for macroeconomic outcomes, above and beyond standard numerical predictors.",
+			"presentations": "WFA 2020, EFA 2020, New Technologies in Finance Conference 2019, Volatility Institute Conference 2019",
+			"media": [],
+			"section": "wp",
+			"tags": [
+				"asset-pricing",
+				"fin-drv",
+				"machine-lrn",
+				"media",
+				"fin-intr",
+				"text-analysis"
+			]
+		},
+		{
+			"title": "The Partisanship of Financial Regulators",
+			"url": "ehmw/regparty",
+			"coauthors": [
+				{
+					"name": "Joseph Engelberg",
+					"website": "http://rady.ucsd.edu/faculty/directory/engelberg/pub/portfolios/index.htm"
+				},
+				{
+					"name": "Matthew Henriksson",
+					"website": "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2610108"
+				},
+				{
+					"name": "Jared Williams",
+					"website": "https://www.usf.edu/business/contacts/williams-jared.aspx"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "We analyze the partisanship of SEC Commissioners and Fed Board Governors using a text-based approach. The level of partisanship among these regulators is greater than that of Congress, but this is driven by a handful of speakers who repeat polarizing phrases across several speeches. When we quantify how much Republican (Democrat) regulators sound like Republicans (Democrats) in Congress we find no discernible pattern among Fed governors but a recent spike among SEC commissioners.",
+			"presentations": [
+				"Fed Board, UC Irvine"
+			],
+			"media": [],
+			"section": "wp",
+			"tags": [
+				"fin-reg",
+				"machine-lrn",
+				"media",
+				"fin-intr",
+				"text-analysis"
+			]
+		},
+		{
+			"title": "Funding and Incentives of Regulators: Evidence from Banking",
+			"url": "km/regulators",
+			"coauthors": [
+				{
+					"name": "Roni Kisin",
+					"website": "https://sites.google.com/site/ronikisinresearch/"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "Regulation is often funded with fees paid by regulated firms, potentially creating incentive problems. We use this feature to study the incentives of regulators and their ability to affect firm behavior. Our identification approach uses multiple kinks in fee schedules of federal bank regulators as a source of exogenous variation. Using a novel dataset on fees and regulatory actions, we find that firms that pay higher fees face more lenient regulation, which leads to a buildup of risk. ",
+			"presentations": "FDIC, HBS, IDC Herzliya, UCSD, U Washington, Washington U, Notre Dame Conference on Financial Regulation, FTG Summer School in Financial Intermediation, AFA 2016 Meetings in San Francisco",
+			"media": [],
+			"section": "nwp",
+			"tags": [
+				"fin-intr",
+				"fin-reg",
+				"inter-lvrg"
+			]
+		},
+		{
+			"title": "An Empirical Evaluation of the Black-Litterman Approach to Portfolio Choice",
+			"url": "gm/blempirical",
+			"coauthors": [
+				{
+					"name": "Michael Gofman",
+					"website": "https://mywebspace.wisc.edu/gofman/web/"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "We evaluate the Black-Litterman equilibrium model approach to portfolio choice. We extend the approach to any linear multi-factor asset pricing model (e.g. ICAPM) to examine how learning from prices using different equilibrium models affects portfolio performance. We find that even a misspecified asset-pricing model can improve portfolio performance when private signals are not extremely precise.",
+			"presentations": "",
+			"media": [],
+			"section": "nwp",
+			"tags": [
+				"asset-pricing",
+				"val-info"
+			]
+		}
+	],
+	"updated": "Last Updated: September 2020"
+}

@@ -44,6 +44,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://asafmanela.github.io/papers/km/regulators/cite/</loc>
+    <lastmod>2022-12-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://asafmanela.github.io/papers/mm/nvix/wp/</loc>
     <lastmod>2022-12-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -129,6 +135,12 @@
 </url>
 <url>
     <loc>https://asafmanela.github.io/papers/km/valueofinfo/index/</loc>
+    <lastmod>2022-12-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://asafmanela.github.io/papers/hmrv/perp/index/</loc>
     <lastmod>2022-12-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -230,13 +242,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://asafmanela.github.io/papers/jlm/goodfin/cite/</loc>
+    <loc>https://asafmanela.github.io/papers/hmrv/perp/cite/</loc>
     <lastmod>2022-12-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://asafmanela.github.io/papers/km/regulators/cite/</loc>
+    <loc>https://asafmanela.github.io/papers/jlm/goodfin/cite/</loc>
     <lastmod>2022-12-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
