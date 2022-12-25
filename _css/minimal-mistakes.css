@@ -5110,3 +5110,7 @@ a.reversefootnote:hover {
     height: 1px !important;
   }
 }
+
+.author__urls .svg-inline--fa {
+  font-size: 170%;
+}
