@@ -147,6 +147,35 @@ function hfun_discussions()
 	return fd2html(markdown, internal=true)
 end
 
+function hfun_news(sections; n=2)
+	papers = papersjson()["papers"]
+	ix = [in(p.section, sections) && haskey(p, "feature") for p in papers] 
+	c = IOBuffer()
+	i = 1
+	for p in papers[ix]
+		write(c, """
+		<div class="feature__item">
+			<div class="archive__item">
+			<div class="archive__item-teaser">
+				<img src="/papers/$(p.url)/$(p.feature.figure)" alt="$(p.feature.caption)" />
+			</div>
+			<div class="archive__item-body">
+				<h2 class="archive__item-title">$(p.feature.caption)</h2>
+				<div class="archive__item-excerpt">
+				<p>This figure is from a recent paper titled <i>$(p.title)</i>. $(p.abstract)</p>
+				</div>
+				<p><a href="/papers/" class="btn btn--primary">Learn more</a></p>
+			</div>
+			</div>
+		</div>
+		""")
+		i+=1
+		if i>n
+			break
+		end
+	end
+	return String(take!(c))
+end
 
 # hfun_social_email() = """<a href="mailto:amanela@wustl.edu" title="email"><svg width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"/></svg></a>"""
 
