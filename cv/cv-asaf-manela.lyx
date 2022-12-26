@@ -862,6 +862,75 @@ Working Papers
 
 \series bold
 \emph on
+Fundamentals of Perpetual Futures
+\series default
+\emph default
+ (with Songrun He, Omri Ross and Victor von Wachter)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Perpetual futures—swap contracts that never expire—are by far the most popular
+ derivative traded in cryptocurrency markets, with more than $100 billion
+ traded daily.
+ But unlike fixed-maturity futures, perpetuals are not guaranteed to converge
+ to the spot price of their underlying asset at any time, and familiar no-arbitr
+age prices for perpetuals are not available, as the contracts have no expiry
+ date to enforce arbitrage.
+ Here, using a weaker notion of random-maturity arbitrage, we derive no-arbitrag
+e prices for perpetual futures in frictionless markets, and no-arbitrage
+ bounds for markets with trading costs.
+ These no-arbitrage prices provide a useful benchmark for perpetual futures
+ and simultaneously prescribe a strategy to exploit divergence from these
+ fundamental values.
+ Empirically, we find that deviations of crypto perpetual futures from no-arbitr
+age prices are considerably larger than those documented in traditional
+ currency markets.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+The Value of Data to Fixed Income Investors
+\series default
+\emph default
+ (with Jennie Bai and Jane Li)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+We measure popular sentiment toward finance using a computational linguistics
+ approach applied to millions of books published in eight countries over
+ hundreds of years.
+ We document persistent differences in finance sentiment across countries
+ despite ample time-series variation.
+ Books written in the languages of more capitalist countries discuss finance
+ in a more positive context.
+ Finance sentiment declines one year before rather than after financial
+ crises.
+ Positive shocks to finance sentiment lead to greater GDP and credit growth.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
 Does finance benefit society? A language embedding approach
 \series default
 \emph default
