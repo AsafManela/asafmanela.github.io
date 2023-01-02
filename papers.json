@@ -509,7 +509,7 @@
 				{
 					"text": "Video",
 					"type": "goto",
-					"page": "https://mediaspace.msu.edu/media/Asaf+Manela+-+Virtual+Finance+Seminar+-+07+14+2020/1_hh5ffq2n"
+					"page": "https://www.youtube.com/watch?v=MVmRVUbJSxw&t=20s"
 				},
 				{
 					"text": "Blog",
@@ -584,6 +584,11 @@
 				{
 					"text": "Citation",
 					"type": "cite"
+				},
+				{
+					"text": "Video",
+					"type": "goto",
+					"page": "https://www.youtube.com/watch?v=uI3fVGSLYx4"
 				}
 			],
 			"awards": [],
