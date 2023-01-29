@@ -40,6 +40,10 @@
 					"text": "Code",
 					"type": "goto",
 					"page": "https://github.com/AsafManela/HurdleDMR.jl"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
 				}
 			],
 			"awards": [],
@@ -589,6 +593,10 @@
 					"text": "Video",
 					"type": "goto",
 					"page": "https://www.youtube.com/watch?v=uI3fVGSLYx4"
+				},
+				{
+					"text": "Data",
+					"type": "data"
 				}
 			],
 			"awards": [],
@@ -603,6 +611,13 @@
 				"media",
 				"fin-intr",
 				"text-analysis"
+			],
+			"data": [
+				{
+					"link": "http://www.structureofnews.com/",
+					"text": "structureofnews.com",
+					"comment": "An interactive website that allows users to visualize and inspect a wide variety of features from our estimated topic model. Also allows researchers to download our WSJ news attention time series for use in their own projects."
+				}
 			]
 		},
 		{
