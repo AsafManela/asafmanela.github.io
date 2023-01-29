@@ -97,7 +97,7 @@ function paperstatus(c, p; includedlinks=["cite", "slides", "data", "wp", "goto"
 end
 
 function papertitle(c, p)
-	write(c, "### ~~~<a name=\"$(urlanchor(p.url))\"><a>~~~[$(p.title)]($(p.url)) \\style{font-weight:normal}{$(withauthors(p))}\n")
+	write(c, "### ~~~<a name=\"$(urlanchor(p.url))\"><a>~~~[$(p.title)](/papers/$(p.url)) \\style{font-weight:normal}{$(withauthors(p))}\n")
 end
 
 function hfun_data()
