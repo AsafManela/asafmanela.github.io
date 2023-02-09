@@ -139,7 +139,7 @@ textit{
 
 
 \lang american
-Asaf Manela · Curriculum Vitae · March 2022
+Asaf Manela · Curriculum Vitae · February 2023
 \begin_inset ERT
 status open
 
@@ -503,6 +503,36 @@ Publications
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+The Partisanship of Financial Regulators
+\series default
+\emph default
+ (with Joseph Engelberg, Matthew Henriksson and Jared Williams) 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\emph on
+Review of Financial Studies, forthcoming
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+We analyze the partisanship of SEC Commissioners and Fed Governors.
+ Using a language-based approach, we identify partisan phrases in Congress,
+ such as “red tape” and “climate change,” and observe their usage among
+ regulators.
+ Although the Fed has remained relatively non-partisan throughout our sample
+ period (1930-2019), we find that partisanship among SEC Commissioners rose
+ recently to an all-time high.
 \end_layout
 
 \begin_layout Standard
@@ -1005,89 +1035,6 @@ We propose an approach to measuring the state of the economy via textual
  Text-based inputs accurately track a wide range of measures of economic
  activity and that they have incremental forecasting power for macroeconomic
  outcomes, above and beyond standard numerical predictors.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-
-\series bold
-\emph on
-The Partisanship of Financial Regulators
-\series default
-\emph default
- (with Joseph Engelberg, Matthew Henriksson and Jared Williams) 
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-We analyze the partisanship of SEC Commissioners and Fed Board Governors
- using a text-based approach.
- The level of partisanship among these regulators is greater than that of
- Congress, but this is driven by a handful of speakers who repeat polarizing
- phrases across several speeches.
- When we quantify how much Republican (Democrat) regulators sound like Republica
-ns (Democrats) in Congress we find no discernible pattern among Fed governors
- but a recent spike among SEC commissioners.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-
-\series bold
-\emph on
-Funding and Incentives of Regulators: Evidence from Banking
-\series default
-\emph default
- (with Roni Kisin)
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-Regulation is often funded with fees paid by regulated firms, potentially
- creating incentive problems.
- We use this feature to study the incentives of regulators and their ability
- to affect firm behavior.
- Our identification approach uses multiple kinks in fee schedules of federal
- bank regulators as a source of exogenous variation.
- Using a novel dataset on fees and regulatory actions, we find that firms
- that pay higher fees face more lenient regulation, which leads to a buildup
- of risk.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-\emph on
-An Empirical Evaluation of the Black-Litterman Approach to Portfolio Choice
-\series default
-\emph default
- (with Michael Gofman)
-\end_layout
-
-\begin_layout Standard
-We evaluate the Black-Litterman equilibrium model approach to portfolio
- choice.
- We extend the approach to any linear multi-factor asset pricing model (e.g.
- ICAPM) to examine how learning from prices using different equilibrium
- models affects portfolio performance.
- We find that even a misspecified asset-pricing model can improve portfolio
- performance when private signals are not extremely precise.
 \end_layout
 
 \begin_layout Standard
@@ -1123,7 +1070,7 @@ Conference Presentations
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2023 AFA Annual Meeting**
+2023 AFA Annual Meeting
 \end_layout
 
 \begin_layout Labeling
@@ -1162,7 +1109,7 @@ Conference Presentations
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2016 AFA Annual Meeting in San Francisco*, WFA in Park City, IDC in Herzelia,
+2016 AFA Annual Meeting in San Francisco*, WFA in Park City, IDC in Herzliya,
  Duke-UNC Asset Pricing Conference*, FMA Conference on Derivatives and Volatilit
 y at CBOE
 \end_layout
@@ -1184,7 +1131,7 @@ n*, GSU Symposium on Liquidity Risk and Capital Requirements, Gerzensee
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2013 IDC in Herzelia, SFS Cavalcade in Miami*, Texas Finance Festival in
+2013 IDC in Herzliya, SFS Cavalcade in Miami*, Texas Finance Festival in
  Austin*, Wharton Conference on Liquidity and Financial Crises, FDIC-JFSR
  Fall Banking Research Conference*, FRA Meetings in Las Vegas (
 \emph on
@@ -1194,7 +1141,7 @@ Best Paper Award)
 \begin_layout Labeling
 \labelwidthstring MMMMM
 2012 AEA Annual Meeting in Chicago, UNC Finance Group in Jackson Hole, SFS
- Cavalcade in Virginia/Darden, IDC in Herzelia, SED Annual Meeting in Cyprus,
+ Cavalcade in Virginia/Darden, IDC in Herzliya, SED Annual Meeting in Cyprus,
  Finance Theory Group workshop*
 \end_layout
 
@@ -1233,6 +1180,11 @@ Seminar Presentations
 \end_inset
 
 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2023 a16z Crypto, Reichman University
 \end_layout
 
 \begin_layout Labeling
@@ -1378,6 +1330,16 @@ Discussions
 \end_inset
 
 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2023 "Textual Analysis of Short-seller Research Reports"
+\begin_inset Newline newline
+\end_inset
+
+by Jules H.
+ van Binsbergen, Xiao Han, and Alejandro Lopez-Lira, AFA
 \end_layout
 
 \begin_layout Labeling
@@ -1696,10 +1658,10 @@ Program Committee Membership
 \end_layout
 
 \begin_layout Standard
-EFA Annual Meeting (2015–2022), FIRS Annual Meeting (2019–2022), MFA Annual
- Meeting (2019–2022), Utah Winter Finance Conference (2016–2022), WFA Annual
- Meeting (2018–2022), SFS Cavalcade North America (2020–2022), IDC Herzliya
- annual conference (2014–2019), CBOE Conference on Derivatives and Volatility
+EFA Annual Meeting (2015–2023), FIRS Annual Meeting (2019–2023), MFA Annual
+ Meeting (2019–2022), Utah Winter Finance Conference (2016–2023), WFA Annual
+ Meeting (2018–2023), SFS Cavalcade North America (2020–2023), IDC Herzliya
+ annual conference (2014–2023), CBOE Conference on Derivatives and Volatility
  (2016–2019),
 \end_layout
 
@@ -1878,7 +1840,7 @@ Non-Academic Experience
 \labelwidthstring 00.00.0000
 \noindent
 \align block
-2000–2001 Applications Team Developer, TrulyGlobal @ VocalTec, Herzelia,
+2000–2001 Applications Team Developer, TrulyGlobal @ VocalTec, Herzliya,
  Israel
 \end_layout
 
