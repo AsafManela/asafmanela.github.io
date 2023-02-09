@@ -42,7 +42,7 @@
 			"presentations": "",
 			"media": [],
 			"section": "wp",
-			"feature": {"figure": "fig1-eps-converted-to.png", "caption": "Deviations of perpetual futures from spot prices"},
+			"feature": {"figure": "fig1.png", "caption": "Deviations of perpetual futures from spot prices"},
 			"tags": [
 				"asset-pricing", 
 				"crypto",
