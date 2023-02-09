@@ -14,6 +14,241 @@
 	},
 	"papers": [
 		{
+			"title": "Fundamentals of Perpetual Futures",
+			"url": "hmrv/perp",
+			"coauthors": [
+				{
+					"name": "Songrun He",
+					"website": "https://www.songrunhe.com/"
+				},
+				{
+					"name": "Omri Ross",
+					"website": "https://di.ku.dk/english/staff/?pure=en/persons/295505"
+				},
+				{
+					"name": "Victor von Wachter",
+					"website": "https://di.ku.dk/english/staff/?pure=en/persons/692923"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "Perpetual futures—swap contracts that never expire—are by far the most popular derivative traded in cryptocurrency markets, with more than $100 billion traded daily. But unlike fixed-maturity futures, perpetuals are not guaranteed to converge to the spot price of their underlying asset at any time, and familiar no-arbitrage prices for perpetuals are not available, as the contracts have no expiry date to enforce arbitrage. Here, using a weaker notion of random-maturity arbitrage, we derive no-arbitrage prices for perpetual futures in frictionless markets, and no-arbitrage bounds for markets with trading costs. These no-arbitrage prices provide a useful benchmark for perpetual futures and simultaneously prescribe a strategy to exploit divergence from these fundamental values. Empirically, we find that deviations of crypto perpetual futures from no-arbitrage prices are considerably larger than those documented in traditional currency markets.",
+			"presentations": "",
+			"media": [],
+			"section": "wp",
+			"feature": {"figure": "fig1-eps-converted-to.png", "caption": "Deviations of perpetual futures from spot prices"},
+			"tags": [
+				"asset-pricing", 
+				"crypto",
+				"fin-drv"
+			]
+		},
+		{
+			"title": "The Value of Data to Fixed Income Investors",
+			"url": "blm/bondinfoval",
+			"coauthors": [
+				{
+					"name": "Jennie Bai",
+					"website": "http://www.jenniebai.com"
+				},
+				{
+					"name": "Jane Li",
+					"website": "https://www.lijianuchicago.com/"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "Using a structural model, we estimate the value of data to fixed income investors and study its main drivers. In the model, data is more valuable for bonds that are volatile and for which price-insensitive liquidity trades are more likely. Empirically, we find that the value of data on corporate bonds increases with yield, time-to-maturity, size, callability, liquidity, and uncertainty during normal times. However, these cross-sectional differences vanish as the value of data falls during financial crises. Using a regression discontinuity based on maturity, we provide causal evidence that investor composition affects the value of data.",
+			"presentations": "",
+			"media": [],
+			"section": "wp",
+			"feature": {"figure": "value_rating_median_overtime_update.png", "caption": "Value of information over time by bond rating"},
+			"tags": [
+				"asset-pricing",
+				"val-info"
+			]
+		},
+		{
+			"title": "Does Finance Benefit Society? A Language Embedding Approach",
+			"url": "jlm/goodfin",
+			"coauthors": [
+				{
+					"name": "Manish Jha",
+					"website": "https://mjha91.github.io"
+				},
+				{
+					"name": "Hongyi Liu",
+					"website": "https://economics.wustl.edu/people/hongyi-liu"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Video",
+					"type": "goto",
+					"page": "https://www.youtube.com/watch?v=MVmRVUbJSxw&t=20s"
+				},
+				{
+					"text": "Blog",
+					"type": "goto",
+					"page": "https://promarket.org/2020/07/28/do-people-think-finance-benefits-society/"
+				}
+			],
+			"awards": [],
+			"abstract": "We measure popular sentiment toward finance using a computational linguistics approach applied to millions of books published in eight countries over hundreds of years. We document persistent differences in finance sentiment across countries despite ample time-series variation. Finance sentiment declines after epidemics and earthquakes, but rises following droughts, floods, and landslides. These heterogeneous effects of natural disasters suggest finance sentiment responds differently to the realization of insured versus uninsured risks. Using local projections, we find that positive shocks to finance sentiment have positive and persistent effects on economic growth. Our estimates predict a contraction in finance sentiment due to the COVID-19 pandemic that will exacerbate its long-term economic damage.",
+			"presentations": "<a href=\"http://virtualfinanceseminar.com\" target=\"_blank\">Virtual Finance Seminar</a>, WashU",
+			"media": [
+				{
+					"title": "Can the Finance Industry Be Trusted This Time?",
+					"url": "https://www.bloomberg.com/opinion/articles/2020-08-10/coronavirus-recovery-can-the-finance-industry-be-trusted-this-time",
+					"by": "Elisa Martinuzzi, Bloomberg, Aug 10, 2020"
+				}
+			],
+			"section": "wp",
+			"tags": [
+				"text-analysis",
+				"machine-lrn",
+				"media",
+				"fin-intr",
+				"fin-reg"
+			]
+		},
+		{
+			"title": "Liquidity and the Strategic Value of Information",
+			"url": "km/infoval",
+			"coauthors": [
+				{
+					"name": "Ohad Kadan",
+					"website": "http://apps.olin.wustl.edu/faculty/kadan/index/Home.html"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "We offer a simple, intuitive and empirically useful expression quantifying the value of asset-specific information to a strategic trader. The value of information reflects the ratio of return volatility to price impact measured using a version of Kyle’s lambda. We find that the value of information rises dramatically during crises and on earnings announcement days, and falls at calendar year ends. The most dramatic spikes in the value of information occur at the start of the COVID-19 pandemic and the financial crisis of 2008, when the Fed announces novel liquidity facilities. Such policy interventions aimed at improving liquidity may unintentionally increase the private incentives to collect information.",
+			"presentations": "",
+			"media": [],
+			"section": "wp",
+			"tags": [
+				"asset-pricing",
+				"val-info"
+			]
+		},
+		{
+			"title": "Business News and Business Cycles",
+			"url": "bkmx/econews",
+			"coauthors": [
+				{
+					"name": "Leland Bybee",
+					"website": "https://ssrn.com/author=3682810"
+				},
+				{
+					"name": "Bryan Kelly",
+					"website": "https://www.bryankellyacademic.org/"
+				},
+				{
+					"name": "Dacheng Xiu",
+					"website": "http://dachxiu.chicagobooth.edu"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Video",
+					"type": "goto",
+					"page": "https://www.youtube.com/watch?v=uI3fVGSLYx4"
+				},
+				{
+					"text": "Data",
+					"type": "data"
+				}
+			],
+			"awards": [],
+			"abstract": "We propose an approach to measuring the state of the economy via textual analysis of business news. Text-based inputs accurately track a wide range of measures of economic activity and that they have incremental forecasting power for macroeconomic outcomes, above and beyond standard numerical predictors.",
+			"presentations": "WFA 2020, EFA 2020, New Technologies in Finance Conference 2019, Volatility Institute Conference 2019",
+			"media": [],
+			"section": "wp",
+			"tags": [
+				"asset-pricing",
+				"fin-drv",
+				"machine-lrn",
+				"media",
+				"fin-intr",
+				"text-analysis"
+			],
+			"data": [
+				{
+					"link": "http://www.structureofnews.com/",
+					"text": "structureofnews.com",
+					"comment": "An interactive website that allows users to visualize and inspect a wide variety of features from our estimated topic model. Also allows researchers to download our WSJ news attention time series for use in their own projects."
+				}
+			]
+		},
+		{
+			"title": "The Partisanship of Financial Regulators",
+			"url": "ehmw/regparty",
+			"coauthors": [
+				{
+					"name": "Joseph Engelberg",
+					"website": "http://rady.ucsd.edu/faculty/directory/engelberg/pub/portfolios/index.htm"
+				},
+				{
+					"name": "Matthew Henriksson",
+					"website": "https://www.mhenriksson.com/"
+				},
+				{
+					"name": "Jared Williams",
+					"website": "https://www.usf.edu/business/about/bios/williams-jared.aspx"
+				}
+			],
+			"publication": "Review of Financial Studies, forthcoming",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "We analyze the partisanship of SEC Commissioners and Fed Governors. Using a language-based approach, we identify partisan phrases in Congress, such as “red tape” and “climate change,” and observe their usage among regulators. Although the Fed has remained relatively non-partisan throughout our sample period (1930-2019), we find that partisanship among SEC Commissioners rose recently to an all-time high.",
+			"presentations": [
+				"SFS Cavalcade (2020), EFA Meeting (2021), Federal Reserve Board of Governors, UC Irvine (Merage), Stanford Accounting Camp (2018), FMA Meeting (2021), MFA Meeting (2021), University of Sussex, Wake Forest University"
+			],
+			"media": [],
+			"section": "pubs",
+			"tags": [
+				"fin-reg",
+				"machine-lrn",
+				"media",
+				"fin-intr",
+				"text-analysis"
+			]
+		},
+		{
 			"title": "Text Selection",
 			"url": "kmm/textselection",
 			"coauthors": [
@@ -228,7 +463,7 @@
 			],
 			"awards": [],
 			"abstract": "Innovations to the equity capital ratio of primary dealers price not only equity and government bond market portfolios, but also other more sophisticated asset classes such as corporate and sovereign bonds, derivatives, commodities, and currencies. The price of intermediary capital risk is consistently positive and of similar magnitude in many asset classes, suggesting these financial intermediaries are marginal investors in many markets and hence key to understanding asset prices.",
-			"presentations": "Gerzensee Summer School 2015, CITE 2015, NBER AP, University of Houston, WashU, Duke AP 2016, IDC Herzelia, University of Oxford",
+			"presentations": "Gerzensee Summer School 2015, CITE 2015, NBER AP, University of Houston, WashU, Duke AP 2016, IDC Herzliya, University of Oxford",
 			"media": [],
 			"section": "pubs",
 			"tags": [
@@ -422,241 +657,6 @@
 				"val-info",
 				"media",
 				"info-diff"
-			]
-		},
-		{
-			"title": "Fundamentals of Perpetual Futures",
-			"url": "hmrv/perp",
-			"coauthors": [
-				{
-					"name": "Songrun He",
-					"website": "https://www.songrunhe.com/"
-				},
-				{
-					"name": "Omri Ross",
-					"website": "https://di.ku.dk/english/staff/?pure=en/persons/295505"
-				},
-				{
-					"name": "Victor von Wachter",
-					"website": "https://di.ku.dk/english/staff/?pure=en/persons/692923"
-				}
-			],
-			"publication": "",
-			"links": [
-				{
-					"text": "Citation",
-					"type": "cite"
-				}
-			],
-			"awards": [],
-			"abstract": "Perpetual futures—swap contracts that never expire—are by far the most popular derivative traded in cryptocurrency markets, with more than $100 billion traded daily. But unlike fixed-maturity futures, perpetuals are not guaranteed to converge to the spot price of their underlying asset at any time, and familiar no-arbitrage prices for perpetuals are not available, as the contracts have no expiry date to enforce arbitrage. Here, using a weaker notion of random-maturity arbitrage, we derive no-arbitrage prices for perpetual futures in frictionless markets, and no-arbitrage bounds for markets with trading costs. These no-arbitrage prices provide a useful benchmark for perpetual futures and simultaneously prescribe a strategy to exploit divergence from these fundamental values. Empirically, we find that deviations of crypto perpetual futures from no-arbitrage prices are considerably larger than those documented in traditional currency markets.",
-			"presentations": "",
-			"media": [],
-			"section": "wp",
-			"feature": {"figure": "fig1-eps-converted-to.png", "caption": "Deviations of perpetual futures from spot prices"},
-			"tags": [
-				"asset-pricing", 
-				"crypto",
-				"fin-drv"
-			]
-		},
-		{
-			"title": "The Value of Data to Fixed Income Investors",
-			"url": "blm/bondinfoval",
-			"coauthors": [
-				{
-					"name": "Jennie Bai",
-					"website": "http://www.jenniebai.com"
-				},
-				{
-					"name": "Jane Li",
-					"website": "https://www.lijianuchicago.com/"
-				}
-			],
-			"publication": "",
-			"links": [
-				{
-					"text": "Citation",
-					"type": "cite"
-				}
-			],
-			"awards": [],
-			"abstract": "Using a structural model, we estimate the value of data to fixed income investors and study its main drivers. In the model, data is more valuable for bonds that are volatile and for which price-insensitive liquidity trades are more likely. Empirically, we find that the value of data on corporate bonds increases with yield, time-to-maturity, size, callability, liquidity, and uncertainty during normal times. However, these cross-sectional differences vanish as the value of data falls during financial crises. Using a regression discontinuity based on maturity, we provide causal evidence that investor composition affects the value of data.",
-			"presentations": "",
-			"media": [],
-			"section": "wp",
-			"feature": {"figure": "value_rating_median_overtime_update.png", "caption": "Value of information over time by bond rating"},
-			"tags": [
-				"asset-pricing",
-				"val-info"
-			]
-		},
-		{
-			"title": "Does Finance Benefit Society? A Language Embedding Approach",
-			"url": "jlm/goodfin",
-			"coauthors": [
-				{
-					"name": "Manish Jha",
-					"website": "https://mjha91.github.io"
-				},
-				{
-					"name": "Hongyi Liu",
-					"website": "https://economics.wustl.edu/people/hongyi-liu"
-				}
-			],
-			"publication": "",
-			"links": [
-				{
-					"text": "Citation",
-					"type": "cite"
-				},
-				{
-					"text": "Video",
-					"type": "goto",
-					"page": "https://www.youtube.com/watch?v=MVmRVUbJSxw&t=20s"
-				},
-				{
-					"text": "Blog",
-					"type": "goto",
-					"page": "https://promarket.org/2020/07/28/do-people-think-finance-benefits-society/"
-				}
-			],
-			"awards": [],
-			"abstract": "We measure popular sentiment toward finance using a computational linguistics approach applied to millions of books published in eight countries over hundreds of years. We document persistent differences in finance sentiment across countries despite ample time-series variation. Finance sentiment declines after epidemics and earthquakes, but rises following droughts, floods, and landslides. These heterogeneous effects of natural disasters suggest finance sentiment responds differently to the realization of insured versus uninsured risks. Using local projections, we find that positive shocks to finance sentiment have positive and persistent effects on economic growth. Our estimates predict a contraction in finance sentiment due to the COVID-19 pandemic that will exacerbate its long-term economic damage.",
-			"presentations": "<a href=\"http://virtualfinanceseminar.com\" target=\"_blank\">Virtual Finance Seminar</a>, WashU",
-			"media": [
-				{
-					"title": "Can the Finance Industry Be Trusted This Time?",
-					"url": "https://www.bloomberg.com/opinion/articles/2020-08-10/coronavirus-recovery-can-the-finance-industry-be-trusted-this-time",
-					"by": "Elisa Martinuzzi, Bloomberg, Aug 10, 2020"
-				}
-			],
-			"section": "wp",
-			"tags": [
-				"text-analysis",
-				"machine-lrn",
-				"media",
-				"fin-intr",
-				"fin-reg"
-			]
-		},
-		{
-			"title": "Liquidity and the Strategic Value of Information",
-			"url": "km/infoval",
-			"coauthors": [
-				{
-					"name": "Ohad Kadan",
-					"website": "http://apps.olin.wustl.edu/faculty/kadan/index/Home.html"
-				}
-			],
-			"publication": "",
-			"links": [
-				{
-					"text": "Citation",
-					"type": "cite"
-				}
-			],
-			"awards": [],
-			"abstract": "We offer a simple, intuitive and empirically useful expression quantifying the value of asset-specific information to a strategic trader. The value of information reflects the ratio of return volatility to price impact measured using a version of Kyle’s lambda. We find that the value of information rises dramatically during crises and on earnings announcement days, and falls at calendar year ends. The most dramatic spikes in the value of information occur at the start of the COVID-19 pandemic and the financial crisis of 2008, when the Fed announces novel liquidity facilities. Such policy interventions aimed at improving liquidity may unintentionally increase the private incentives to collect information.",
-			"presentations": "",
-			"media": [],
-			"section": "wp",
-			"tags": [
-				"asset-pricing",
-				"val-info"
-			]
-		},
-		{
-			"title": "Business News and Business Cycles",
-			"url": "bkmx/econews",
-			"coauthors": [
-				{
-					"name": "Leland Bybee",
-					"website": "https://ssrn.com/author=3682810"
-				},
-				{
-					"name": "Bryan Kelly",
-					"website": "https://www.bryankellyacademic.org/"
-				},
-				{
-					"name": "Dacheng Xiu",
-					"website": "http://dachxiu.chicagobooth.edu"
-				}
-			],
-			"publication": "",
-			"links": [
-				{
-					"text": "Citation",
-					"type": "cite"
-				},
-				{
-					"text": "Video",
-					"type": "goto",
-					"page": "https://www.youtube.com/watch?v=uI3fVGSLYx4"
-				},
-				{
-					"text": "Data",
-					"type": "data"
-				}
-			],
-			"awards": [],
-			"abstract": "We propose an approach to measuring the state of the economy via textual analysis of business news. Text-based inputs accurately track a wide range of measures of economic activity and that they have incremental forecasting power for macroeconomic outcomes, above and beyond standard numerical predictors.",
-			"presentations": "WFA 2020, EFA 2020, New Technologies in Finance Conference 2019, Volatility Institute Conference 2019",
-			"media": [],
-			"section": "wp",
-			"tags": [
-				"asset-pricing",
-				"fin-drv",
-				"machine-lrn",
-				"media",
-				"fin-intr",
-				"text-analysis"
-			],
-			"data": [
-				{
-					"link": "http://www.structureofnews.com/",
-					"text": "structureofnews.com",
-					"comment": "An interactive website that allows users to visualize and inspect a wide variety of features from our estimated topic model. Also allows researchers to download our WSJ news attention time series for use in their own projects."
-				}
-			]
-		},
-		{
-			"title": "The Partisanship of Financial Regulators",
-			"url": "ehmw/regparty",
-			"coauthors": [
-				{
-					"name": "Joseph Engelberg",
-					"website": "http://rady.ucsd.edu/faculty/directory/engelberg/pub/portfolios/index.htm"
-				},
-				{
-					"name": "Matthew Henriksson",
-					"website": "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2610108"
-				},
-				{
-					"name": "Jared Williams",
-					"website": "https://www.usf.edu/business/contacts/williams-jared.aspx"
-				}
-			],
-			"publication": "",
-			"links": [
-				{
-					"text": "Citation",
-					"type": "cite"
-				}
-			],
-			"awards": [],
-			"abstract": "We analyze the partisanship of SEC Commissioners and Fed Board Governors using a text-based approach. The level of partisanship among these regulators is greater than that of Congress, but this is driven by a handful of speakers who repeat polarizing phrases across several speeches. When we quantify how much Republican (Democrat) regulators sound like Republicans (Democrats) in Congress we find no discernible pattern among Fed governors but a recent spike among SEC commissioners.",
-			"presentations": [
-				"Fed Board, UC Irvine"
-			],
-			"media": [],
-			"section": "wp",
-			"tags": [
-				"fin-reg",
-				"machine-lrn",
-				"media",
-				"fin-intr",
-				"text-analysis"
 			]
 		},
 		{
