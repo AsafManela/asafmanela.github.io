@@ -35,6 +35,10 @@
 				{
 					"text": "Citation",
 					"type": "cite"
+				},
+				{
+					"text": "Slides",
+					"type": "slides"
 				}
 			],
 			"awards": [],
