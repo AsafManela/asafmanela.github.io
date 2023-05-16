@@ -139,7 +139,7 @@ textit{
 
 
 \lang american
-Asaf Manela · Curriculum Vitae · February 2023
+Asaf Manela · Curriculum Vitae · May 2023
 \begin_inset ERT
 status open
 
@@ -506,6 +506,43 @@ Publications
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+Business News and Business Cycles
+\series default
+\emph default
+ (with Leland Bybee, Bryan Kelly and Dacheng Xiu)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\emph on
+Journal of Finance, forthcoming
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+We propose an approach to measuring the state of the economy via textual
+ analysis of business news.
+ News attention closely tracks a wide range of economic activities and can
+ forecast aggregate stock market returns.
+ A text-augmented VAR demonstrates the large incremental role of news text
+ in forecasting macroeconomic dynamics.
+ We retrieve the narratives that underlie these improvements in market and
+ business cycle forecasts.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \emph on
@@ -533,6 +570,10 @@ We analyze the partisanship of SEC Commissioners and Fed Governors.
  Although the Fed has remained relatively non-partisan throughout our sample
  period (1930-2019), we find that partisanship among SEC Commissioners rose
  recently to an all-time high.
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -849,10 +890,7 @@ How does the speed by which information diffuses affect its value to a stock
  using media coverage as a proxy for the transmission rate of information
  finds that the value of information is hump-shaped in its future transmission
  rate.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage clearpage
+\begin_inset Newline newline
 \end_inset
 
 
@@ -1009,32 +1047,6 @@ We offer a simple, intuitive and empirically useful expression quantifying
  The most dramatic spikes in the value of information occur at the start
  of the COVID-19 pandemic and the financial crisis of 2008, when the Fed
  announces novel liquidity facilities.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-
-\series bold
-\emph on
-Business News and Business Cycles
-\series default
-\emph default
- (with Leland Bybee, Bryan Kelly and Dacheng Xiu)
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-We propose an approach to measuring the state of the economy via textual
- analysis of business news.
- Text-based inputs accurately track a wide range of measures of economic
- activity and that they have incremental forecasting power for macroeconomic
- outcomes, above and beyond standard numerical predictors.
 \end_layout
 
 \begin_layout Standard
