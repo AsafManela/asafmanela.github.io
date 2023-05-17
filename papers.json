@@ -176,7 +176,7 @@
 					"website": "http://dachxiu.chicagobooth.edu"
 				}
 			],
-			"publication": "",
+			"publication": "Journal of Finance, forthcoming",
 			"links": [
 				{
 					"text": "Citation",
@@ -193,10 +193,10 @@
 				}
 			],
 			"awards": [],
-			"abstract": "We propose an approach to measuring the state of the economy via textual analysis of business news. Text-based inputs accurately track a wide range of measures of economic activity and that they have incremental forecasting power for macroeconomic outcomes, above and beyond standard numerical predictors.",
+			"abstract": "We propose an approach to measuring the state of the economy via textual analysis of business news. News attention closely tracks a wide range of economic activities and can forecast aggregate stock market returns. A text-augmented VAR demonstrates the large incremental role of news text in forecasting macroeconomic dynamics. We retrieve the narratives that underlie these improvements in market and business cycle forecasts.",
 			"presentations": "WFA 2020, EFA 2020, New Technologies in Finance Conference 2019, Volatility Institute Conference 2019",
 			"media": [],
-			"section": "wp",
+			"section": "pubs",
 			"tags": [
 				"asset-pricing",
 				"fin-drv",
