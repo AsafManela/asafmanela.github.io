@@ -235,6 +235,10 @@
 				{
 					"text": "Citation",
 					"type": "cite"
+				},
+				{
+					"text": "Data",
+					"type": "data"
 				}
 			],
 			"awards": [],
@@ -250,7 +254,14 @@
 				"media",
 				"fin-intr",
 				"text-analysis"
-			]
+			],
+			"data": [
+				{
+					"link": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UTMICU",
+					"text": "dataverse.harvard.edu",
+					"comment": "stores the data and code for the paper."
+				}
+			]	
 		},
 		{
 			"title": "Text Selection",
