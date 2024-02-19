@@ -39,6 +39,11 @@
 				{
 					"text": "Slides",
 					"type": "slides"
+				},
+				{
+					"text": "Video",
+					"type": "goto",
+					"page": "https://www.youtube.com/watch?v=fdXhfdWrX0M"
 				}
 			],
 			"awards": [],
