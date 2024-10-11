@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -18,21 +18,26 @@
 %\usepackage{tgpagella}
 %\usepackage[T1]{fontenc}
 \definecolor{blue}{RGB}{23, 111, 192}
+% Added by lyx2lyx
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
 \end_preamble
 \use_default_options false
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \language american
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "palatino" "TeX Gyre Pagella"
-\font_sans "NotoSans-TLF" "Noto Sans"
+\font_sans "NotoSansRegular" "Noto Sans"
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -57,7 +62,7 @@
 \pdf_backref false
 \pdf_pdfusetitle true
 \pdf_quoted_options "colorlinks=true,linkcolor=blue!50!black,filecolor=blue!50!black,urlcolor=blue!50!black"
-\papersize letterpaper
+\papersize letter
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 2
@@ -78,7 +83,9 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -89,8 +96,8 @@
 \bottommargin 1in
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation skip
-\defskip medskip
+\paragraph_separation indent
+\paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style english
@@ -98,11 +105,16 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -139,7 +151,7 @@ textit{
 
 
 \lang american
-Asaf Manela · Curriculum Vitae · May 2023
+Asaf Manela · Curriculum Vitae · October 2024
 \begin_inset ERT
 status open
 
@@ -274,26 +286,30 @@ Academic Positions
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-2017– Associate Professor of Finance, Washington University in St.
- Louis (on leave)
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-2021– Associate Professor of Finance, Reichman University (formerly IDC
- Herzliya)
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 00.00.0000
-2011–2017 Assistant Professor of Finance, Washington University in St.
+2017– Associate Professor of Finance,
+ Washington University in St.
  Louis
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-2007–2010 Teaching and Research Assistant, University of Chicago, Booth
- School of Business
+2021– Associate Professor of Finance,
+ Reichman University (formerly IDC Herzliya,
+ on leave)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+2011–2017 Assistant Professor of Finance,
+ Washington University in St.
+ Louis
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+2007–2010 Teaching and Research Assistant,
+ University of Chicago,
+ Booth School of Business
 \end_layout
 
 \begin_layout Standard
@@ -316,7 +332,8 @@ Editorial Positions
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-2020– Associate Editor, 
+2020– Associate Editor,
+ 
 \emph on
 Journal of Finance
 \end_layout
@@ -354,18 +371,21 @@ Education
 \noun on
  
 \noun default
-University of Chicago, Booth School of Business 
+University of Chicago,
+ Booth School of Business 
 \begin_inset Newline newline
 \end_inset
 
 
 \emph on
 Ph.D.
- in Finance, June 2011
+ in Finance,
+ June 2011
 \begin_inset Newline newline
 \end_inset
 
-M.B.A., June 2011
+M.B.A.,
+ June 2011
 \end_layout
 
 \begin_layout Labeling
@@ -381,12 +401,14 @@ Boston University
 
 \emph on
 B.A.
- in Economics, January 2005
+ in Economics,
+ January 2005
 \begin_inset Newline newline
 \end_inset
 
 B.A.
- in Computer Science, January 2005
+ in Computer Science,
+ January 2005
 \begin_inset Newline newline
 \end_inset
 
@@ -425,8 +447,12 @@ Research Interests
 \end_layout
 
 \begin_layout Standard
-Asset Pricing, Machine Learning, Text Analysis, Information Economics, Financial
- Intermediation
+Asset Pricing,
+ AI,
+ Machine Learning,
+ Text Analysis,
+ Information Economics,
+ Financial Intermediation
 \begin_inset Newline newline
 \end_inset
 
@@ -455,21 +481,35 @@ height "2pt"
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2019– Financial Technology, BSBA, MBA, MSA levels, Washington University
- in St.
+2024– Valuation,
+ Mergers and Acquisitions,
+ EMBA,
+ Washington University in St.
  Louis
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2015–2017 Financial Intermediation, BSBA and MBA levels, Washington University
- in St.
+2019– Financial Technology,
+ BSBA,
+ MBA,
+ MSA levels,
+ Washington University in St.
  Louis
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2012–2015 Options Futures and Derivative Securities, BSBA and MBA levels,
+2015–2017 Financial Intermediation,
+ BSBA and MBA levels,
+ Washington University in St.
+ Louis
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2012–2015 Options Futures and Derivative Securities,
+ BSBA and MBA levels,
  Washington University in St.
  Louis
 \end_layout
@@ -514,7 +554,8 @@ Publications
 Business News and Business Cycles
 \series default
 \emph default
- (with Leland Bybee, Bryan Kelly and Dacheng Xiu)
+ (with Leland Bybee,
+ Bryan Kelly and Dacheng Xiu)
 \end_layout
 
 \begin_layout Standard
@@ -522,20 +563,55 @@ Business News and Business Cycles
 \align block
 
 \emph on
-Journal of Finance, forthcoming
+Journal of Finance,
+ 2024,
+ Volume 79,
+ Issue 5,
+ pp.
+ 3105–3147
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align block
-We propose an approach to measuring the state of the economy via textual
- analysis of business news.
- News attention closely tracks a wide range of economic activities and can
- forecast aggregate stock market returns.
- A text-augmented VAR demonstrates the large incremental role of news text
- in forecasting macroeconomic dynamics.
- We retrieve the narratives that underlie these improvements in market and
- business cycle forecasts.
+We propose an approach to measuring the state of the economy via textual analysis of business news.
+ News attention closely tracks a wide range of economic activities and can forecast aggregate stock market returns.
+ A text-augmented VAR demonstrates the large incremental role of news text in forecasting macroeconomic dynamics.
+ We retrieve the narratives that underlie these improvements in market and business cycle forecasts.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+Liquidity and the Strategic Value of Information
+\series default
+\emph default
+ (with Ohad Kadan)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\emph on
+Review of Finance,
+ forthcoming
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+In Kyle (1985),
+ the ratio of fundamental variance to price impact measures the value of information to a monopolist strategic informed investor.
+ We show this same statistic provides an approximation for the value of information in a more general setting with multiple differentially-informed investors,
+ and estimate it using high-frequency stocks data.
 \begin_inset Newline newline
 \end_inset
 
@@ -549,7 +625,8 @@ We propose an approach to measuring the state of the economy via textual
 The Partisanship of Financial Regulators
 \series default
 \emph default
- (with Joseph Engelberg, Matthew Henriksson and Jared Williams) 
+ (with Joseph Engelberg,
+ Matthew Henriksson and Jared Williams) 
 \end_layout
 
 \begin_layout Standard
@@ -557,19 +634,23 @@ The Partisanship of Financial Regulators
 \align block
 
 \emph on
-Review of Financial Studies, forthcoming
+Review of Financial Studies,
+ 2023,
+ Vol 36,
+ Issue 11,
+ pp.
+ 4373–4416
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align block
 We analyze the partisanship of SEC Commissioners and Fed Governors.
- Using a language-based approach, we identify partisan phrases in Congress,
- such as “red tape” and “climate change,” and observe their usage among
- regulators.
- Although the Fed has remained relatively non-partisan throughout our sample
- period (1930-2019), we find that partisanship among SEC Commissioners rose
- recently to an all-time high.
+ Using a language-based approach,
+ we identify partisan phrases in Congress,
+ such as “red tape” and “climate change,” and observe their usage among regulators.
+ Although the Fed has remained relatively non-partisan throughout our sample period (1930-2019),
+ we find that partisanship among SEC Commissioners rose recently to an all-time high.
 \begin_inset Newline newline
 \end_inset
 
@@ -587,23 +668,23 @@ Natural Disaster Effects on Popular Sentiment Toward Finance
 \begin_layout Standard
 
 \emph on
-Journal of Financial and Quantitative Analysis, 2021, Vol 56, Issue 7, pp.
+Journal of Financial and Quantitative Analysis,
+ 2021,
+ Vol 56,
+ Issue 7,
+ pp.
  2584–2604
 \end_layout
 
 \begin_layout Standard
-We use a text-based measure of popular sentiment toward finance to study
- how finance sentiment responds to rare historical disasters and to the
- ongoing Covid-19 pandemic.
- Finance sentiment declines after epidemics and earthquakes but rises fol-
- lowing severe droughts, floods, and landslides.
- These heterogeneous effects suggest finance sentiment responds differently
- to the realization of insured versus uninsured risks.
- Finance sentiment declines at the start of the Covid-19 pandemic, but recovers
- in countries that experienced high stock markets returns and that responded
- with large fiscal spending.
- Finance sentiment seems to depend on the insurance provided by private
- markets and by public finance.
+We use a text-based measure of popular sentiment toward finance to study how finance sentiment responds to rare historical disasters and to the ongoing Covid-19 pandemic.
+ Finance sentiment declines after epidemics and earthquakes but rises fol- lowing severe droughts,
+ floods,
+ and landslides.
+ These heterogeneous effects suggest finance sentiment responds differently to the realization of insured versus uninsured risks.
+ Finance sentiment declines at the start of the Covid-19 pandemic,
+ but recovers in countries that experienced high stock markets returns and that responded with large fiscal spending.
+ Finance sentiment seems to depend on the insurance provided by private markets and by public finance.
  
 \begin_inset Newline newline
 \end_inset
@@ -624,21 +705,24 @@ Text Selection
 \begin_layout Standard
 
 \emph on
-Journal of Business & Economic Statistics, 2021, Vol 39, Issue 4, pp.
+Journal of Business & Economic Statistics,
+ 2021,
+ Vol 39,
+ Issue 4,
+ pp.
  859–879
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align block
-Text data is inherently ultra-high dimensional, which makes machine learning
- techniques indispensable for textual analysis.
- We develop an economically motivated high dimensional selection model that
- improves machine learning from text (and from sparse counts data more generally
-).
- We apply our framework to backcast, nowcast, and forecast financial variables
- using newspaper text, and find that it substantially improves out-of-sample
- fit relative to alternative state-of-the-art approaches.
+Text data is inherently ultra-high dimensional,
+ which makes machine learning techniques indispensable for textual analysis.
+ We develop an economically motivated high dimensional selection model that improves machine learning from text (and from sparse counts data more generally).
+ We apply our framework to backcast,
+ nowcast,
+ and forecast financial variables using newspaper text,
+ and find that it substantially improves out-of-sample fit relative to alternative state-of-the-art approaches.
 \begin_inset Newline newline
 \end_inset
 
@@ -658,20 +742,26 @@ Hub-and-Spoke Regulation and Bank Leverage
 \begin_layout Standard
 
 \emph on
-Review of Finance, 2021, Vol 25, Issue 5, pp.
+Review of Finance,
+ 2021,
+ Vol 25,
+ Issue 5,
+ pp.
  1499–1545
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align block
-Hub-and-spoke regulation, where a central regulator with legal power over
- firms delegates monitoring to local supervisors, can improve information
- collection, but can also lead to agency problems and capture.
+Hub-and-spoke regulation,
+ where a central regulator with legal power over firms delegates monitoring to local supervisors,
+ can improve information collection,
+ but can also lead to agency problems and capture.
  We document that following the closure of a US bank regulator's field offices,
- the banks they previously supervised distribute cash, increase leverage,
- and increase their risk of failure, more than similar banks in the same
- time and place.
+ the banks they previously supervised distribute cash,
+ increase leverage,
+ and increase their risk of failure,
+ more than similar banks in the same time and place.
  
 \begin_inset Newline newline
 \end_inset
@@ -694,25 +784,29 @@ Estimating the Value of Information
 \align block
 
 \emph on
-Review of Financial Studies, 2019, Vol 32, Issue 3, pp.
+Review of Financial Studies,
+ 2019,
+ Vol 32,
+ Issue 3,
+ pp.
  951–991
 \begin_inset Newline newline
 \end_inset
 
-Best Paper Award, 2016 FMA Conference on Derivatives and Volatility at CBOE
+Best Paper Award,
+ 2016 FMA Conference on Derivatives and Volatility at CBOE
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align block
 How much would investors pay to receive investment-relevant information?
- We derive a general expression for the value of information to a price-taking
- investor in a dynamic environment and provide a framework for its estimation.
- To illustrate, we estimate values of leading macroeconomic indicators (GDP,
- employment, etc.) and rank them.
- Using variations in option prices we find that a consumer-investor with
- conventional preference parameters would pay 3 to 5 basis points of her
- wealth for a one-time private peek into these indicators.
+ We derive a general expression for the value of information to a price-taking investor in a dynamic environment and provide a framework for its estimation.
+ To illustrate,
+ we estimate values of leading macroeconomic indicators (GDP,
+ employment,
+ etc.) and rank them.
+ Using variations in option prices we find that a consumer-investor with conventional preference parameters would pay 3 to 5 basis points of her wealth for a one-time private peek into these indicators.
 \begin_inset Newline newline
 \end_inset
 
@@ -723,7 +817,8 @@ How much would investors pay to receive investment-relevant information?
 
 \series bold
 \emph on
-Intermediary Asset Pricing: New Evidence from Many Asset Classes 
+Intermediary Asset Pricing:
+ New Evidence from Many Asset Classes 
 \series default
 \emph default
 (with Zhiguo He and Bryan Kelly)
@@ -732,21 +827,24 @@ Intermediary Asset Pricing: New Evidence from Many Asset Classes
 \begin_layout Standard
 
 \emph on
-Journal of Financial Economics, 2017, Vol 126, Issue 1, pp.
+Journal of Financial Economics,
+ 2017,
+ Vol 126,
+ Issue 1,
+ pp.
  1–35 (Lead article)
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align block
-Innovations to the equity capital ratio of primary dealers price not only
- equity and government bond market portfolios, but also other more sophisticated
- asset classes such as corporate and sovereign bonds, derivatives, commodities,
+Innovations to the equity capital ratio of primary dealers price not only equity and government bond market portfolios,
+ but also other more sophisticated asset classes such as corporate and sovereign bonds,
+ derivatives,
+ commodities,
  and currencies.
- The price of intermediary capital risk is consistently positive and of
- similar magnitude in many asset classes, suggesting these financial intermediar
-ies are marginal investors in many markets and hence key to understanding
- asset prices.
+ The price of intermediary capital risk is consistently positive and of similar magnitude in many asset classes,
+ suggesting these financial intermediaries are marginal investors in many markets and hence key to understanding asset prices.
 \begin_inset Newline newline
 \end_inset
 
@@ -772,18 +870,20 @@ News Implied Volatility and Disaster Concerns
 \align block
 
 \emph on
-Journal of Financial Economics, 2017, Vol 123, Issue 1, pp.
+Journal of Financial Economics,
+ 2017,
+ Vol 123,
+ Issue 1,
+ pp.
  137–162
 \end_layout
 
 \begin_layout Standard
-We construct a text-based measure of uncertainty starting in 1890 using
- front-page articles of the Wall Street Journal.
- Consistent with a time-varying rare disaster risk model, high news implied
- volatility (NVIX) predicts periods of above average stock returns, or periods
- of large economic disasters.
- News coverage related to wars and government policy explains most of the
- time variation in risk premia our measure identifies.
+We construct a text-based measure of uncertainty starting in 1890 using front-page articles of the Wall Street Journal.
+ Consistent with a time-varying rare disaster risk model,
+ high news implied volatility (NVIX) predicts periods of above average stock returns,
+ or periods of large economic disasters.
+ News coverage related to wars and government policy explains most of the time variation in risk premia our measure identifies.
  
 \begin_inset Newline newline
 \end_inset
@@ -810,25 +910,28 @@ The Shadow Cost of Bank Capital Requirements
 \align block
 
 \emph on
-Review of Financial Studies, 2016, Vol 29, Issue 7, pp.
+Review of Financial Studies,
+ 2016,
+ Vol 29,
+ Issue 7,
+ pp.
  1780–1820
 \begin_inset Newline newline
 \end_inset
 
-Best Paper Award, 2013 Financial Research Association Meetings
+Best Paper Award,
+ 2013 Financial Research Association Meetings
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align block
-We estimate the shadow cost of capital requirements using data on a costly
- loophole that allowed banks to relax these constraints.
- We show theoretically that a bank's use of the loophole reveals its private
- compliance cost, which takes into account both the costs of issuing equity
- and the effectiveness of capital regulation.
- We find that increasing capital requirements would impose a modest cost—$220
- million a year for all participating banks combined per 1pp increase, and
- $14 million on average.
+We estimate the shadow cost of capital requirements using data on a costly loophole that allowed banks to relax these constraints.
+ We show theoretically that a bank's use of the loophole reveals its private compliance cost,
+ which takes into account both the costs of issuing equity and the effectiveness of capital regulation.
+ We find that increasing capital requirements would impose a modest cost—
+$220 million a year for all participating banks combined per 1pp increase,
+ and $14 million on average.
 \begin_inset Newline newline
 \end_inset
 
@@ -849,18 +952,19 @@ Information Acquisition in Rumor-Based Bank Runs
 \begin_layout Standard
 
 \emph on
-Journal of Finance, 2016, Vol 71, Issue 3, pp.
+Journal of Finance,
+ 2016,
+ Vol 71,
+ Issue 3,
+ pp.
  1113–1158
 \end_layout
 
 \begin_layout Standard
-We study information acquisition and dynamic withdrawal decisions when a
- spreading rumor exposes a solvent bank to a run.
- Uncertainty about the bank's liquidity and potential failure motivates
- depositors who hear the rumor to acquire additional noisy signals.
- Depositors with less informative signals may wait before gradually running
- on the bank, leading to an endogenous aggregate withdrawal speed and bank
- survival time.
+We study information acquisition and dynamic withdrawal decisions when a spreading rumor exposes a solvent bank to a run.
+ Uncertainty about the bank's liquidity and potential failure motivates depositors who hear the rumor to acquire additional noisy signals.
+ Depositors with less informative signals may wait before gradually running on the bank,
+ leading to an endogenous aggregate withdrawal speed and bank survival time.
 \begin_inset Newline newline
 \end_inset
 
@@ -877,19 +981,20 @@ The Value of Diffusing Information
 \begin_layout Standard
 
 \emph on
-Journal of Financial Economics, 2014, Vol 111, Issue 1, pp.
+Journal of Financial Economics,
+ 2014,
+ Vol 111,
+ Issue 1,
+ pp.
  181–199
 \end_layout
 
 \begin_layout Standard
-How does the speed by which information diffuses affect its value to a stock
- market investor? Faster-diffusing information means quicker and less noisy
- profits, but also increases competing informed trading, impounding more
- information into prices and eroding profits.
- Structural empirical analysis of stock market reaction to drug approvals
- using media coverage as a proxy for the transmission rate of information
- finds that the value of information is hump-shaped in its future transmission
- rate.
+How does the speed by which information diffuses affect its value to a stock market investor?
+ Faster-diffusing information means quicker and less noisy profits,
+ but also increases competing informed trading,
+ impounding more information into prices and eroding profits.
+ Structural empirical analysis of stock market reaction to drug approvals using media coverage as a proxy for the transmission rate of information finds that the value of information is hump-shaped in its future transmission rate.
 \begin_inset Newline newline
 \end_inset
 
@@ -933,28 +1038,28 @@ Working Papers
 Fundamentals of Perpetual Futures
 \series default
 \emph default
- (with Songrun He, Omri Ross and Victor von Wachter)
+ (with Songrun He,
+ Omri Ross and Victor von Wachter)
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align block
-Perpetual futures—swap contracts that never expire—are by far the most popular
- derivative traded in cryptocurrency markets, with more than $100 billion
- traded daily.
- But unlike fixed-maturity futures, perpetuals are not guaranteed to converge
- to the spot price of their underlying asset at any time, and familiar no-arbitr
-age prices for perpetuals are not available, as the contracts have no expiry
- date to enforce arbitrage.
- Here, using a weaker notion of random-maturity arbitrage, we derive no-arbitrag
-e prices for perpetual futures in frictionless markets, and no-arbitrage
- bounds for markets with trading costs.
- These no-arbitrage prices provide a useful benchmark for perpetual futures
- and simultaneously prescribe a strategy to exploit divergence from these
- fundamental values.
- Empirically, we find that deviations of crypto perpetual futures from no-arbitr
-age prices are considerably larger than those documented in traditional
- currency markets.
+Perpetual futures—
+swap contracts that never expire—
+are by far the most popular derivative traded in cryptocurrency markets,
+ with more than $100 billion traded daily.
+ But unlike fixed-maturity futures,
+ perpetuals are not guaranteed to converge to the spot price of their underlying asset at any time,
+ and familiar no-arbitrage prices for perpetuals are not available,
+ as the contracts have no expiry date to enforce arbitrage.
+ Here,
+ using a weaker notion of random-maturity arbitrage,
+ we derive no-arbitrage prices for perpetual futures in frictionless markets,
+ and no-arbitrage bounds for markets with trading costs.
+ These no-arbitrage prices provide a useful benchmark for perpetual futures and simultaneously prescribe a strategy to exploit divergence from these fundamental values.
+ Empirically,
+ we find that deviations of crypto perpetual futures from no-arbitrage prices are considerably larger than those documented in traditional currency markets.
 \begin_inset Newline newline
 \end_inset
 
@@ -976,15 +1081,10 @@ The Value of Data to Fixed Income Investors
 \begin_layout Standard
 \noindent
 \align block
-We measure popular sentiment toward finance using a computational linguistics
- approach applied to millions of books published in eight countries over
- hundreds of years.
- We document persistent differences in finance sentiment across countries
- despite ample time-series variation.
- Books written in the languages of more capitalist countries discuss finance
- in a more positive context.
- Finance sentiment declines one year before rather than after financial
- crises.
+We measure popular sentiment toward finance using a computational linguistics approach applied to millions of books published in eight countries over hundreds of years.
+ We document persistent differences in finance sentiment across countries despite ample time-series variation.
+ Books written in the languages of more capitalist countries discuss finance in a more positive context.
+ Finance sentiment declines one year before rather than after financial crises.
  Positive shocks to finance sentiment lead to greater GDP and credit growth.
  
 \begin_inset Newline newline
@@ -999,7 +1099,8 @@ We measure popular sentiment toward finance using a computational linguistics
 
 \series bold
 \emph on
-Does finance benefit society? A language embedding approach
+Does finance benefit society?
+ A language embedding approach
 \series default
 \emph default
  (with Manish Jha and Hognyi Liu)
@@ -1008,45 +1109,12 @@ Does finance benefit society? A language embedding approach
 \begin_layout Standard
 \noindent
 \align block
-We measure popular sentiment toward finance using a computational linguistics
- approach applied to millions of books published in eight countries over
- hundreds of years.
- We document persistent differences in finance sentiment across countries
- despite ample time-series variation.
- Books written in the languages of more capitalist countries discuss finance
- in a more positive context.
- Finance sentiment declines one year before rather than after financial
- crises.
+We measure popular sentiment toward finance using a computational linguistics approach applied to millions of books published in eight countries over hundreds of years.
+ We document persistent differences in finance sentiment across countries despite ample time-series variation.
+ Books written in the languages of more capitalist countries discuss finance in a more positive context.
+ Finance sentiment declines one year before rather than after financial crises.
  Positive shocks to finance sentiment lead to greater GDP and credit growth.
  
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-
-\series bold
-\emph on
-Liquidity and the Strategic Value of Information
-\series default
-\emph default
- (with Ohad Kadan)
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-We offer a simple, intuitive and empirically useful expression quantifying
- the value of asset-specific information to a strategic trader.
- We find that the value of information rises dramatically during crises
- and on earnings announcement days, and falls at calendar year ends.
- The most dramatic spikes in the value of information occur at the start
- of the COVID-19 pandemic and the financial crisis of 2008, when the Fed
- announces novel liquidity facilities.
 \end_layout
 
 \begin_layout Standard
@@ -1082,24 +1150,35 @@ Conference Presentations
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2023 AFA Annual Meeting
+2024 Utah Winter Finance Conference
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2022 AFA Annual Meeting, Swedish House of Finance annual conference on AI
- & Machine Learning in Finance, Conference on NLP for Financial and Economic
- Modeling at Oxford University
+2023 AFA Annual Meeting*,
+ Future of Financial Information conference*
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2021 BigNOMICS, EFA*, FMA*, MFA*,
+2022 AFA Annual Meeting,
+ Swedish House of Finance annual conference on AI & Machine Learning in Finance,
+ Conference on NLP for Financial and Economic Modeling at Oxford University
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2020 WFA*, EFA*, SFS Cavalcade*
+2021 BigNOMICS,
+ EFA*,
+ FMA*,
+ MFA*,
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2020 WFA*,
+ EFA*,
+ SFS Cavalcade*
 \end_layout
 
 \begin_layout Labeling
@@ -1109,51 +1188,66 @@ Conference Presentations
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2018 NBER AP, AFA Annual Meeting in Philadelphia*
+2018 NBER AP,
+ AFA Annual Meeting in Philadelphia*
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2017 AFA Annual Meeting in Chicago, CITE Conference in Chicago, Chicago
- Financial Institutions Conference*, FIRS Meetings in Hong Kong*, Jackson
- Hole Finance Group Conference*
+2017 AFA Annual Meeting in Chicago,
+ CITE Conference in Chicago,
+ Chicago Financial Institutions Conference*,
+ FIRS Meetings in Hong Kong*,
+ Jackson Hole Finance Group Conference*
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2016 AFA Annual Meeting in San Francisco*, WFA in Park City, IDC in Herzliya,
- Duke-UNC Asset Pricing Conference*, FMA Conference on Derivatives and Volatilit
-y at CBOE
+2016 AFA Annual Meeting in San Francisco*,
+ WFA in Park City,
+ IDC in Herzliya,
+ Duke-UNC Asset Pricing Conference*,
+ FMA Conference on Derivatives and Volatility at CBOE
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2015 AFA Annual Meeting in Boston*, Notre Dame Conference on Financial Regulatio
-n*, GSU Symposium on Liquidity Risk and Capital Requirements, Gerzensee
- Summer School, FTG Summer School in Financial Intermediation*, Becker Friedman
- Institute Media and Communications Conference, NBER AP*, Chicago Booth
- Asset Pricing Conference
+2015 AFA Annual Meeting in Boston*,
+ Notre Dame Conference on Financial Regulation*,
+ GSU Symposium on Liquidity Risk and Capital Requirements,
+ Gerzensee Summer School,
+ FTG Summer School in Financial Intermediation*,
+ Becker Friedman Institute Media and Communications Conference,
+ NBER AP*,
+ Chicago Booth Asset Pricing Conference
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2014 AFA Annual Meeting in Philadelphia*, NBER Behavioral Finance Meeting
- in Chicago, FIRS Meetings in Quebec
+2014 AFA Annual Meeting in Philadelphia*,
+ NBER Behavioral Finance Meeting in Chicago,
+ FIRS Meetings in Quebec
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2013 IDC in Herzliya, SFS Cavalcade in Miami*, Texas Finance Festival in
- Austin*, Wharton Conference on Liquidity and Financial Crises, FDIC-JFSR
- Fall Banking Research Conference*, FRA Meetings in Las Vegas (
+2013 IDC in Herzliya,
+ SFS Cavalcade in Miami*,
+ Texas Finance Festival in Austin*,
+ Wharton Conference on Liquidity and Financial Crises,
+ FDIC-JFSR Fall Banking Research Conference*,
+ FRA Meetings in Las Vegas (
 \emph on
 Best Paper Award)
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2012 AEA Annual Meeting in Chicago, UNC Finance Group in Jackson Hole, SFS
- Cavalcade in Virginia/Darden, IDC in Herzliya, SED Annual Meeting in Cyprus,
+2012 AEA Annual Meeting in Chicago,
+ UNC Finance Group in Jackson Hole,
+ SFS Cavalcade in Virginia/Darden,
+ IDC in Herzliya,
+ SED Annual Meeting in Cyprus,
  Finance Theory Group workshop*
 \end_layout
 
@@ -1164,8 +1258,8 @@ Best Paper Award)
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2008 Econometric Society Meetings in Brazil, LBS Trans-Atlantic Doctoral
- Conference in London (
+2008 Econometric Society Meetings in Brazil,
+ LBS Trans-Atlantic Doctoral Conference in London (
 \emph on
 Best Paper Award)
 \end_layout
@@ -1196,86 +1290,136 @@ Seminar Presentations
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2023 a16z Crypto, Reichman University
+2024 Hebrew University,
+ Bank of Israel,
+ Virtual Derivatives Workshop
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2022 Yale University, Santa Clara University, Tel-Aviv University
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring MMMMM
-2021 City UHK, Chinese UHK, Columbia, CUNY, NHH, Richmond Fed, Temple University
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring MMMMM
-2020 Fed Board, University of Sussex, Virtual Finance Seminar, Washington
- University in St.
+2023 a16z Crypto,
+ LBS,
+ LSE,
+ Reichman University,
+ Washington University in St.
  Louis 
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2019 Indiana University, Rice University, Syracuse University, KC Fed, UC
- Irvine, Washington University in St.
+2022 Yale University,
+ Santa Clara University,
+ Tel-Aviv University
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2021 City UHK,
+ Chinese UHK,
+ Columbia,
+ CUNY,
+ NHH,
+ Richmond Fed,
+ Temple University
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2020 Fed Board,
+ University of Sussex,
+ Virtual Finance Seminar,
+ Washington University in St.
  Louis 
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2018 Ohio State, University of Michigan, Tel-Aviv University, Hebrew University,
- IDC Herzliya, Indiana University, Rice University, Washington University
- in St.
+2019 Indiana University,
+ Rice University,
+ Syracuse University,
+ KC Fed,
+ UC Irvine,
+ Washington University in St.
  Louis 
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2017 University of Southern California, INSEAD, Swiss Finance Institute
- @ EPFL, Dartmouth College, University of Rochester, NY Fed, Texas A&M
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring MMMMM
-2016 Boston College, University of Illinois Urbana-Champaign, University
- of Oxford, Washington University in St.
+2018 Ohio State,
+ University of Michigan,
+ Tel-Aviv University,
+ Hebrew University,
+ IDC Herzliya,
+ Indiana University,
+ Rice University,
+ Washington University in St.
  Louis 
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2015 Harvard Business School, University of California San Diego, University
- of Washington, University of Houston, Washington University in St.
+2017 University of Southern California,
+ INSEAD,
+ Swiss Finance Institute @ EPFL,
+ Dartmouth College,
+ University of Rochester,
+ NY Fed,
+ Texas A&M
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2016 Boston College,
+ University of Illinois Urbana-Champaign,
+ University of Oxford,
+ Washington University in St.
+ Louis 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2015 Harvard Business School,
+ University of California San Diego,
+ University of Washington,
+ University of Houston,
+ Washington University in St.
  Louis
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2014 University of California Los Angeles, INSEAD, IDC Herzliya, Washington
- University in St.
+2014 University of California Los Angeles,
+ INSEAD,
+ IDC Herzliya,
+ Washington University in St.
  Louis
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2013 Ohio State University, University of North Carolina, Washington University
- in St.
+2013 Ohio State University,
+ University of North Carolina,
+ Washington University in St.
  Louis
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2012 Tel-Aviv University, Washington University in St.
+2012 Tel-Aviv University,
+ Washington University in St.
  Louis
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2011 Arizona State University, Boston College, Chicago Booth, Hebrew University,
- London Business School, Tel-Aviv University, University of Maryland, Washington
- University in St.
+2011 Arizona State University,
+ Boston College,
+ Chicago Booth,
+ Hebrew University,
+ London Business School,
+ Tel-Aviv University,
+ University of Maryland,
+ Washington University in St.
  Louis
 \end_layout
 
@@ -1302,6 +1446,16 @@ Session Chair
 \end_inset
 
 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2024 MFA
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2023 Finance forum
 \end_layout
 
 \begin_layout Labeling
@@ -1346,12 +1500,28 @@ Discussions
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
+2024 "The Zero-Beta Interest Rate"
+\begin_inset Newline newline
+\end_inset
+
+by Sebastian Di Tella,
+ Benjamin M.
+ Hébert,
+ Pablo Kurlat and Qitong Wang,
+ FIRS
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
 2023 "Textual Analysis of Short-seller Research Reports"
 \begin_inset Newline newline
 \end_inset
 
 by Jules H.
- van Binsbergen, Xiao Han, and Alejandro Lopez-Lira, AFA
+ van Binsbergen,
+ Xiao Han,
+ and Alejandro Lopez-Lira,
+ AFA
 \end_layout
 
 \begin_layout Labeling
@@ -1360,28 +1530,60 @@ by Jules H.
 \begin_inset Newline newline
 \end_inset
 
-by Eitan Goldman, Nandini Gupta, and Ryan Israelsen, FIRS
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring MMMMM
-2021 "Risk Factors that Matter: Textual Analysis of Risk Disclosures for
- the Cross-Section of Returns"
+by Eitan Goldman,
+ Nandini Gupta,
+ and Ryan Israelsen,
+ FIRS
 \begin_inset Newline newline
 \end_inset
 
-by Alejandro Lopez-Lira, AFA
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Valuing Financial Data
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+by Maryam Farboodi,
+ Dhruv Singal,
+ Laura Veldkamp,
+ and Venky Venkateswaran,
+ ABFR Forum
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2021 "Deep Learning Mutual Fund Disclosure: Risk Sentiment, Risk Taking,
+2021 "Risk Factors that Matter:
+ Textual Analysis of Risk Disclosures for the Cross-Section of Returns"
+\begin_inset Newline newline
+\end_inset
+
+by Alejandro Lopez-Lira,
+ AFA
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2021 "Deep Learning Mutual Fund Disclosure:
+ Risk Sentiment,
+ Risk Taking,
  and Performance"
 \begin_inset Newline newline
 \end_inset
 
-by Sean Cao, Baozhong Yang and Alan L.
- Zhang, CICF
+by Sean Cao,
+ Baozhong Yang and Alan L.
+ Zhang,
+ CICF
 \end_layout
 
 \begin_layout Labeling
@@ -1390,7 +1592,8 @@ by Sean Cao, Baozhong Yang and Alan L.
 \begin_inset Newline newline
 \end_inset
 
-by Zhongjin Lu and Zhongling Qin, WFA
+by Zhongjin Lu and Zhongling Qin,
+ WFA
 \begin_inset Newline newline
 \end_inset
 
@@ -1402,7 +1605,10 @@ by Zhongjin Lu and Zhongling Qin, WFA
 \begin_inset Newline newline
 \end_inset
 
-by David Hirshleifer, Lin Peng, and Qiguang Wang , AFA
+by David Hirshleifer,
+ Lin Peng,
+ and Qiguang Wang ,
+ AFA
 \begin_inset Newline newline
 \end_inset
 
@@ -1414,13 +1620,15 @@ by David Hirshleifer, Lin Peng, and Qiguang Wang , AFA
 \begin_inset Newline newline
 \end_inset
 
-by Tuomas Tomunen, EFA
+by Tuomas Tomunen,
+ EFA
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2019 "Leverage Regulation and Market Structure: A Structural Model of the
- UK Mortgage Market" by Matteo Benetton, Utah Winter Finance Conference
+2019 "Leverage Regulation and Market Structure:
+ A Structural Model of the UK Mortgage Market" by Matteo Benetton,
+ Utah Winter Finance Conference
 \begin_inset Newline newline
 \end_inset
 
@@ -1428,8 +1636,8 @@ by Tuomas Tomunen, EFA
 \begin_inset Newline newline
 \end_inset
 
-“Dynamic Interpretation of Emerging Risks in the Financial Sector” by Kathleen
- Weiss Hanley and Gerard Hoberg, AFA
+“Dynamic Interpretation of Emerging Risks in the Financial Sector” by Kathleen Weiss Hanley and Gerard Hoberg,
+ AFA
 \begin_inset Newline newline
 \end_inset
 
@@ -1438,7 +1646,10 @@ by Tuomas Tomunen, EFA
 \end_inset
 
 “Firm-Level Political Risk Measurement and Effects” by Tarek A.
- Hassan, Stephan Hollander, Laurence van Lent and Ahmed Tahoun, AFA
+ Hassan,
+ Stephan Hollander,
+ Laurence van Lent and Ahmed Tahoun,
+ AFA
 \begin_inset Newline newline
 \end_inset
 
@@ -1447,8 +1658,11 @@ by Tuomas Tomunen, EFA
 \end_inset
 
 “How Risky are the U.S.
- Corporate Assets?” by Tetiana Davydiuk, Scott Richard, Ivan Shaliastovich,
- and Amir Yaron, IDC Conference in Financial Economics
+ Corporate Assets?” by Tetiana Davydiuk,
+ Scott Richard,
+ Ivan Shaliastovich,
+ and Amir Yaron,
+ IDC Conference in Financial Economics
 \begin_inset Newline newline
 \end_inset
 
@@ -1456,8 +1670,12 @@ by Tuomas Tomunen, EFA
 \begin_inset Newline newline
 \end_inset
 
-“Intermediaries and Asset Prices: Evidence from the U.S., U.K., and Japan, 1870-2016
-” by Matt Baron and Tyler Muir, WFA
+“Intermediaries and Asset Prices:
+ Evidence from the U.S.,
+ U.K.,
+ and Japan,
+ 1870-2016” by Matt Baron and Tyler Muir,
+ WFA
 \begin_inset Newline newline
 \end_inset
 
@@ -1465,15 +1683,18 @@ by Tuomas Tomunen, EFA
 \begin_inset Newline newline
 \end_inset
 
-“The Perils of Crying ’Fake News’” by Mancy Luo, Alberto Manconi, and Massimo
- Massa, Chicago Political Economy of Finance Conference
+“The Perils of Crying ’Fake News’” by Mancy Luo,
+ Alberto Manconi,
+ and Massimo Massa,
+ Chicago Political Economy of Finance Conference
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2018 "Shadow Funding Costs: Measuring the Cost of Balance Sheet Constraints"
- by Matthias Fleckenstein and Francis A.
- Longstaff, Duke/UNC Asset Pricing Conference
+2018 "Shadow Funding Costs:
+ Measuring the Cost of Balance Sheet Constraints" by Matthias Fleckenstein and Francis A.
+ Longstaff,
+ Duke/UNC Asset Pricing Conference
 \begin_inset Newline newline
 \end_inset
 
@@ -1485,12 +1706,13 @@ by Tuomas Tomunen, EFA
 \begin_inset Quotes eld
 \end_inset
 
-The Effect of Bank Supervision on Risk Taking: Evidence from a Natural Experimen
-t
+The Effect of Bank Supervision on Risk Taking:
+ Evidence from a Natural Experiment
 \begin_inset Quotes erd
 \end_inset
 
- by John Kandrac and Bernd Schlusche, CFIC
+ by John Kandrac and Bernd Schlusche,
+ CFIC
 \end_layout
 
 \begin_layout Labeling
@@ -1499,10 +1721,14 @@ t
 \begin_inset Quotes eld
 \end_inset
 
-Affect, media and earthquakes: Determinants of crash beliefs from investor
- surveys” by William N.
- Goetzmann, Dasol Kim, and Robert J.
- Shiller, Western American Finance Association Meetings
+Affect,
+ media and earthquakes:
+ Determinants of crash beliefs from investor surveys” by William N.
+ Goetzmann,
+ Dasol Kim,
+ and Robert J.
+ Shiller,
+ Western American Finance Association Meetings
 \end_layout
 
 \begin_layout Labeling
@@ -1515,8 +1741,10 @@ Competition and Bank Opacity
 \begin_inset Quotes erd
 \end_inset
 
- by Liangliang Jiang, Ross Levine, and Chen Lin, Western Finance Association
- Meetings
+ by Liangliang Jiang,
+ Ross Levine,
+ and Chen Lin,
+ Western Finance Association Meetings
 \begin_inset Newline newline
 \end_inset
 
@@ -1532,8 +1760,10 @@ Tail Risk Premia and Return Predictability
 \begin_inset Quotes erd
 \end_inset
 
- by Tim Bollerslev, Viktor Todorov, and Lai Xu, Midwestern Finance Association
- Meetings
+ by Tim Bollerslev,
+ Viktor Todorov,
+ and Lai Xu,
+ Midwestern Finance Association Meetings
 \end_layout
 
 \begin_layout Labeling
@@ -1547,7 +1777,8 @@ Adverse Selection and Intermediation Chains
 \end_inset
 
  by Vincent Glode and Christian C.
- Opp, Western Finance Association Meetings
+ Opp,
+ Western Finance Association Meetings
 \end_layout
 
 \begin_layout Labeling
@@ -1556,12 +1787,18 @@ Adverse Selection and Intermediation Chains
 \begin_inset Quotes eld
 \end_inset
 
-Understanding Bank Runs: Do Depositors Monitor Banks?
+Understanding Bank Runs:
+ Do Depositors Monitor Banks?
 \begin_inset Quotes erd
 \end_inset
 
- by Rajkamal Iyer, Manju Puri and Nicolas Ryan, Minnesota Corporate Finance
- Conference
+ by Rajkamal Iyer,
+ Manju Puri and Nicolas Ryan,
+ Minnesota Corporate Finance Conference
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1591,18 +1828,20 @@ Honors and Awards
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2016 Best Paper Award, FMA Conference on Derivatives and Volatility at CBOE
+2016 Best Paper Award,
+ FMA Conference on Derivatives and Volatility at CBOE
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2014 World’s Best 40 Business School Professors Under the Age of 40, Poets
- & Quants
+2014 World’s Best 40 Business School Professors Under the Age of 40,
+ Poets & Quants
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2013 Best Paper Award, Financial Research Association Meetings 
+2013 Best Paper Award,
+ Financial Research Association Meetings 
 \end_layout
 
 \begin_layout Labeling
@@ -1624,20 +1863,25 @@ Honors and Awards
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2008 Best Paper Award in Accounting, Economics and Finance, LBS Doctoral
- Conference
+2008 Best Paper Award in Accounting,
+ Economics and Finance,
+ LBS Doctoral Conference
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2007 CRSP Paper Award, GSB, University of Chicago
+2007 CRSP Paper Award,
+ GSB,
+ University of Chicago
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
 2006–2010 Ph.
  D.
- in Finance Studies Fellowship, GSB, University of Chicago
+ in Finance Studies Fellowship,
+ GSB,
+ University of Chicago
 \end_layout
 
 \begin_layout Standard
@@ -1670,11 +1914,16 @@ Program Committee Membership
 \end_layout
 
 \begin_layout Standard
-EFA Annual Meeting (2015–2023), FIRS Annual Meeting (2019–2023), MFA Annual
- Meeting (2019–2022), Utah Winter Finance Conference (2016–2023), WFA Annual
- Meeting (2018–2023), SFS Cavalcade North America (2020–2023), IDC Herzliya
- annual conference (2014–2023), CBOE Conference on Derivatives and Volatility
- (2016–2019),
+EFA Annual Meeting (2015–2024),
+ FIRS Annual Meeting (2019–2024),
+ MFA Annual Meeting (2019–2022),
+ Utah Winter Finance Conference (2016–2024),
+ WFA Annual Meeting (2018–2024),
+ SFS Cavalcade North America (2020–2024),
+ IDC Herzliya annual conference (2014–2023),
+ CBOE Conference on Derivatives and Volatility (2016–2024),
+ Mitsui Finance Symposium:
+ New Frontiers in Asset Pricing (2024)
 \end_layout
 
 \begin_layout Standard
@@ -1696,11 +1945,21 @@ Refereeing
 \end_layout
 
 \begin_layout Standard
-American Economic Review, Econometrica, Economic Theory, Economic Inquiry,
- Journal of Empirical Finance, Journal of Economic Theory, Journal of Finance,
- Journal of Financial Economics, Management Science, Quantitative Economics,
- Review of Asset Pricing Studies, Review of Corporate Finance Studies, Review
- of Economic Studies, Review of Finance, Review of Financial Studies
+American Economic Review,
+ Econometrica,
+ Economic Theory,
+ Economic Inquiry,
+ Journal of Empirical Finance,
+ Journal of Economic Theory,
+ Journal of Finance,
+ Journal of Financial Economics,
+ Management Science,
+ Quantitative Economics,
+ Review of Asset Pricing Studies,
+ Review of Corporate Finance Studies,
+ Review of Economic Studies,
+ Review of Finance,
+ Review of Financial Studies
 \end_layout
 
 \begin_layout Standard
@@ -1741,32 +2000,45 @@ PhD Supervision
 \end_layout
 
 \begin_layout Standard
-Manish Jha, dissertation committee member, 2021 (Georgia State University)
+Manish Jha,
+ dissertation committee member,
+ 2021 (Georgia State University)
 \begin_inset Newline newline
 \end_inset
 
-Hongyi Liu, dissertation committee member, 2021 (VISA)
+Hongyi Liu,
+ dissertation committee member,
+ 2021 (VISA)
 \begin_inset Newline newline
 \end_inset
 
-Ankit Kalda, dissertation committee member, 2018 (Indiana University)
+Ankit Kalda,
+ dissertation committee member,
+ 2018 (Indiana University)
 \begin_inset Newline newline
 \end_inset
 
-Xiaoxiao Tang, dissertation committee member, 2018 (UT Dallas)
+Xiaoxiao Tang,
+ dissertation committee member,
+ 2018 (UT Dallas)
 \begin_inset Newline newline
 \end_inset
 
-Xiaming Zeng, dissertation committee member, 2017 (Barclays)
+Xiaming Zeng,
+ dissertation committee member,
+ 2017 (Barclays)
 \begin_inset Newline newline
 \end_inset
 
-Jinji Hao, dissertation committee member, 2017 (Victoria University of Wellingto
-n)
+Jinji Hao,
+ dissertation committee member,
+ 2017 (Victoria University of Wellington)
 \begin_inset Newline newline
 \end_inset
 
-Fang Liu, dissertation committee member, 2015 (Cornell)
+Fang Liu,
+ dissertation committee member,
+ 2015 (Cornell)
 \end_layout
 
 \begin_layout Standard
@@ -1837,22 +2109,29 @@ Non-Academic Experience
 \labelwidthstring 00.00.0000
 \noindent
 \align block
-2005–2006 Software Engineer – User Interface Expert, Mercury Interactive,
- Yehud, Israel
+2005–2006 Software Engineer – User Interface Expert,
+ Mercury Interactive,
+ Yehud,
+ Israel
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
 \noindent
 \align block
-2002–2004 Founder, Regassist.com, Boston, MA
+2002–2004 Founder,
+ Regassist.com,
+ Boston,
+ MA
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
 \noindent
 \align block
-2000–2001 Applications Team Developer, TrulyGlobal @ VocalTec, Herzliya,
+2000–2001 Applications Team Developer,
+ TrulyGlobal @ VocalTec,
+ Herzliya,
  Israel
 \end_layout
 
@@ -1895,8 +2174,11 @@ Affiliations
 \end_layout
 
 \begin_layout Standard
-American Economic Association, American Finance Association, Society for
- Financial Studies, Western Finance Association, Phi Beta Kappa
+American Economic Association,
+ American Finance Association,
+ Society for Financial Studies,
+ Western Finance Association,
+ Phi Beta Kappa
 \begin_inset Newline newline
 \end_inset
 
@@ -1935,7 +2217,10 @@ Hobbies
 \end_layout
 
 \begin_layout Standard
-Scuba-diving, Fixer uppers, Running, Chess 
+Scuba-diving,
+ Fixer uppers,
+ Running,
+ Chess 
 \begin_inset Newline newline
 \end_inset
 

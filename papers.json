@@ -139,32 +139,6 @@
 			]
 		},
 		{
-			"title": "Liquidity and the Strategic Value of Information",
-			"url": "km/infoval",
-			"coauthors": [
-				{
-					"name": "Ohad Kadan",
-					"website": "http://apps.olin.wustl.edu/faculty/kadan/index/Home.html"
-				}
-			],
-			"publication": "",
-			"links": [
-				{
-					"text": "Citation",
-					"type": "cite"
-				}
-			],
-			"awards": [],
-			"abstract": "We offer a simple, intuitive and empirically useful expression quantifying the value of asset-specific information to a strategic trader. The value of information reflects the ratio of return volatility to price impact measured using a version of Kyle’s lambda. We find that the value of information rises dramatically during crises and on earnings announcement days, and falls at calendar year ends. The most dramatic spikes in the value of information occur at the start of the COVID-19 pandemic and the financial crisis of 2008, when the Fed announces novel liquidity facilities. Such policy interventions aimed at improving liquidity may unintentionally increase the private incentives to collect information.",
-			"presentations": "",
-			"media": [],
-			"section": "wp",
-			"tags": [
-				"asset-pricing",
-				"val-info"
-			]
-		},
-		{
 			"title": "Business News and Business Cycles",
 			"url": "bkmx/econews",
 			"coauthors": [
@@ -181,7 +155,7 @@
 					"website": "http://dachxiu.chicagobooth.edu"
 				}
 			],
-			"publication": "Journal of Finance, forthcoming",
+			"publication": "Journal of Finance, 2024, Volume 79, Issue 5, pp. 3105–3147",
 			"links": [
 				{
 					"text": "Citation",
@@ -195,6 +169,10 @@
 				{
 					"text": "Data",
 					"type": "data"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
 				}
 			],
 			"awards": [],
@@ -219,6 +197,43 @@
 			]
 		},
 		{
+			"title": "Liquidity and the Strategic Value of Information",
+			"url": "km/infoval",
+			"coauthors": [
+				{
+					"name": "Ohad Kadan",
+					"website": "https://search.asu.edu/profile/4140757"
+				}
+			],
+			"publication": "Review of Finance, forthcoming",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Data",
+					"type": "data"
+				}
+			],
+			"awards": [],
+			"abstract": "In Kyle (1985), the ratio of fundamental variance to price impact measures the value of information to a monopolist strategic informed investor. We show this same statistic provides an approximation for the value of information in a more general setting with multiple differentially-informed investors, and estimate it using high-frequency stocks data.",
+			"presentations": "",
+			"media": [],
+			"section": "pubs",
+			"tags": [
+				"asset-pricing",
+				"val-info"
+			],
+			"data": [
+				{
+					"link": "km/infoval/kadan_manela_infoval_200309_202012.zip",
+					"text": "Information values, 2003-09 to 2020-12",
+					"comment": "Based on high-frequency stocks data and reported for a panel identified by day and permno."
+				}
+			]
+		},
+		{
 			"title": "The Partisanship of Financial Regulators",
 			"url": "ehmw/regparty",
 			"coauthors": [
@@ -235,11 +250,15 @@
 					"website": "https://www.usf.edu/business/about/bios/williams-jared.aspx"
 				}
 			],
-			"publication": "Review of Financial Studies, forthcoming",
+			"publication": "Review of Financial Studies, 2023, Vol 36, Issue 11, pp. 4373–4416",
 			"links": [
 				{
 					"text": "Citation",
 					"type": "cite"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
 				},
 				{
 					"text": "Data",
@@ -413,7 +432,7 @@
 			"coauthors": [
 				{
 					"name": "Ohad Kadan",
-					"website": "http://apps.olin.wustl.edu/faculty/kadan/index/Home.html"
+					"website": "https://search.asu.edu/profile/4140757"
 				}
 			],
 			"publication": "Review of Financial Studies, 2019, Vol 32, Issue 3, pp. 951–991",
