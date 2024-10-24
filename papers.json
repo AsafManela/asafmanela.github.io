@@ -214,6 +214,10 @@
 				{
 					"text": "Data",
 					"type": "data"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
 				}
 			],
 			"awards": [],
