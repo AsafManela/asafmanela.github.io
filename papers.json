@@ -102,7 +102,7 @@
 					"website": "https://economics.wustl.edu/people/hongyi-liu"
 				}
 			],
-			"publication": "",
+			"publication": "Review of Financial Studies, forthcoming",
 			"links": [
 				{
 					"text": "Citation",
@@ -117,10 +117,19 @@
 					"text": "Blog",
 					"type": "goto",
 					"page": "https://promarket.org/2020/07/28/do-people-think-finance-benefits-society/"
+				},
+				{
+					"text": "Data",
+					"type": "data"
+				},
+				{
+					"text": "Code",
+					"type": "goto",
+					"page": "https://doi.org/10.7910/DVN/ZRSGXQ"
 				}
 			],
 			"awards": [],
-			"abstract": "We measure popular sentiment toward finance using a computational linguistics approach applied to millions of books published in eight countries over hundreds of years. We document persistent differences in finance sentiment across countries despite ample time-series variation. Finance sentiment declines after epidemics and earthquakes, but rises following droughts, floods, and landslides. These heterogeneous effects of natural disasters suggest finance sentiment responds differently to the realization of insured versus uninsured risks. Using local projections, we find that positive shocks to finance sentiment have positive and persistent effects on economic growth. Our estimates predict a contraction in finance sentiment due to the COVID-19 pandemic that will exacerbate its long-term economic damage.",
+			"abstract": "We use millions of books from 8 large economies over hundreds of years to track how people feel about finance. We find that countries with more capitalist systems tend to discuss finance more positively, and shifts in sentiment often predict economic changes, like economic growth or financial crises.",
 			"presentations": "<a href=\"http://virtualfinanceseminar.com\" target=\"_blank\">Virtual Finance Seminar</a>, WashU",
 			"media": [
 				{
@@ -129,13 +138,61 @@
 					"by": "Elisa Martinuzzi, Bloomberg, Aug 10, 2020"
 				}
 			],
-			"section": "wp",
+			"data": [
+				{
+					"link": "https://mjha91.github.io",
+					"text": "Finance sentiment.",
+					"comment": "An annual panel for 8 large countries covering 1870 to 2009 based on Google Books Ngram data."
+				}
+			],
+			"section": "pubs",
 			"tags": [
 				"text-analysis",
 				"machine-lrn",
 				"media",
 				"fin-intr",
 				"fin-reg"
+			]
+		},
+		{
+			"title": "Liquidity and the Strategic Value of Information",
+			"url": "km/infoval",
+			"coauthors": [
+				{
+					"name": "Ohad Kadan",
+					"website": "https://search.asu.edu/profile/4140757"
+				}
+			],
+			"publication": "Review of Finance, forthcoming",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Data",
+					"type": "data"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
+				}
+			],
+			"awards": [],
+			"abstract": "In Kyle (1985), the ratio of fundamental variance to price impact measures the value of information to a monopolist strategic informed investor. We show this same statistic provides an approximation for the value of information in a more general setting with multiple differentially-informed investors, and estimate it using high-frequency stocks data.",
+			"presentations": "",
+			"media": [],
+			"section": "pubs",
+			"tags": [
+				"asset-pricing",
+				"val-info"
+			],
+			"data": [
+				{
+					"link": "km/infoval/kadan_manela_infoval_200309_202012.zip",
+					"text": "Information values, 2003-09 to 2020-12",
+					"comment": "Based on high-frequency stocks data and reported for a panel identified by day and permno."
+				}
 			]
 		},
 		{
@@ -193,47 +250,6 @@
 					"link": "http://www.structureofnews.com/",
 					"text": "structureofnews.com",
 					"comment": "An interactive website that allows users to visualize and inspect a wide variety of features from our estimated topic model. Also allows researchers to download our WSJ news attention time series for use in their own projects."
-				}
-			]
-		},
-		{
-			"title": "Liquidity and the Strategic Value of Information",
-			"url": "km/infoval",
-			"coauthors": [
-				{
-					"name": "Ohad Kadan",
-					"website": "https://search.asu.edu/profile/4140757"
-				}
-			],
-			"publication": "Review of Finance, forthcoming",
-			"links": [
-				{
-					"text": "Citation",
-					"type": "cite"
-				},
-				{
-					"text": "Data",
-					"type": "data"
-				},
-				{
-					"text": "Working Paper",
-					"type": "wp"
-				}
-			],
-			"awards": [],
-			"abstract": "In Kyle (1985), the ratio of fundamental variance to price impact measures the value of information to a monopolist strategic informed investor. We show this same statistic provides an approximation for the value of information in a more general setting with multiple differentially-informed investors, and estimate it using high-frequency stocks data.",
-			"presentations": "",
-			"media": [],
-			"section": "pubs",
-			"tags": [
-				"asset-pricing",
-				"val-info"
-			],
-			"data": [
-				{
-					"link": "km/infoval/kadan_manela_infoval_200309_202012.zip",
-					"text": "Information values, 2003-09 to 2020-12",
-					"comment": "Based on high-frequency stocks data and reported for a panel identified by day and permno."
 				}
 			]
 		},
