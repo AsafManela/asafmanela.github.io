@@ -151,7 +151,7 @@ textit{
 
 
 \lang american
-Asaf Manela · Curriculum Vitae · October 2024
+Asaf Manela · Curriculum Vitae · November 2024
 \begin_inset ERT
 status open
 
@@ -514,6 +514,14 @@ height "2pt"
  Louis
 \end_layout
 
+\begin_layout Labeling
+\labelwidthstring MMMMM
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 
 \color blue
@@ -540,6 +548,77 @@ Publications
 \color inherit
 
 \begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+Does finance benefit society?
+ A language embedding approach
+\series default
+\emph default
+ (with Manish Jha and Hognyi Liu)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\emph on
+Review of Financial Studies,
+ forthcoming
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+We measure popular sentiment toward finance using a computational linguistics approach applied to millions of books published in eight countries over hundreds of years.
+ We document persistent differences in finance sentiment across countries despite ample time-series variation.
+ Books written in the languages of more capitalist countries discuss finance in a more positive context.
+ Finance sentiment declines one year before rather than after financial crises.
+ Positive shocks to finance sentiment lead to greater GDP and credit growth.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+Liquidity and the Strategic Value of Information
+\series default
+\emph default
+ (with Ohad Kadan)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\emph on
+Review of Finance,
+ forthcoming
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+In Kyle (1985),
+ the ratio of fundamental variance to price impact measures the value of information to a monopolist strategic informed investor.
+ We show this same statistic provides an approximation for the value of information in a more general setting with multiple differentially-informed investors,
+ and estimate it using high-frequency stocks data.
+\begin_inset Newline newline
 \end_inset
 
 
@@ -578,40 +657,6 @@ We propose an approach to measuring the state of the economy via textual analysi
  News attention closely tracks a wide range of economic activities and can forecast aggregate stock market returns.
  A text-augmented VAR demonstrates the large incremental role of news text in forecasting macroeconomic dynamics.
  We retrieve the narratives that underlie these improvements in market and business cycle forecasts.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-
-\series bold
-\emph on
-Liquidity and the Strategic Value of Information
-\series default
-\emph default
- (with Ohad Kadan)
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-
-\emph on
-Review of Finance,
- forthcoming
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-In Kyle (1985),
- the ratio of fundamental variance to price impact measures the value of information to a monopolist strategic informed investor.
- We show this same statistic provides an approximation for the value of information in a more general setting with multiple differentially-informed investors,
- and estimate it using high-frequency stocks data.
 \begin_inset Newline newline
 \end_inset
 
@@ -1094,37 +1139,6 @@ We measure popular sentiment toward finance using a computational linguistics ap
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align block
-
-\series bold
-\emph on
-Does finance benefit society?
- A language embedding approach
-\series default
-\emph default
- (with Manish Jha and Hognyi Liu)
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-We measure popular sentiment toward finance using a computational linguistics approach applied to millions of books published in eight countries over hundreds of years.
- We document persistent differences in finance sentiment across countries despite ample time-series variation.
- Books written in the languages of more capitalist countries discuss finance in a more positive context.
- Finance sentiment declines one year before rather than after financial crises.
- Positive shocks to finance sentiment lead to greater GDP and credit growth.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage clearpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 
 \color blue
 \begin_inset CommandInset line
@@ -1267,6 +1281,10 @@ Best Paper Award)
 \begin_layout Standard
 
 \color blue
+\begin_inset Newpage clearpage
+\end_inset
+
+
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
@@ -1795,10 +1813,35 @@ Understanding Bank Runs:
  by Rajkamal Iyer,
  Manju Puri and Nicolas Ryan,
  Minnesota Corporate Finance Conference
-\begin_inset Newpage newpage
+\end_layout
+
+\begin_layout Standard
+
+\color blue
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "11line%"
+height "2pt"
+
 \end_inset
 
 
+\series bold
+ 
+\series default
+Grants
+\color inherit
+
+\begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2024 Israel Science Foundation (ISF) grant for 3 years with a projected award of 200,000 ILS (about $52,000) per year.
 \end_layout
 
 \begin_layout Standard
