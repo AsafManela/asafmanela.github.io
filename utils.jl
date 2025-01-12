@@ -1,28 +1,28 @@
 import JSON3
 
 function hfun_bar(vname)
-    val = Meta.parse(vname[1])
-    return round(sqrt(val), digits=2)
+	val = Meta.parse(vname[1])
+	return round(sqrt(val), digits=2)
 end
 
 function hfun_m1fill(vname)
-    var = vname[1]
-    return pagevar("index", var)
+	var = vname[1]
+	return pagevar("index", var)
 end
 
 function lx_baz(com, _)
-    # keep this first line
-    brace_content = Franklin.content(com.braces[1]) # input string
-    # do whatever you want here
-    return uppercase(brace_content)
+	# keep this first line
+	brace_content = Franklin.content(com.braces[1]) # input string
+	# do whatever you want here
+	return uppercase(brace_content)
 end
 
 function urlanchor(url)
-	replace(url, "/"=>"-")
+	replace(url, "/" => "-")
 end
 
 function papersjson()
-    JSON3.read(read(joinpath(@__DIR__, "papers.json"), String))
+	JSON3.read(read(joinpath(@__DIR__, "papers.json"), String))
 end
 
 function withauthors(paper)
@@ -33,7 +33,7 @@ function withauthors(paper)
 		write(c, " (with ")
 		for i in 1:length(paper.coauthors)
 			a = paper.coauthors[i]
-			if i == 1 
+			if i == 1
 				prefix = " "
 			elseif i == length(paper.coauthors)
 				prefix = " and "
@@ -76,7 +76,7 @@ function goto(c, p, l)
 end
 
 # paper status blurb
-function paperstatus(c, p; includedlinks=["cite", "slides", "data", "wp", "goto"])
+function paperstatus(c, p; showawards=false, includedlinks=["cite", "slides", "data", "wp", "goto"])
 	pub = p.publication
 	write(c, "*")
 	if isempty(pub)
@@ -85,6 +85,12 @@ function paperstatus(c, p; includedlinks=["cite", "slides", "data", "wp", "goto"
 		write(c, pub)
 	end
 	write(c, "*")
+
+	if !isempty(p.awards) && showawards
+		for a in p.awards
+			write(c, " | **$(a)**")
+		end
+	end
 
 	for l in p.links
 		if l.type in includedlinks
@@ -113,7 +119,7 @@ function hfun_data()
 			else
 				prefix = "/papers/"
 			end
-			
+
 			write(c, "* [$(d.text)]($prefix$(d.link)) $(d.comment)\n")
 		end
 	end
@@ -128,7 +134,7 @@ function hfun_papers(sections)
 	c = IOBuffer()
 	for p in papers[ix]
 		papertitle(c, p)
-		paperstatus(c, p)
+		paperstatus(c, p; showawards=true)
 		# paperabstract(c, p)
 	end
 	write(c, "\n")
@@ -137,7 +143,7 @@ function hfun_papers(sections)
 end
 
 function discussionsjson()
-    JSON3.read(read(joinpath(@__DIR__, "discussions.json"), String))
+	JSON3.read(read(joinpath(@__DIR__, "discussions.json"), String))
 end
 
 function hfun_discussions()
@@ -153,28 +159,31 @@ end
 
 function hfun_news(sections; n=2)
 	papers = papersjson()["papers"]
-	ix = [in(p.section, sections) && haskey(p, "feature") for p in papers] 
+	ix = [in(p.section, sections) && haskey(p, "feature") for p in papers]
 	c = IOBuffer()
 	i = 1
 	for p in papers[ix]
-		write(c, """
-		<div class="feature__item">
-			<div class="archive__item">
-			<div class="archive__item-teaser">
-				<img src="/papers/$(p.url)/$(p.feature.figure)" alt="$(p.feature.caption)" />
-			</div>
-			<div class="archive__item-body">
-				<h2 class="archive__item-title">$(p.feature.caption)</h2>
-				<div class="archive__item-excerpt">
-				<p>This figure is from a recent paper titled <i>$(p.title)</i>. $(p.abstract)</p>
-				</div>
-				<p><a href="/papers#$(urlanchor(p.url))" class="btn btn--primary">Learn more</a></p>
-			</div>
-			</div>
-		</div>
-		""")
-		i+=1
-		if i>n
+		write(
+			c,
+			"""
+   <div class="feature__item">
+   	<div class="archive__item">
+   	<div class="archive__item-teaser">
+   		<img src="/papers/$(p.url)/$(p.feature.figure)" alt="$(p.feature.caption)" />
+   	</div>
+   	<div class="archive__item-body">
+   		<h2 class="archive__item-title">$(p.feature.caption)</h2>
+   		<div class="archive__item-excerpt">
+   		<p>This figure is from a recent paper titled <i>$(p.title)</i>. $(p.abstract)</p>
+   		</div>
+   		<p><a href="/papers#$(urlanchor(p.url))" class="btn btn--primary">Learn more</a></p>
+   	</div>
+   	</div>
+   </div>
+   """
+		)
+		i += 1
+		if i > n
 			break
 		end
 	end
