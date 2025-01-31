@@ -14,6 +14,39 @@
 	},
 	"papers": [
 		{
+			"title": "The Natural Language of Finance",
+			"url": "hm/nlpfinance",
+			"coauthors": [
+				{
+					"name": "Gerard Hoberg",
+					"website": "https://faculty.marshall.usc.edu/Gerard-Hoberg/"
+				}
+			],
+			"publication": "Foundations and Trends in Finance, forthcoming",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "We summarize the wide array of natural language processing (NLP) tools used in financial economics research. These tools empower researchers to incorporate rich but subjective textual data into advanced empirical analysis. NLP tools have pros and cons, and some are better suited to certain research agendas. Research using these tools has exploded in prevalence over the past ten years, and we document the major contributions in corporate finance, asset pricing, and beyond. These tools offer the flexibility to test hypotheses that were not possible before their advent, while also offering improvements in the clarity of identification and the ability to separate hypotheses that purport to explain a set of findings. Finally, we identify challenges and directions for future work.",
+			"presentations": "",
+			"media": [],
+			"data": [],
+			"section": "pubs",
+			"tags": [
+				"ai",
+				"text-analysis",
+				"machine-lrn",
+				"media",
+				"asset-pricing",
+				"corporate-finance",
+				"fin-intr",
+				"fin-reg"
+			]
+		},
+		{
 			"title": "Fundamentals of Perpetual Futures",
 			"url": "hmrv/perp",
 			"coauthors": [

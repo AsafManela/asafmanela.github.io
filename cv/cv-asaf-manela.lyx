@@ -559,6 +559,44 @@ Publications
 
 \series bold
 \emph on
+The Natural Language of Finance
+\series default
+\emph default
+ (with Gerard Hoberg)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\emph on
+Foundations and Trends in Finance,
+ forthcoming
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+We summarize the wide array of natural language processing (NLP) tools used in financial economics research.
+ These tools empower researchers to incorporate rich but subjective textual data into advanced empirical analysis.
+ NLP tools have pros and cons,
+ and some are better suited to certain research agendas.
+ Research using these tools has exploded in prevalence over the past ten years,
+ and we document the major contributions in corporate finance,
+ asset pricing,
+ and beyond.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
 Does finance benefit society?
  A language embedding approach
 \series default
@@ -1290,10 +1328,6 @@ Best Paper Award)
 \begin_layout Standard
 
 \color blue
-\begin_inset Newpage clearpage
-\end_inset
-
-
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
