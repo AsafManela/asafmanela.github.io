@@ -14,6 +14,56 @@
 	},
 	"papers": [
 		{
+			"title": "Chronologically Consistent Large Language Models",
+			"url": "hlmw/chronollm",
+			"coauthors": [
+				{
+					"name": "Songrun He",
+					"website": "https://www.songrunhe.com/"
+				},
+				{
+					"name": "Linying Lv",
+					"website": "https://www.linkedin.com/in/linying-lyu-b70073289/"
+				},
+				{
+					"name": "Jimmy Wu",
+					"website": "https://sites.wustl.edu/jimmywu/"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Models",
+					"type": "data"
+				}
+			],
+			"awards": [],
+			"abstract": "Large language models are increasingly used in social sciences, but their training data can introduce lookahead bias and training leakage. A good chronologically consistent language model requires efficient use of training data to maintain accuracy despite time-restricted data. Here, we overcome this challenge by training chronologically consistent large language models timestamped with the availability date of their training data, yet accurate enough that their performance is comparable to state-of-the-art open-weight models. Lookahead bias is model and application-specific because even if a chronologically consistent language model has poorer language comprehension, a regression or prediction model applied on top of the language model can compensate. In an asset pricing application, we compare the performance of news-based portfolio strategies that rely on chronologically consistent versus biased language models and estimate a modest lookahead bias.",
+			"presentations": "",
+			"media": [],
+			"section": "wp",
+			"feature": {"figure": "SR_time.png", "caption": "Sharpe ratios of long-short portfolios across large language model vintage"},
+			"tags": [
+				"ai",
+				"text-analysis",
+				"machine-lrn",
+				"media",
+				"asset-pricing"
+			],
+			"lab": true,
+			"data": [
+				{
+					"link": "https://huggingface.co/manelalab",
+					"text": "ChronoBERT.",
+					"comment": "Our chronologically consistent large language models are posted on Hugging Face."
+				}
+			]
+		},
+		{
 			"title": "The Natural Language of Finance",
 			"url": "hm/nlpfinance",
 			"coauthors": [
@@ -89,7 +139,8 @@
 				"asset-pricing", 
 				"crypto",
 				"fin-drv"
-			]
+			],
+			"lab": true
 		},
 		{
 			"title": "The Value of Data to Fixed Income Investors",
@@ -178,6 +229,7 @@
 					"comment": "An annual panel for 8 large countries covering 1870 to 2009 based on Google Books Ngram data."
 				}
 			],
+			"lab": true,
 			"section": "pubs",
 			"tags": [
 				"text-analysis",
@@ -444,7 +496,8 @@
 				"media",
 				"fin-intr",
 				"fin-reg"
-			]
+			],
+			"lab": true
 		},
 		{
 			"title": "Hub-and-Spoke Regulation and Bank Leverage",

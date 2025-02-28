@@ -151,7 +151,7 @@ textit{
 
 
 \lang american
-Asaf Manela · Curriculum Vitae · January 2025
+Asaf Manela · Curriculum Vitae · February 2025
 \begin_inset ERT
 status open
 
@@ -1116,6 +1116,35 @@ Working Papers
 
 
 \begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+Chronologically Consistent Large Language Models
+\series default
+\emph default
+ (with Songrun He,
+ Linying Lv and Jimmy Wu)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Large language models are increasingly used in social sciences,
+ but their training data can introduce lookahead bias and training leakage.
+ Here,
+ we overcome this challenge by training chronologically consistent large language models timestamped with the availability date of their training data,
+ yet accurate enough that their performance is comparable to state-of-the-art open-weight models.
+ In an asset pricing application,
+ we compare the performance of news-based portfolio strategies that rely on chronologically consistent versus biased language models and estimate a modest lookahead bias.
+\begin_inset Newline newline
 \end_inset
 
 

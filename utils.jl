@@ -128,6 +128,28 @@ function hfun_data()
 	return fd2html(markdown, internal=true)
 end
 
+function hfun_lab()
+	papers = papersjson()["papers"]
+	ix = haskey.(papers, "lab")
+	c = IOBuffer()
+	for p in papers[ix]
+		papertitle(c, p)
+		paperstatus(c, p; includedlinks=["cite"])
+		# for d in p.data
+		# 	if startswith(d.link, "http")
+		# 		prefix = ""
+		# 	else
+		# 		prefix = "/papers/"
+		# 	end
+
+		# 	write(c, "* [$(d.text)]($prefix$(d.link)) $(d.comment)\n")
+		# end
+	end
+	write(c, "\n")
+	markdown = String(take!(c))
+	return fd2html(markdown, internal=true)
+end
+
 function hfun_papers(sections)
 	papers = papersjson()["papers"]
 	ix = [in(p.section, sections) for p in papers]
