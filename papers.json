@@ -14,6 +14,48 @@
 	},
 	"papers": [
 		{
+			"title": "Entity Neutering",
+			"url": "emmv/neutering",
+			"coauthors": [
+				{
+					"name": "Joseph Engelberg",
+					"website": "http://rady.ucsd.edu/faculty/directory/engelberg/pub/portfolios/index.htm"
+				},
+				{
+					"name": "Asaf Manela",
+					"website": "https://www.asafmanela.com/"
+				},
+				{
+					"name": "William Mullins",
+					"website": "https://willmullins.net/"
+				},
+				{
+					"name": "Luka Vulicevic",
+					"website": "https://www.lukavulicevic.com/"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				}
+			],
+			"awards": [],
+			"abstract": "Cutting-edge LLMs are trained on recent data, creating a concern about look-ahead bias. We propose a simple solution called entity neutering: using the LLM to find and remove all identifying information from text. In a sample of one million financial news articles, we verify that, after neutering, ChatGPT and other LLMs cannot recognize the firm or the time period for about 90% of the articles. Among these articles, the sentiment extracted from the raw text and the neutered text agree 90% of the time and have similar return predictability, with the difference providing an upper bound on look-ahead bias. The evidence here suggests that LLMs are able to effectively neuter text while maintaining semantic content. For look-ahead bias, LLMs can be both the problem and the solution.",
+			"presentations": "",
+			"media": [],
+			"section": "wp",
+			"feature": {"figure": "guessing_acc.png", "caption": "LLM guessing accuracy by de-identification method"},
+			"tags": [
+				"ai",
+				"text-analysis",
+				"machine-lrn",
+				"media",
+				"asset-pricing"
+			]
+		},
+		{
 			"title": "Chronologically Consistent Large Language Models",
 			"url": "hlmw/chronollm",
 			"coauthors": [
@@ -58,7 +100,7 @@
 			"data": [
 				{
 					"link": "https://huggingface.co/manelalab",
-					"text": "ChronoBERT.",
+					"text": "ChronoBERT and ChronoGPT.",
 					"comment": "Our chronologically consistent large language models are posted on Hugging Face."
 				}
 			]
@@ -83,7 +125,6 @@
 			"abstract": "We summarize the wide array of natural language processing (NLP) tools used in financial economics research. These tools empower researchers to incorporate rich but subjective textual data into advanced empirical analysis. NLP tools have pros and cons, and some are better suited to certain research agendas. Research using these tools has exploded in prevalence over the past ten years, and we document the major contributions in corporate finance, asset pricing, and beyond. These tools offer the flexibility to test hypotheses that were not possible before their advent, while also offering improvements in the clarity of identification and the ability to separate hypotheses that purport to explain a set of findings. Finally, we identify challenges and directions for future work.",
 			"presentations": "",
 			"media": [],
-			"data": [],
 			"section": "pubs",
 			"tags": [
 				"ai",
@@ -210,6 +251,10 @@
 					"text": "Code",
 					"type": "goto",
 					"page": "https://doi.org/10.7910/DVN/ZRSGXQ"
+				},
+				{
+					"text": "Working Paper",
+					"type": "wp"
 				}
 			],
 			"awards": [],
