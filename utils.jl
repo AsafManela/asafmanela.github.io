@@ -211,3 +211,23 @@ function hfun_news(sections; n=2)
 	end
 	return String(take!(c))
 end
+
+# format should be e.g. Mar 18, 2025
+const dateformat = DateFormat("U dd, yyyy")
+
+"""
+Get the latest modification time of any .json file or .md file in the current file's directory
+"""
+function hfun_mtime()
+	# get all files in the current directory
+	files = readdir(@__DIR__)
+
+	# filter for json and md files
+	relevant_files = filter(f -> endswith(f, ".json") || endswith(f, ".md"), files)
+	
+	# get the modification time of the latest file
+	mod_time = maximum(map(f -> stat(joinpath(@__DIR__, f)).mtime, relevant_files))
+	
+	# return the latest modification time
+	return Dates.format(Dates.unix2datetime(mod_time), dateformat)
+end

@@ -151,7 +151,7 @@ textit{
 
 
 \lang american
-Asaf Manela · Curriculum Vitae · February 2025
+Asaf Manela · Curriculum Vitae · March 2025
 \begin_inset ERT
 status open
 
@@ -1116,6 +1116,43 @@ Working Papers
 
 
 \begin_inset VSpace -8pt
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+Entity Neutering
+\series default
+\emph default
+ (with Joseph Engelberg,
+ William Mullins,
+ and Luka Vulicevic)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Cutting-edge LLMs are trained on recent data,
+ creating a concern about look-ahead bias.
+ We propose a simple solution called entity neutering:
+ using the LLM to find and remove all identifying information from text.
+ In a sample of one million financial news articles,
+ we verify that,
+ after neutering,
+ ChatGPT and other LLMs cannot recognize the firm or the time period for about 90% of the articles.
+ Among these articles,
+ the sentiment extracted from the raw text and the neutered text agree 90% of the time and have similar return predictability,
+ with the difference providing an upper bound on look-ahead bias.
+ The evidence here suggests that LLMs are able to effectively neuter text while maintaining semantic content.
+ For look-ahead bias,
+ LLMs can be both the problem and the solution.
+\begin_inset Newline newline
 \end_inset
 
 
