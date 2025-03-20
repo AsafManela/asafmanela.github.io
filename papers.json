@@ -39,6 +39,10 @@
 				{
 					"text": "Citation",
 					"type": "cite"
+				},
+				{
+					"text": "Slides",
+					"type": "slides"
 				}
 			],
 			"awards": [],
@@ -81,6 +85,10 @@
 				{
 					"text": "Models",
 					"type": "data"
+				},
+				{
+					"text": "Slides",
+					"type": "slides"
 				}
 			],
 			"awards": [],
