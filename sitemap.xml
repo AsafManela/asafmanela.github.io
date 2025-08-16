@@ -194,6 +194,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://asafmanela.github.io/papers/hlmw/chronogenai/cite/</loc>
+    <lastmod>2025-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://asafmanela.github.io/papers/emmv/neutering/index/</loc>
     <lastmod>2025-08-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -279,6 +285,12 @@
 </url>
 <url>
     <loc>https://asafmanela.github.io/papers/gkm/offices/cite/</loc>
+    <lastmod>2025-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://asafmanela.github.io/papers/hlmw/chronogenai/index/</loc>
     <lastmod>2025-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
