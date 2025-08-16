@@ -14,6 +14,55 @@
 	},
 	"papers": [
 		{
+			"title": "Chronologically Consistent Generative AI",
+			"url": "hlmw/chronogenai",
+			"coauthors": [
+				{
+					"name": "Songrun He",
+					"website": "https://www.songrunhe.com/"
+				},
+				{
+					"name": "Linying Lv",
+					"website": "https://www.linkedin.com/in/linying-lyu-b70073289/"
+				},
+				{
+					"name": "Jimmy Wu",
+					"website": "https://sites.wustl.edu/jimmywu/"
+				}
+			],
+			"publication": "",
+			"links": [
+				{
+					"text": "Citation",
+					"type": "cite"
+				},
+				{
+					"text": "Models",
+					"type": "data"
+				}
+			],
+			"awards": [],
+			"abstract": "We introduce a family of chronologically consistent, instruction-following large language models to eliminate lookahead bias. Each model is trained only on data available before a clearly defined knowledge-cutoff date, ensuring strict temporal separation from any post-cutoff data. The resulting framework offers (i) a simple, conversational chat interface, (ii) fully open, fixed model weights that guarantee replicability, and (iii) a conservative lower bound on forecast accuracy, isolating the share of predictability that survives once training leakage is removed. Together, these features provide researchers with an easy-to-use generative AI tool useful for a wide range of prediction tasks that is free of lookahead bias.",
+			"presentations": "",
+			"media": [],
+			"section": "wp",
+			"tags": [
+				"ai",
+				"text-analysis",
+				"machine-lrn",
+				"media",
+				"asset-pricing"
+			],
+			"lab": true,
+			"data": [
+				{
+					"link": "https://huggingface.co/manelalab",
+					"text": "ChronoGPT-Instruct.",
+					"comment": "Our chronologically consistent generative AI models are posted on Hugging Face."
+				}
+			]
+		},
+		{
 			"title": "Entity Neutering",
 			"url": "emmv/neutering",
 			"coauthors": [
