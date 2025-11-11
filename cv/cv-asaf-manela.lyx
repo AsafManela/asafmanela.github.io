@@ -151,7 +151,7 @@ textit{
 
 
 \lang american
-Asaf Manela · Curriculum Vitae · March 2025
+Asaf Manela · Curriculum Vitae · November 2025
 \begin_inset ERT
 status open
 
@@ -293,9 +293,8 @@ Academic Positions
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-2021– Associate Professor of Finance,
- Reichman University (formerly IDC Herzliya,
- on leave)
+2021–2024 Associate Professor of Finance,
+ Reichman University (formerly IDC Herzliya)
 \end_layout
 
 \begin_layout Labeling
@@ -571,7 +570,11 @@ The Natural Language of Finance
 
 \emph on
 Foundations and Trends in Finance,
- forthcoming
+ 2025,
+ Volume 14,
+ Issue 4,
+ pp.
+ 244–365
 \end_layout
 
 \begin_layout Standard
@@ -1127,6 +1130,83 @@ Working Papers
 
 \series bold
 \emph on
+Chronologically Consistent Large Language Models
+\series default
+\emph default
+ (with Songrun He,
+ Linying Lv and Jimmy Wu)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\emph on
+Revision requested by the Journal of Financial Economics
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Large language models are increasingly used in social sciences,
+ but their training data can introduce lookahead bias and training leakage.
+ Here,
+ we overcome this challenge by training chronologically consistent large language models timestamped with the availability date of their training data,
+ yet accurate enough that their performance is comparable to state-of-the-art open-weight models.
+ In an asset pricing application,
+ we compare the performance of news-based portfolio strategies that rely on chronologically consistent versus biased language models and estimate a modest lookahead bias.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
+Fundamentals of Perpetual Futures
+\series default
+\emph default
+ (with Songrun He,
+ Omri Ross and Victor von Wachter)
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Revision requested by the Review of Financial Studies
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Perpetual futures are the most popular cryptocurrency derivatives.
+ Perpetuals offer leveraged exposure to their underlying without rollover or direct ownership.
+ Unlike fixed-maturity futures,
+ perpetuals are not guaranteed to converge to the spot price.
+ To minimize the gap between perpetual and spot prices,
+ long investors periodically pay shorts a funding rate proportional to this gap.
+ We derive no-arbitrage prices for perpetual futures in frictionless markets and bounds in markets with trading costs.
+ Empirically,
+ deviations from these prices in crypto are larger than in traditional currency markets,
+ comove across currencies,
+ and diminish over time.
+ An implied arbitrage strategy yields high Sharpe ratios.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
 Entity Neutering
 \series default
 \emph default
@@ -1164,7 +1244,7 @@ Cutting-edge LLMs are trained on recent data,
 
 \series bold
 \emph on
-Chronologically Consistent Large Language Models
+Chronologically Consistent Generative AI
 \series default
 \emph default
  (with Songrun He,
@@ -1174,50 +1254,18 @@ Chronologically Consistent Large Language Models
 \begin_layout Standard
 \noindent
 \align block
-Large language models are increasingly used in social sciences,
- but their training data can introduce lookahead bias and training leakage.
- Here,
- we overcome this challenge by training chronologically consistent large language models timestamped with the availability date of their training data,
- yet accurate enough that their performance is comparable to state-of-the-art open-weight models.
- In an asset pricing application,
- we compare the performance of news-based portfolio strategies that rely on chronologically consistent versus biased language models and estimate a modest lookahead bias.
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-
-\series bold
-\emph on
-Fundamentals of Perpetual Futures
-\series default
-\emph default
- (with Songrun He,
- Omri Ross and Victor von Wachter)
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align block
-Perpetual futures—
-swap contracts that never expire—
-are by far the most popular derivative traded in cryptocurrency markets,
- with more than $100 billion traded daily.
- But unlike fixed-maturity futures,
- perpetuals are not guaranteed to converge to the spot price of their underlying asset at any time,
- and familiar no-arbitrage prices for perpetuals are not available,
- as the contracts have no expiry date to enforce arbitrage.
- Here,
- using a weaker notion of random-maturity arbitrage,
- we derive no-arbitrage prices for perpetual futures in frictionless markets,
- and no-arbitrage bounds for markets with trading costs.
- These no-arbitrage prices provide a useful benchmark for perpetual futures and simultaneously prescribe a strategy to exploit divergence from these fundamental values.
- Empirically,
- we find that deviations of crypto perpetual futures from no-arbitrage prices are considerably larger than those documented in traditional currency markets.
+We introduce a family of chronologically consistent,
+ instruction-following large language models to eliminate lookahead bias.
+ Each model is trained only on data available before a clearly defined knowledge-cutoff date,
+ ensuring strict temporal separation from any post-cutoff data.
+ The resulting framework offers (i) a simple,
+ conversational chat interface,
+ (ii) fully open,
+ fixed model weights that guarantee replicability,
+ and (iii) a conservative lower bound on forecast accuracy,
+ isolating the share of predictability that survives once training leakage is removed.
+ Together,
+ these features provide researchers with an easy-to-use generative AI tool useful for a wide range of prediction tasks that is free of lookahead bias.
 \begin_inset Newline newline
 \end_inset
 
@@ -1249,11 +1297,12 @@ We measure popular sentiment toward finance using a computational linguistics ap
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
 \color blue
+
+\begin_inset Newpage newpage
+\end_inset
+
+
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0.5ex"
@@ -1273,6 +1322,14 @@ Conference Presentations
 \end_inset
 
 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2025 NBER SI AP*,
+ NBER SI Big Data and High-Performance Computing*,
+ Finance Research Revolution Conference*,
+ AFA Annual Meeting**
 \end_layout
 
 \begin_layout Labeling
@@ -1315,7 +1372,7 @@ Conference Presentations
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2018 NBER AP,
+2018 NBER SI AP,
  AFA Annual Meeting in Philadelphia*
 \end_layout
 
@@ -1413,6 +1470,16 @@ Seminar Presentations
 \end_inset
 
 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2025 Arizona State University,
+ Fed Board,
+ University of Toronto,
+ AI & Big Data in Finance Research Forum,
+ Dartmouth**,
+ University of California Los Angeles**
 \end_layout
 
 \begin_layout Labeling
@@ -1577,6 +1644,11 @@ Session Chair
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
+2025 FIRS
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
 2024 MFA
 \end_layout
 
@@ -1623,6 +1695,19 @@ Discussions
 \end_inset
 
 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2025 "Geoeconomic Pressure"
+\begin_inset Newline newline
+\end_inset
+
+by Christopher Clayton,
+ Antonio Coppola,
+ Matteo Maggiori,
+ and Jesse Schreger,
+ NBER AP
 \end_layout
 
 \begin_layout Labeling
@@ -2072,16 +2157,17 @@ Program Committee Membership
 \end_layout
 
 \begin_layout Standard
-EFA Annual Meeting (2015–2024),
- FIRS Annual Meeting (2019–2024),
+EFA Annual Meeting (2015–2025),
+ FIRS Annual Meeting (2019–2025),
  MFA Annual Meeting (2019–2022),
- Utah Winter Finance Conference (2016–2024),
- WFA Annual Meeting (2018–2024),
- SFS Cavalcade North America (2020–2024),
+ Utah Winter Finance Conference (2016–2025),
+ WFA Annual Meeting (2018–2025),
+ SFS Cavalcade North America (2020–2025),
  IDC Herzliya annual conference (2014–2023),
  CBOE Conference on Derivatives and Volatility (2016–2024),
  Mitsui Finance Symposium:
- New Frontiers in Asset Pricing (2024)
+ New Frontiers in Asset Pricing (2024),
+ Young Scholars Finance Consortium (2024–2025)
 \end_layout
 
 \begin_layout Standard
@@ -2158,6 +2244,24 @@ PhD Supervision
 \end_layout
 
 \begin_layout Standard
+Songrun He,
+ dissertation committee chair,
+ 2026 (TBD)
+\begin_inset Newline newline
+\end_inset
+
+Jimmy Wu,
+ dissertation committee chair,
+ 2026 (TBD)
+\begin_inset Newline newline
+\end_inset
+
+Jiaen Li,
+ dissertation committee chair,
+ 2025 (Florida State University)
+\begin_inset Newline newline
+\end_inset
+
 Manish Jha,
  dissertation committee member,
  2021 (Georgia State University)
@@ -2231,7 +2335,8 @@ Programming Languages
 \end_layout
 
 \begin_layout Standard
-Julia
+Julia,
+ English
 \begin_inset Newline newline
 \end_inset
 
