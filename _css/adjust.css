@@ -57,3 +57,7 @@ h2 a:visited { color: #1c1c1c !important; }
 h3 a:visited { color: #1c1c1c !important; }
 h4 a:visited { color: #1c1c1c !important; }
 h5 a:visited { color: #1c1c1c !important; }
+
+.paper-status {
+  margin-top: -1em;
+}

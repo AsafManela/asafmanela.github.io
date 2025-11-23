@@ -77,6 +77,7 @@ end
 
 # paper status blurb
 function paperstatus(c, p; showawards=false, includedlinks=["cite", "slides", "data", "wp", "goto"])
+	write(c, "~~~<div class=\"paper-status\">~~~")
 	pub = p.publication
 	write(c, "*")
 	if isempty(pub)
@@ -99,7 +100,7 @@ function paperstatus(c, p; showawards=false, includedlinks=["cite", "slides", "d
 		end
 	end
 
-	write(c, "\n")
+	write(c, "~~~</div>~~~\n")
 end
 
 function papertitle(c, p)
