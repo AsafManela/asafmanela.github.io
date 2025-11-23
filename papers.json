@@ -14,7 +14,7 @@
 	},
 	"papers": [
 		{
-			"title": "Chronologically Consistent Generative AI",
+			"title": "Instruction Tuning Chronologically Consistent Language Models",
 			"url": "hlmw/chronogenai",
 			"coauthors": [
 				{
