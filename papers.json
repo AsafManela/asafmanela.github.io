@@ -37,6 +37,10 @@
 					"type": "cite"
 				},
 				{
+					"text": "Slides",
+					"type": "slides"
+				},
+				{
 					"text": "Models",
 					"type": "data"
 				}
