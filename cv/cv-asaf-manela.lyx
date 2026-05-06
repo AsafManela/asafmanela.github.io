@@ -151,7 +151,7 @@ textit{
 
 
 \lang american
-Asaf Manela · Curriculum Vitae · November 2025
+Asaf Manela · Curriculum Vitae · January 2026
 \begin_inset ERT
 status open
 
@@ -208,7 +208,7 @@ Asaf Manela
 \color blue
 \begin_inset CommandInset href
 LatexCommand href
-target "https://asafmanela.github.io"
+target "https://asaf.manela.org"
 literal "false"
 
 \end_inset
@@ -1329,7 +1329,7 @@ Conference Presentations
 2025 NBER SI AP*,
  NBER SI Big Data and High-Performance Computing*,
  Finance Research Revolution Conference*,
- AFA Annual Meeting**
+ AFA Annual Meeting*
 \end_layout
 
 \begin_layout Labeling
@@ -1474,12 +1474,18 @@ Seminar Presentations
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
+2026 University of California Los Angeles**,
+ AMLEDS
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
 2025 Arizona State University,
  Fed Board,
  University of Toronto,
  AI & Big Data in Finance Research Forum,
- Dartmouth**,
- University of California Los Angeles**
+ Dartmouth,
+ Amazon
 \end_layout
 
 \begin_layout Labeling
