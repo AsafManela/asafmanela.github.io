@@ -151,7 +151,7 @@ textit{
 
 
 \lang american
-Asaf Manela · Curriculum Vitae · November 2025
+Asaf Manela · Curriculum Vitae · May 2026
 \begin_inset ERT
 status open
 
@@ -208,7 +208,7 @@ Asaf Manela
 \color blue
 \begin_inset CommandInset href
 LatexCommand href
-target "https://asafmanela.github.io"
+target "https://asaf.manela.org"
 literal "false"
 
 \end_inset
@@ -612,8 +612,7 @@ Does finance benefit society?
 \align block
 
 \emph on
-Review of Financial Studies,
- forthcoming
+Review of Financial Studies, Volume 39, Issue 5, May 2026, Pages 1227–1266 (Editor's choice)
 \end_layout
 
 \begin_layout Standard
@@ -1207,6 +1206,35 @@ Perpetual futures are the most popular cryptocurrency derivatives.
 
 \series bold
 \emph on
+The Value of Information: A Puzzle
+\series default
+\emph default
+ (with Ohad Kadan)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+We show that under mild assumptions,
+ the total value of information to informed traders in the market can be measured by the covariance between price changes and order flow.
+ This covariance captures noise trader losses,
+ which equal informed trader gains when market making is competitive.
+ We estimate the value of information using high frequency data on US equities at about $3.5 million per year for the average stock.
+ The aggregate value of information is about 0.04% of market cap,
+ which is considerably lower than the 0.67% in fees investors pay each year searching for superior returns (French 2008).
+ We discuss potential resolutions for these puzzling findings.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\emph on
 Entity Neutering
 \series default
 \emph default
@@ -1329,7 +1357,7 @@ Conference Presentations
 2025 NBER SI AP*,
  NBER SI Big Data and High-Performance Computing*,
  Finance Research Revolution Conference*,
- AFA Annual Meeting**
+ AFA Annual Meeting*
 \end_layout
 
 \begin_layout Labeling
@@ -1474,12 +1502,18 @@ Seminar Presentations
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
+2026 University of California Los Angeles**,
+ AMLEDS
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
 2025 Arizona State University,
  Fed Board,
  University of Toronto,
  AI & Big Data in Finance Research Forum,
- Dartmouth**,
- University of California Los Angeles**
+ Dartmouth,
+ Amazon
 \end_layout
 
 \begin_layout Labeling
