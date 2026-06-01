@@ -180,7 +180,7 @@ function hfun_discussions()
 	return fd2html(markdown, internal=true)
 end
 
-function hfun_news(sections; n=2)
+function hfun_news(sections; n=4)
 	papers = papersjson()["papers"]
 	ix = [in(p.section, sections) && haskey(p, "feature") for p in papers]
 	c = IOBuffer()

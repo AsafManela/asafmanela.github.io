@@ -34,6 +34,7 @@
 			"presentations": "",
 			"media": [],
 			"section": "wp",
+			"feature": {"figure": "voi_mktcap.png", "caption": "Value of information as a percentage of market capitalization"},
 			"tags": [
 				"asset-pricing",
 				"val-info"
@@ -125,7 +126,7 @@
 				}
 			],
 			"awards": [],
-			"abstract": "Cutting-edge LLMs are trained on recent data, creating a concern about look-ahead bias. We propose a simple solution called entity neutering: using the LLM to find and remove all identifying information from text. In a sample of one million financial news articles, we verify that, after neutering, ChatGPT and other LLMs cannot recognize the firm or the time period for about 90% of the articles. Among these articles, the sentiment extracted from the raw text and the neutered text agree 90% of the time and have similar return predictability, with the difference providing an upper bound on look-ahead bias. The evidence here suggests that LLMs are able to effectively neuter text while maintaining semantic content. For look-ahead bias, LLMs can be both the problem and the solution.",
+			"abstract": "Cutting-edge LLMs are trained on recent data, creating a concern about look-ahead bias. We propose a simple solution called entity neutering: using the LLM to find and remove all identifying information from text. Our procedure uses an LLM agent that iteratively (i) masks entity-related terms and (ii) paraphrases the text until an independent LLM fails to recognize the target company from the text. In a sample of over 500,000 financial news articles we verify that, after neutering, ChatGPT and other LLMs identify the subject firm at the rate of random chance. Among the unidentified articles, the sentiment extracted from the raw text and the neutered text agree more than 90% of the time and have similar return predictability, with the difference providing an upper bound on look-ahead bias. We also demonstrate entity neutering on longer texts: MD&As and earnings call transcripts. Overall, the evidence suggests that LLMs are able to effectively neuter text while maintaining semantic content. For look-ahead bias, LLMs can be both the problem and the solution.",
 			"presentations": "",
 			"media": [],
 			"section": "wp",
