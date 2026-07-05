@@ -50,7 +50,7 @@
 				},
 				{
 					"name": "Linying Lv",
-					"website": "https://www.linkedin.com/in/linying-lyu-b70073289/"
+					"website": "https://www.linyinglv.com/"
 				},
 				{
 					"name": "Jimmy Wu",
@@ -149,14 +149,14 @@
 				},
 				{
 					"name": "Linying Lv",
-					"website": "https://www.linkedin.com/in/linying-lyu-b70073289/"
+					"website": "https://www.linyinglv.com/"
 				},
 				{
 					"name": "Jimmy Wu",
 					"website": "https://sites.wustl.edu/jimmywu/"
 				}
 			],
-			"publication": "Revision requested by the Journal of Financial Economics",
+			"publication": "Journal of Financial Economics, forthcoming",
 			"links": [
 				{
 					"text": "Citation",
@@ -180,7 +180,7 @@
 			"abstract": "Large language models are increasingly used in social sciences, but their training data can introduce lookahead bias and training leakage. A good chronologically consistent language model requires efficient use of training data to maintain accuracy despite time-restricted data. Here, we overcome this challenge by training chronologically consistent large language models timestamped with the availability date of their training data, yet accurate enough that their performance is comparable to state-of-the-art open-weight models. Lookahead bias is model and application-specific because even if a chronologically consistent language model has poorer language comprehension, a regression or prediction model applied on top of the language model can compensate. In an asset pricing application, we compare the performance of news-based portfolio strategies that rely on chronologically consistent versus biased language models and estimate a modest lookahead bias.",
 			"presentations": "",
 			"media": [],
-			"section": "wp",
+			"section": "pubs",
 			"feature": {"figure": "SR_time.png", "caption": "Sharpe ratios of long-short portfolios across large language model vintage"},
 			"tags": [
 				"ai",
