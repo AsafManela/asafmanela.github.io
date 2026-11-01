@@ -158,7 +158,7 @@ textit{
 
 
 \lang american
-Asaf Manela · Curriculum Vitae · July 2026
+Asaf Manela · Curriculum Vitae · October 2026
 \begin_inset ERT
 status open
 
@@ -493,6 +493,14 @@ height "2pt"
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
+2026– AI-driven Finance,
+ MBA,
+ Washington University in St.
+ Louis
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
 2024– Valuation,
  Mergers and Acquisitions,
  EMBA,
@@ -502,7 +510,7 @@ height "2pt"
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2019– Financial Technology,
+2019–2020 Financial Technology,
  BSBA,
  MBA,
  MSA levels,
@@ -1291,7 +1299,7 @@ Cutting-edge LLMs are trained on recent data,
 
 \series bold
 \emph on
-Chronologically Consistent Generative AI
+Instruction-Tuning Chronologically Consistent Language Models
 \series default
 \emph default
  (with Songrun He,
@@ -1369,6 +1377,12 @@ Conference Presentations
 \end_inset
 
 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2026 Finance Theory Group*,
+ FRA**
 \end_layout
 
 \begin_layout Labeling
@@ -1521,8 +1535,21 @@ Seminar Presentations
 
 \begin_layout Labeling
 \labelwidthstring MMMMM
-2026 University of California Los Angeles**,
- AMLEDS
+2027 University of Texas at Austin**,
+ Penn State University**,
+ Georgia State University**
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2026 University of California Los Angeles,
+ AMLEDS,
+ Tel-Aviv University,
+ Hebrew University,
+ University of Southern California,
+ Emory University**,
+ University of Washington**,
+ Baruch College**
 \end_layout
 
 \begin_layout Labeling
@@ -1726,6 +1753,13 @@ Session Chair
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 
 \color blue
 \begin_inset CommandInset line
@@ -1748,6 +1782,20 @@ Discussions
 \end_inset
 
 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring MMMMM
+2026 "AI Personality Extraction from Faces:
+ Labor Market Implications"
+\begin_inset Newline newline
+\end_inset
+
+by Marius Guenzel,
+ Shimon Kogan,
+ Marina Niessner,
+ and Kelly Shue,
+ UCLA Financial Markets Conference
 \end_layout
 
 \begin_layout Labeling
@@ -2210,17 +2258,18 @@ Program Committee Membership
 \end_layout
 
 \begin_layout Standard
-EFA Annual Meeting (2015–2025),
- FIRS Annual Meeting (2019–2025),
+EFA Annual Meeting (2015–2026),
+ FIRS Annual Meeting (2019–2026),
  MFA Annual Meeting (2019–2022),
- Utah Winter Finance Conference (2016–2025),
- WFA Annual Meeting (2018–2025),
- SFS Cavalcade North America (2020–2025),
+ Utah Winter Finance Conference (2016–2027),
+ WFA Annual Meeting (2018–2027),
+ SFS Cavalcade North America (2020–2026),
  IDC Herzliya annual conference (2014–2023),
  CBOE Conference on Derivatives and Volatility (2016–2024),
  Mitsui Finance Symposium:
  New Frontiers in Asset Pricing (2024),
- Young Scholars Finance Consortium (2024–2025)
+ Young Scholars Finance Consortium (2024–2025,
+ 2027)
 \end_layout
 
 \begin_layout Standard
@@ -2476,10 +2525,6 @@ height "2pt"
 Affiliations
 \color inherit
 
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2495,10 +2540,6 @@ American Economic Association,
  Society for Financial Studies,
  Western Finance Association,
  Phi Beta Kappa
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2519,10 +2560,6 @@ height "2pt"
 Hobbies
 \color inherit
 
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2537,10 +2574,6 @@ Scuba-diving,
  Fixer uppers,
  Running,
  Chess 
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2561,10 +2594,6 @@ height "2pt"
 Languages
 \color inherit
 
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2576,10 +2605,6 @@ Languages
 
 \begin_layout Standard
 Fluent in English and Hebrew
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \end_body
