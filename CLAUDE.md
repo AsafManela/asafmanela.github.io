@@ -81,5 +81,5 @@ LyX-source quirks to know when editing the `.lyx` directly:
 
 ## Deployment
 
-- `.github/workflows/Deploy.yml` runs on push to `master` (or `main`): sets up Julia 1.11 + Python 3.8, installs `highlight.js` via NodeJS, runs `Franklin.optimize()`, and deploys `__site/` to the `gh-pages` branch.
+- `.github/workflows/Deploy.yml` runs on push to `master` (or `main`): sets up Julia 1.11 + Python 3.12, installs `highlight.js` via NodeJS, runs `Franklin.optimize()`, and deploys `__site/` to the `gh-pages` branch.
 - `.gitlab-ci.yml` is a legacy mirror of the same flow targeting GitLab Pages.
