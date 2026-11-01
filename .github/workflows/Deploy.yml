@@ -11,7 +11,7 @@ jobs:
       contents: write
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v7
       with:
         persist-credentials: false
     # NOTE: Python is necessary for the pre-rendering (minification) step
@@ -23,7 +23,7 @@ jobs:
     # packages such as PyPlot.
     # - run: pip install matplotlib
     - name: Install Julia
-      uses: julia-actions/setup-julia@v1
+      uses: julia-actions/setup-julia@v3
       with:
         version: '1.11' # Version tested
     # NOTE
@@ -40,8 +40,9 @@ jobs:
             using Franklin;
             optimize()'
     - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: __site
+        branch: gh-pages
+        folder: __site
+        # NOTE: CNAME exists only on gh-pages, cleaning would delete it
+        clean: false
